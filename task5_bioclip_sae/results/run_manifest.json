@@ -1,0 +1,24 @@
+{
+  "created_utc": "2026-09-29T12:04:42.810563+00:00",
+  "model_revision": {
+    "repo_id": "imageomics/bioclip-2",
+    "revision": "2957b322090f9cb17ae72c71981c7218a28d81e0"
+  },
+  "dataset_revision": "91debffb7146c32c89d76feb1eb575b555e2ecc7",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "open_clip_torch": "3.3.0",
+    "numpy": "2.3.2",
+    "Pillow": "11.3.0"
+  },
+  "hashes": {
+    "results\\sae.pt": "f2c12de4195a7b1e4d29f13f3008154ff5dcdfdbf1bb355e97bae0c9891d0083",
+    "data\\embeddings_raw.npy": "7525e1c5bde0acdd30f2f81eb549302a5334b25cd6a283c6dd5c898a954a13c8",
+    "results\\sparse_vectors.npy": "319d76b10817c8586ebc98845a2dcfaf9c3d3be54716fa01289f3f4d44119747",
+    "data\\species.csv": "0156aec42c5c20f26fb573f5cb9a5e7e36002fafc4006c07eab92071edd660d9",
+    "train_sae.py": "820db1c025b86303f24418a8327fd7ec6fa86eb9929e456d6ed9bc09f4d7e1a2",
+    "prepare_embeddings.py": "4740e3c77d75953c765d70bfb00ff3ae2ee4c02d7449239716a5dcd2fd9d8f62"
+  }
+}

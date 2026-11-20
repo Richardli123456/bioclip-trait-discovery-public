@@ -1,0 +1,70 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 144594,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        19350,
+        19728,
+        20034,
+        144594
+      ],
+      "is_active": true,
+      "name": "Bubo scandiacus",
+      "parent_id": 20034,
+      "ancestry": "48460/1/2/355675/3/19350/19728/20034",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 150549757,
+        "license_code": "cc-by-nc-sa",
+        "attribution": "(c) Patrick Randall, some rights reserved (CC BY-NC-SA)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/square.jpg",
+        "original_dimensions": {
+          "height": 1367,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Patrick Randall",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/150549757/medium.jpg"
+      },
+      "taxon_changes_count": 1,
+      "taxon_schemes_count": 6,
+      "observations_count": 12650,
+      "flag_counts": {
+        "resolved": 2,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Snowy_owl",
+      "complete_rank": "subspecies",
+      "matched_term": "Bubo scandiacus",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Snowy Owl",
+      "conservation_status": {
+        "id": 156434,
+        "place_id": null,
+        "source_id": 37,
+        "user_id": 477,
+        "authority": "IUCN Red List",
+        "status": "vu",
+        "status_name": "vulnerable",
+        "geoprivacy": null,
+        "iucn": 30
+      }
+    }
+  ]
+}

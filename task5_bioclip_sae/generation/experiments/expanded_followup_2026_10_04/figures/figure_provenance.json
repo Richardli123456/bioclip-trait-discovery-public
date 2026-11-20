@@ -1,0 +1,34 @@
+{
+  "status": "generated_png_and_pdf_visually_verified",
+  "cpu_only": true,
+  "source_hashes": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\summary.json": "7eb0b3f5d3cf0c2a19cbd2e6da97a12bda1bf6321d5e85007bbeb147f3515b60",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\protocol.json": "1ca463cafbfa8ddc2c047539bd70c8e7081398d0bc0dd0ae40cfce13902ecc29",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\training_correlations.npy": "bec8246d7f6ca41d6b91613c8f05d8452acd21850c726ef17028142e745193ef",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\decoder_cosines.npy": "8cf09231fc66d2efff2c76572758efc31332a49804e9a6609ceb142c8fb97752",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\validation_correlations.npy": "1c2361b01de087f2322f2b4c1104f15a4b05c4135bfd10d439aae80c8f82800a"
+  },
+  "script_sha256": "8d1389e9200851aceb6dc7ca526bf032905145df87a272fabf814e30d3494cd0",
+  "configurations": [
+    "2,048 features, TopK 32"
+  ],
+  "feature_points": 2048,
+  "reconstruction_rows": 12,
+  "gate_recomputed_matches_summary": true,
+  "figure_hashes": {
+    "feature_stability.pdf": "bac8c80c99b05b1e177cbf1f5aea343a2d05ab7d30ae969f043703c294ac4717",
+    "feature_stability.png": "86b2e89857f98b85a306cb3681d72945a1159e1becdb1e6c500319cb1d18051e",
+    "reconstruction.pdf": "e659a69a3542e9a36ff362bf321a568d8673266f8352c13fcbe037f6d59ccfce",
+    "reconstruction.png": "910e647816556b8deec51468df6352accc5d867066029143f4fa9d8962f53856"
+  },
+  "limitations": "These are separate training runs, not confidence intervals; test metrics did not select configurations. Stable features are candidates, not validated traits.",
+  "visual_inspection": {
+    "feature_stability_png": "Rendered image inspected; fixed initial single-panel clipping; final title, axes, gate lines, count label, data marks and footnote visible.",
+    "reconstruction_png": "Rendered image inspected; titles, legends, markers, axis labels and seedlabels visible without clipping.",
+    "pdfs": "Both PDF files rasterized with bundled Poppler pdftoppm at100DPI and pixels inspected: all labels, marks, gate, legend, counts and notes visible without clipping."
+  },
+  "pdf_raster_check_sha256": {
+    "feature_stability_pdf_check.png": "6aa8bbd1a0437958b7c8e354be42f71921aa294d7e23e240f1ed82e27a2cd4ec",
+    "reconstruction_pdf_check.png": "cf6325a6f216f6d0756472b8943160ace981c35ff7ef874c030c52f8a330be35"
+  }
+}

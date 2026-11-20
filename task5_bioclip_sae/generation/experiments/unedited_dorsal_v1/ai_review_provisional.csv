@@ -1,0 +1,33 @@
+image_id,view_eligible,spots_visible,spot_count,notes
+D001,no,NA,NA,Oblique side view with near flank visible; strict dorsal criterion not met.
+D002,no,NA,NA,Oblique view of domed body; not a clear actual top view.
+D003,yes,yes,NA,Both wing covers visible from above; bright central glare and dark region adjoining the suture make an exact count uncertain.
+D004,no,NA,NA,Oblique view with asymmetric foreshortening; strict dorsal criterion not met.
+D005,no,NA,NA,Low front-oblique view; both wing covers are not clearly seen from above.
+D006,yes,yes,NA,Dorsal view with both covers visible; small animal and glare make several edge markings too uncertain to count exactly.
+D007,yes,yes,NA,Both covers visible dorsally; specular highlights on edge markings and blurred boundaries prevent a confident exact count.
+D008,no,NA,NA,Low side-oblique view with one cover dominating.
+D009,NA,NA,NA,Oblique domed body and unclear suture leave actual top-view visibility of both covers uncertain.
+D010,no,NA,NA,Side-oblique view; near cover dominates and far cover is foreshortened.
+D011,yes,yes,8,Both covers visible in dorsal view; eight distinct visible black wing-cover marks including partly edge-touching marks; head and pronotum excluded. Provisional AI count requiring human verification.
+D012,NA,NA,NA,Elevated oblique view with unclear separation of both covers; cannot confidently certify strict dorsal eligibility.
+D013,NA,NA,NA,Unusual generated red lobes and body anatomy make identification of the complete pair of wing covers uncertain.
+D014,no,NA,NA,Animal is small and blurred with an oblique view; not adequate for strict dorsal scoring.
+D015,NA,NA,NA,Small rounded animal and unclear wing-cover division make dorsal eligibility uncertain.
+D016,yes,yes,NA,Both covers visible from above; small edge marks and central glare prevent a confident exact count.
+D017,yes,yes,NA,Both covers visible dorsally; anterior glare and connected dark markings make spot boundaries ambiguous.
+D018,yes,yes,NA,Both covers visible dorsally; central glare and marks near the anterior boundary prevent an unambiguous exact count.
+D019,yes,yes,NA,Both covers visible from above; specular highlights cross marks and an apical edge patch has an uncertain boundary.
+D020,no,NA,NA,Low side view with one wing cover dominant.
+D021,NA,NA,NA,Displaced suture and asymmetric covers indicate obliquity; exact dorsal eligibility uncertain.
+D022,no,NA,NA,Side-oblique view with one cover dominant; not a clear actual dorsal view.
+D023,yes,yes,NA,Both elongated wing covers visible from above; strong shadow at the posterior end obscures mark boundaries.
+D024,no,NA,NA,Low oblique view and small animal; strict dorsal criterion not met.
+D025,yes,yes,NA,Both covers visible dorsally; glare and a small dark apical region make the exact number uncertain.
+D026,no,NA,NA,Oblique side view with asymmetric wing-cover visibility.
+D027,no,NA,NA,Straw crosses and partly occludes the wing-cover region; unobscured complete covers are required.
+D028,no,NA,NA,Two overlapping or touching generated beetle bodies; a single unobscured pair of covers cannot be scored.
+D029,yes,yes,NA,Both covers visible dorsally; central black marks merge and posterior dark regions join the boundary.
+D030,NA,NA,NA,Small animal with unusual anterior dark region and an oblique outline; complete dorsal cover visibility uncertain.
+D031,NA,NA,NA,Malformed overlapping red lobes make complete wing-cover boundaries uncertain.
+D032,yes,yes,NA,Both covers visible dorsally; upper marks merge under glare so their number cannot be confidently separated.

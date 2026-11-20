@@ -1,0 +1,59 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 9185,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        7251,
+        559248,
+        9175,
+        9185
+      ],
+      "is_active": true,
+      "name": "Zonotrichia atricapilla",
+      "parent_id": 9175,
+      "ancestry": "48460/1/2/355675/3/7251/559248/9175",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 351885428,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Jorge A. Pérez Torres, some rights reserved (CC BY-NC), uploaded by Jorge A. Pérez Torres",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351885428/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Jorge A. Pérez Torres",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351885428/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/351885428/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 9,
+      "observations_count": 42915,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Golden-crowned_sparrow",
+      "complete_rank": "subspecies",
+      "matched_term": "Zonotrichia atricapilla",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Golden-crowned Sparrow"
+    }
+  ]
+}

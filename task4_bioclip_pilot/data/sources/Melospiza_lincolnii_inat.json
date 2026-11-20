@@ -1,0 +1,59 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 9092,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        7251,
+        559248,
+        9091,
+        9092
+      ],
+      "is_active": true,
+      "name": "Melospiza lincolnii",
+      "parent_id": 9091,
+      "ancestry": "48460/1/2/355675/3/7251/559248/9091",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 1645880,
+        "license_code": "cc-by-nd",
+        "attribution": "(c) Kelly Colgan Azar, some rights reserved (CC BY-ND)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1645880/square.jpg",
+        "original_dimensions": {
+          "height": 1360,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Kelly Colgan Azar",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1645880/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/1645880/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 9,
+      "observations_count": 40595,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Lincoln's_sparrow",
+      "complete_rank": "subspecies",
+      "matched_term": "Melospiza lincolnii",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Lincoln's Sparrow"
+    }
+  ]
+}

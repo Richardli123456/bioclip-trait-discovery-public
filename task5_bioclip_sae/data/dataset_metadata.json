@@ -1,0 +1,57 @@
+{
+  "source_url": "https://huggingface.co/datasets/imageomics/TreeOfLife-10M/resolve/91debffb7146c32c89d76feb1eb575b555e2ecc7/metadata/naming/inat21_name_lookup.json",
+  "source_revision": "91debffb7146c32c89d76feb1eb575b555e2ecc7",
+  "source_sha256": "1996bbd78247a9626e86a79b268aa89361366335dbd79aa983759db63ce1e0b4",
+  "model": {
+    "repo_id": "imageomics/bioclip-2",
+    "revision": "2957b322090f9cb17ae72c71981c7218a28d81e0"
+  },
+  "shape": [
+    5388,
+    768
+  ],
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "prompt": "Kingdom, Phylum, Class, Order, Family, Genus, specific epithet",
+  "representation": "OpenCLIP pooled projected text output, normalize=False, float32",
+  "embedding_sha256": "7525e1c5bde0acdd30f2f81eb549302a5334b25cd6a283c6dd5c898a954a13c8",
+  "species_sha256": "0156aec42c5c20f26fb573f5cb9a5e7e36002fafc4006c07eab92071edd660d9",
+  "splits": {
+    "train": 4254,
+    "test": 593,
+    "validation": 541
+  },
+  "classes": {
+    "Insecta": 2526,
+    "Actinopterygii": 183,
+    "Aves": 1486,
+    "Reptilia": 313,
+    "Gastropoda": 122,
+    "Polyplacophora": 9,
+    "Arachnida": 153,
+    "Mammalia": 246,
+    "Amphibia": 170,
+    "Anthozoa": 17,
+    "Elasmobranchii": 16,
+    "Diplopoda": 6,
+    "Bivalvia": 33,
+    "Holothuroidea": 2,
+    "Malacostraca": 54,
+    "Asteroidea": 11,
+    "Scyphozoa": 6,
+    "Hexanauplia": 7,
+    "Ascidiacea": 2,
+    "Echinoidea": 7,
+    "Chilopoda": 5,
+    "Merostomata": 1,
+    "Clitellata": 1,
+    "Cephalopoda": 5,
+    "Ophiuroidea": 1,
+    "Hydrozoa": 3,
+    "Polychaeta": 3
+  },
+  "families": 715,
+  "genera": 2988,
+  "splitting": "whole genera, deterministic SHA256 ordering within class; 80/10/10 genus targets",
+  "elapsed_seconds": 18.879856700019445,
+  "limitation": "Public TreeOfLife-10M iNat21 animal subset, not confirmed exact TaxaAdapter TreeOfLife-1M training list."
+}

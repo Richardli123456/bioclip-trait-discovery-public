@@ -1,0 +1,37 @@
+{
+  "training_performed": false,
+  "scope": "Existing 5,388-species aligned SAE",
+  "threshold": 1e-07,
+  "ranking": "Descending shared active features; alphabetical scientific-name ties",
+  "jaccard": "intersection / union; all unedited codes have 32 active features",
+  "top_k": 10,
+  "row_count": 53880,
+  "mean_top1_shared": 11.425575352635486,
+  "median_top1_shared": 11.0,
+  "mean_random_pair_shared": 0.6885671863400149,
+  "random_pair_rule": "One uniformly sampled non-self peer per species; seed 20261002",
+  "top1_same_genus_fraction": 0.5451002227171492,
+  "top1_same_family_fraction": 0.7993689680772086,
+  "top1_tied_fraction": 0.28804751299183373,
+  "provenance": {
+    "aligned_root": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\aligned",
+    "species_count": 5388,
+    "input_dim": 768,
+    "sae_width": 2048,
+    "k": 32,
+    "sha256": {
+      "data/species.json": "21093d3cbdfcdf7c27e2b37363dba08c4f6ba62896aed1c69c1650b065496dd6",
+      "data/embeddings_raw.npy": "26811f1054b496f0381ce2c22810fea025b4b71801a5448711caf18343805ef9",
+      "results/sparse_vectors.npy": "bf84e1aa00914c534b7dcb833bee921c56abf3f99125e0a736274e820df7d538",
+      "results/reconstructed_embeddings.npy": "3368c548ffeda6de288d258a9c3cced1ee8bfcb991b84f7b0a086b3c9c0bbb94",
+      "results/sae.pt": "10eaa321217db74d4d990a9aaf5bb879070f67a4a54205fe02ce671051b32c7f",
+      "results/features.json": "c1fad70b5f2bb70fbb7679cdc533977ff8bbb8c24dc66903606a9a0d49bf3d8c"
+    }
+  },
+  "elapsed_seconds": 6.39485880000575,
+  "limits": [
+    "Overlap is a representation similarity, not a biological trait measurement",
+    "All splits are searched together; this is descriptive retrieval, not held-out validation",
+    "Feature identity is specific to the saved aligned checkpoint"
+  ]
+}

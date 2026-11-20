@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "simpson_example_ordinary_r": 0.948051948051948,
+  "simpson_example_within_family_r": -1.0,
+  "constant_activation_returns_undefined": true,
+  "candidate_protocol_sha256": "c4ec28337e197ec8d0e537457fe76e2389a0bf40bc5776e9fc0257a5784dfeed",
+  "execution": "CPU only; no real SAE candidate data examined"
+}

@@ -1,0 +1,63 @@
+{
+  "status": "completed",
+  "study": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2",
+  "benchmark": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\evaluation_expanded_v2",
+  "protocol": {
+    "version": 1,
+    "date": "2026-10-04",
+    "selection_timing": "Locked before completed expanded-SAE stability results",
+    "eligibility": "Pass existing SAE recurrence gate; positive activity on >=30 labelled training birds from >=10 genera and >=3 families",
+    "training_rank": "Absolute Pearson correlation after subtracting each training family's mean from both activation and trait, over all labelled training birds; exact ties use smaller feature ID",
+    "ordinary_correlations": "Reported alongside family-centered correlations without changing ranking",
+    "candidate_count": 1,
+    "validation_statistic": "Pearson correlation after subtracting each validation family's mean from activation and trait, over all labelled validation birds",
+    "bootstrap": {
+      "unit": "Validation genus; sampled with replacement, retaining all constituent species",
+      "family_means": "Recomputed within each bootstrap sample, including multiplicities",
+      "resamples": 2000,
+      "seed": 20261005,
+      "required_defined_resamples": 1900,
+      "interval": "2.5th and 97.5th percentiles of defined resample correlations"
+    },
+    "confirmation": "At least1900 defined resamples, interval excludes zero in the training-selected direction, and validation point estimate has that direction",
+    "test_trait_labels": "Not used in candidate ranking, validation, confirmation, exemplars or output",
+    "negative_policy": "No eligible stable feature or failed validation is retained; no new handpicked candidate",
+    "interpretation": "Exploratory association confirmation only: SAE model selection and raw-vector probe used validation data, and raw-probe evidence beyond taxonomy failed"
+  },
+  "stable_feature_count": 732,
+  "selected_feature": 506,
+  "candidate_confirmed": false,
+  "test_trait_values_used": false,
+  "gpu_used": false,
+  "raw_probe_positive_signal_rule_passed": false,
+  "hashes": {
+    "candidate_protocol": "c4ec28337e197ec8d0e537457fe76e2389a0bf40bc5776e9fc0257a5784dfeed",
+    "analysis_script": "806dd81f19f98510d8e59081c5b0c317c1614f2d3be461751d5d0b5f68f8f62e",
+    "feature_stability": "55b60469386be20a2953f7d92c34afc14224025c043eef41921eba9d7da9fc0e",
+    "joined_labels": "49b67766710952f3262ff836d1fa443902a7c546a11eb841633a0f1c84b8695e",
+    "manifest": "80d1d4e14ff3ba5a4f97cd4e07997f248bc67d15e456fddd203ecae87a02085f",
+    "code_indices": "fd0ec6992a5585cf8550075ed860133bdae48d65b0cc4af4af753fada5d580f9",
+    "code_values": "92be2d8ef0a96602dac8b2bdebd83374896ec3c56c4649887fc0bcff540ef9ec"
+  },
+  "eligible_feature_count": 188,
+  "training_selection": {
+    "feature": 506,
+    "active_training_species": 184,
+    "active_training_genera": 52,
+    "active_training_families": 18,
+    "ordinary_training_r": -0.01145621417521387,
+    "within_family_training_r": -0.15027213674350862,
+    "eligible": true
+  },
+  "validation_within_family_r": -0.030636847861672884,
+  "validation_ordinary_r": 0.14476735286122738,
+  "validation_species": 875,
+  "validation_genera": 214,
+  "bootstrap_defined_resamples": 1904,
+  "bootstrap_undefined_resamples": 96,
+  "validation_within_family_r_95_percent_interval": [
+    -0.0738015187276022,
+    0.02858221016932353
+  ],
+  "reason": "Prespecified validation association did not confirm"
+}

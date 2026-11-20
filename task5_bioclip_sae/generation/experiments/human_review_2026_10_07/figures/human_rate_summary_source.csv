@@ -1,0 +1,5 @@
+measure,numerator,denominator,proportion,ci95_lower,ci95_upper,interval_method,summary_sha256
+count_scorable_rate,27,32,0.84375,0.6824585040246961,0.931355797174943,two-sided Wilson score,22144f4a0dadb6fcd484c0e696a5fc55517c2f726169f365042759b903e5d9d6
+visible_spots_among_eligible,27,27,1.0,0.8754449702581331,1.0,two-sided Wilson score,22144f4a0dadb6fcd484c0e696a5fc55517c2f726169f365042759b903e5d9d6
+exactly_seven_among_scorable,3,27,0.1111111111111111,0.03852034828309843,0.2805780081827982,two-sided Wilson score,22144f4a0dadb6fcd484c0e696a5fc55517c2f726169f365042759b903e5d9d6
+observed_scorable_seven_yield_all_images,3,32,0.09375,0.032401551298366194,0.24218154728387864,two-sided Wilson score,22144f4a0dadb6fcd484c0e696a5fc55517c2f726169f365042759b903e5d9d6

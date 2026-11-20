@@ -1,0 +1,21 @@
+scientific_name,genus,split,family,order,embedding_row,family_key,tail_length_mm,wing_length_mm,trait_value,activation
+Corvus imparatus,Corvus,train,Corvidae,Passeriformes,185565,Passeriformes|Corvidae,143.2,238.7,-0.5109652788182392,19.530975341796875
+Corvus brachyrhynchos,Corvus,train,Corvidae,Passeriformes,1418,Passeriformes|Corvidae,167.1,293.5,-0.5632852036668032,18.953115463256836
+Corvus ruficollis,Corvus,train,Corvidae,Passeriformes,185582,Passeriformes|Corvidae,191.8,385.5,-0.6980880305540463,18.39971923828125
+Corvus moneduloides,Corvus,train,Corvidae,Passeriformes,185574,Passeriformes|Corvidae,164.6,238.1,-0.36917246524984765,18.033924102783203
+Corvus violaceus,Corvus,train,Corvidae,Passeriformes,185591,Passeriformes|Corvidae,133.0,245.7,-0.6137621513053796,18.002424240112305
+Corvus monedula,Corvus,train,Corvidae,Passeriformes,1427,Passeriformes|Corvidae,122.4,231.1,-0.6355561472021094,17.872041702270508
+Corvus ossifragus,Corvus,train,Corvidae,Passeriformes,1428,Passeriformes|Corvidae,157.1,276.7,-0.5660513415313049,17.80154800415039
+Corvus rhipidurus,Corvus,train,Corvidae,Passeriformes,185581,Passeriformes|Corvidae,149.1,373.1,-0.9172292584564196,17.399930953979492
+Corvus tristis,Corvus,train,Corvidae,Passeriformes,185587,Passeriformes|Corvidae,234.4,324.7,-0.32587262140594264,17.367528915405273
+Corvus bennetti,Corvus,train,Corvidae,Passeriformes,185550,Passeriformes|Corvidae,173.3,313.5,-0.592775163351415,17.357332229614258
+Corvus tasmanicus,Corvus,train,Corvidae,Passeriformes,185585,Passeriformes|Corvidae,190.3,344.4,-0.5932019982514718,17.152441024780273
+Corvus frugilegus,Corvus,train,Corvidae,Passeriformes,1424,Passeriformes|Corvidae,166.8,312.3,-0.6271687743643866,17.127456665039062
+Corvus mellori,Corvus,train,Corvidae,Passeriformes,1426,Passeriformes|Corvidae,184.7,330.8,-0.582781075944342,16.99652862548828
+Corvus coronoides,Corvus,train,Corvidae,Passeriformes,1423,Passeriformes|Corvidae,198.7,356.1,-0.583415440725961,16.99607276916504
+Corvus dauuricus,Corvus,train,Corvidae,Passeriformes,185558,Passeriformes|Corvidae,128.6,232.3,-0.5913228279728445,16.969568252563477
+Corvus macrorhynchos,Corvus,train,Corvidae,Passeriformes,1425,Passeriformes|Corvidae,182.9,318.6,-0.5549968420791281,16.870052337646484
+Corvus palmarum,Corvus,train,Corvidae,Passeriformes,185578,Passeriformes|Corvidae,142.9,244.2,-0.5358424767407826,16.59787940979004
+Corvus edithae,Corvus,train,Corvidae,Passeriformes,185559,Passeriformes|Corvidae,168.6,338.5,-0.6969950467845746,16.593088150024414
+Corvus corax,Corvus,train,Corvidae,Passeriformes,1420,Passeriformes|Corvidae,228.7,419.7,-0.6071290693108098,16.524084091186523
+Corvus cryptoleucus,Corvus,train,Corvidae,Passeriformes,185556,Passeriformes|Corvidae,181.5,351.1,-0.6598154294694811,16.358898162841797

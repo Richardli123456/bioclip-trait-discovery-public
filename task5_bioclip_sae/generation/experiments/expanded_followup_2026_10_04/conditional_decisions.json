@@ -1,0 +1,12 @@
+{
+  "status":"all_prerequisite_gates_evaluated",
+  "primary_stability":{"passed":true,"stable_features":732,"out_of":2048,"action":"Use primary2048/32 SAE; capacity sweep not triggered."},
+  "independent_raw_trait_probe":{"passed":false,"action":"Retain negative result: no demonstrated improvement over taxonomy baseline."},
+  "single_SAE_trait_candidate":{"anchor_feature":506,"passed":false,"training_within_family_r":-0.15027,"validation_within_family_r":-0.03064,"validation_95_percent_interval":[-0.07380,0.02858],"action":"Do not select another feature after validation or launch the trait-image branch."},
+  "ladybird_exact_count_feasibility":{"provisional_AI_count_scorable":1,"out_of":32,"action":"Do not scale exact spot-count interventions; human review remains deferred."},
+  "beak_calibration_and_controlled_pilot":{"executed":false,"reason":"Preselected independently-labelled SAE candidate did not pass validation prerequisite."},
+  "32_seed_trait_replication":{"executed":false,"reason":"No qualifying trait pilot; larger image generation would not repair failed trait validation."},
+  "support_neighbors_and_bridges":{"executed_as":"Exploratory representation analysis, independent of biological trait validation","rendered_source":"Coccinella septempunctata","rendered_target":"Coccinella undecimpunctata","image_seeds":[2000,2001],"planned_images":98},
+  "human_scoring":"Deferred by user, not completed by AI",
+  "hardware_problem":false
+}

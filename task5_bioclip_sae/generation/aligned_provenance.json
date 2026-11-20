@@ -1,0 +1,6 @@
+{
+  "training_source_sha256": "820db1c025b86303f24418a8327fd7ec6fa86eb9929e456d6ed9bc09f4d7e1a2",
+  "sae_sha256": "10eaa321217db74d4d990a9aaf5bb879070f67a4a54205fe02ce671051b32c7f",
+  "sparse_vectors_sha256": "bf84e1aa00914c534b7dcb833bee921c56abf3f99125e0a736274e820df7d538",
+  "reconstructed_embeddings_sha256": "3368c548ffeda6de288d258a9c3cced1ee8bfcb991b84f7b0a086b3c9c0bbb94"
+}

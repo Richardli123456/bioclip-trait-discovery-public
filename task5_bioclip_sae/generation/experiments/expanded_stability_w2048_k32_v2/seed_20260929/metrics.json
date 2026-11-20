@@ -1,0 +1,43 @@
+{
+  "seed": 20260929,
+  "best_epoch": 35,
+  "epochs_run": 75,
+  "metrics": {
+    "train": {
+      "mse": 0.07817436530034651,
+      "normalized_mse": 0.26420682339786283,
+      "variance_explained_vs_training_mean": 0.7357931766021372,
+      "cosine_mean": 0.9279443621635437,
+      "cosine_p05": 0.8933801651000977,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2013,
+      "dead_dictionary_features": 35
+    },
+    "validation": {
+      "mse": 0.09846621267539907,
+      "normalized_mse": 0.33558931336741227,
+      "variance_explained_vs_training_mean": 0.6644106866325877,
+      "cosine_mean": 0.908629298210144,
+      "cosine_p05": 0.8729832172393799,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2014,
+      "dead_dictionary_features": 34
+    },
+    "test": {
+      "mse": 0.09980755091545405,
+      "normalized_mse": 0.33693236818743133,
+      "variance_explained_vs_training_mean": 0.6630676318125687,
+      "cosine_mean": 0.9078778624534607,
+      "cosine_p05": 0.8721984624862671,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2011,
+      "dead_dictionary_features": 37
+    }
+  },
+  "checkpoint_sha256": "933f3b5b6c9e447ad95c1c339209b6fc9e0cf68155370328a6fa525fd32f1781",
+  "indices_sha256": "fd0ec6992a5585cf8550075ed860133bdae48d65b0cc4af4af753fada5d580f9",
+  "values_sha256": "92be2d8ef0a96602dac8b2bdebd83374896ec3c56c4649887fc0bcff540ef9ec",
+  "elapsed_seconds": 166.2349169999943,
+  "peak_allocated_gpu_bytes": 2252656128,
+  "peak_reserved_gpu_bytes": 4857004032
+}

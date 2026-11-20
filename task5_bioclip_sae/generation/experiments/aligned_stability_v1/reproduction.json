@@ -1,0 +1,6 @@
+{
+  "maximum_absolute_state_difference": 0.0,
+  "maximum_absolute_activation_difference": 0.0,
+  "best_epoch_matches": true,
+  "passed": true
+}

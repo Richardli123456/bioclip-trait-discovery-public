@@ -1,0 +1,36 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-08T03:19:09.145297+00:00",
+  "scope": "Final artifact and report consistency; underlying human, numeric and figure audits linked separately",
+  "human_review": {
+    "rows": 32,
+    "eligible_and_scorable": 27,
+    "unscorable": 5,
+    "exact_seven": 3,
+    "original_preserved": true,
+    "only_three_user_authorized_visibility_corrections": true
+  },
+  "trait_followup": {
+    "feature": 814,
+    "training_eligible_candidates": 188,
+    "validation_passed": false,
+    "test_endpoint_analyzed": false,
+    "image_branch_executed": false
+  },
+  "independent_numeric_audit": "passed",
+  "figure_checks": "passed for both PNG/PDF sets; visually inspected",
+  "readme_entrypoints_updated": 4,
+  "documents_checked": 8,
+  "relative_file_targets_verified": 193,
+  "hardware_errors": [],
+  "scientific_conclusion": "No independently confirmed biological trait control; conditional image stages not triggered",
+  "source_artifact_sha256": {
+    "human_review_2026_10_07\\human_scores_original.csv": "ed129aa5afb8b07f8131a311976ec1bdaa0d95c356d1fb16fc11dbf3e00105fe",
+    "human_review_2026_10_07\\human_scores_corrected.csv": "e2a3880d3db8903938b0b8bba10db8cd02a71ef66d62300154c3e14d5e6bab9b",
+    "human_review_2026_10_07\\summary.json": "22144f4a0dadb6fcd484c0e696a5fc55517c2f726169f365042759b903e5d9d6",
+    "human_review_2026_10_07\\verification.json": "fdc7f05699c1dcfa5707139cf322ca3344a57c633d4b145222bda2f64a94f5a4",
+    "trait_followup_2026_10_07\\tail_candidate_v1\\summary.json": "666e0ba7cfd983535aada4ff2812400c0ad3f7a7a4b36f3376770e27e95fa95a",
+    "trait_followup_2026_10_07\\tail_candidate_v1\\independent_verification.json": "8663f265e20aec183a78332edd25a48292a270e239b3d350f196bd8408b5b51b",
+    "trait_followup_2026_10_07\\followup_decisions.json": "ddb979496154197a89ea6ef3b73c6d29c0c85c4cac9fc715aa8f09d323349495"
+  }
+}

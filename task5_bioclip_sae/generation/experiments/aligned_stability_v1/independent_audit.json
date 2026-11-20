@@ -1,0 +1,164 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-10-04T06:56:30.049028+00:00",
+  "method": "Independent reviewer read original and new trainers; calculations below rerun separately with NumPy float64 and CPU-only Torch checkpoint loading. No training or GPU use.",
+  "checks": {
+    "source_hashes_unchanged": true,
+    "recorded_script_hash_matches": true,
+    "recorded_trainer_hash_matches": true,
+    "genus_splits_disjoint": true,
+    "original_reproduction_all_state_exact": true,
+    "original_reproduction_codes_exact": true,
+    "all_feature_gate_matches_summary": true,
+    "activation_only_matches_summary": true,
+    "saved_run_hashes_match": true,
+    "all_saved_seed_codes_finite_nonnegative_topk": true,
+    "all_best_epochs_follow_prespecified_selection": true,
+    "selected_15_matches_cpu_argmax_and_metrics_pass": true
+  },
+  "selected_pair_checks": [
+    {
+      "seed": 1,
+      "original_feature": 527,
+      "matched_feature": 176,
+      "independent_argmax": 176,
+      "train_corr_abs_error": 1.5031816211763527e-06,
+      "validation_corr_abs_error": 2.404870894645583e-07,
+      "decoder_cos_abs_error": 4.632810451932201e-08
+    },
+    {
+      "seed": 1,
+      "original_feature": 729,
+      "matched_feature": 2029,
+      "independent_argmax": 2029,
+      "train_corr_abs_error": 1.0052033319052356e-06,
+      "validation_corr_abs_error": 8.369076148762034e-07,
+      "decoder_cos_abs_error": 6.082986914179855e-08
+    },
+    {
+      "seed": 1,
+      "original_feature": 1969,
+      "matched_feature": 197,
+      "independent_argmax": 197,
+      "train_corr_abs_error": 1.2109415675753965e-06,
+      "validation_corr_abs_error": 8.939440088173711e-08,
+      "decoder_cos_abs_error": 3.3375216479392122e-09
+    },
+    {
+      "seed": 2,
+      "original_feature": 527,
+      "matched_feature": 1375,
+      "independent_argmax": 1375,
+      "train_corr_abs_error": 3.3192608971388537e-06,
+      "validation_corr_abs_error": 4.737854894000526e-09,
+      "decoder_cos_abs_error": 4.627670668888584e-08
+    },
+    {
+      "seed": 2,
+      "original_feature": 729,
+      "matched_feature": 1489,
+      "independent_argmax": 1489,
+      "train_corr_abs_error": 2.144440378493151e-06,
+      "validation_corr_abs_error": 7.386050765445518e-07,
+      "decoder_cos_abs_error": 1.3700843237707261e-08
+    },
+    {
+      "seed": 2,
+      "original_feature": 1969,
+      "matched_feature": 289,
+      "independent_argmax": 289,
+      "train_corr_abs_error": 3.6835272444468714e-06,
+      "validation_corr_abs_error": 1.3541291088436935e-08,
+      "decoder_cos_abs_error": 2.6680841203052807e-08
+    },
+    {
+      "seed": 3,
+      "original_feature": 527,
+      "matched_feature": 1002,
+      "independent_argmax": 1002,
+      "train_corr_abs_error": 3.7844837941225506e-06,
+      "validation_corr_abs_error": 1.4993005925667546e-07,
+      "decoder_cos_abs_error": 1.0504090847129888e-07
+    },
+    {
+      "seed": 3,
+      "original_feature": 729,
+      "matched_feature": 1496,
+      "independent_argmax": 1496,
+      "train_corr_abs_error": 1.2921985806935155e-06,
+      "validation_corr_abs_error": 6.525398544843242e-07,
+      "decoder_cos_abs_error": 4.105352846561772e-08
+    },
+    {
+      "seed": 3,
+      "original_feature": 1969,
+      "matched_feature": 1178,
+      "independent_argmax": 1178,
+      "train_corr_abs_error": 7.855048330673853e-07,
+      "validation_corr_abs_error": 6.291372234290549e-08,
+      "decoder_cos_abs_error": 1.0133493805186689e-07
+    },
+    {
+      "seed": 4,
+      "original_feature": 527,
+      "matched_feature": 105,
+      "independent_argmax": 105,
+      "train_corr_abs_error": 3.8952863656849246e-07,
+      "validation_corr_abs_error": 4.1135344830411924e-07,
+      "decoder_cos_abs_error": 1.5259371433096192e-07
+    },
+    {
+      "seed": 4,
+      "original_feature": 729,
+      "matched_feature": 1241,
+      "independent_argmax": 1241,
+      "train_corr_abs_error": 1.961316387300016e-06,
+      "validation_corr_abs_error": 3.790274203385735e-07,
+      "decoder_cos_abs_error": 1.4331519415655691e-08
+    },
+    {
+      "seed": 4,
+      "original_feature": 1969,
+      "matched_feature": 452,
+      "independent_argmax": 452,
+      "train_corr_abs_error": 2.846520728461144e-06,
+      "validation_corr_abs_error": 6.774408123355613e-08,
+      "decoder_cos_abs_error": 3.286554239867456e-08
+    },
+    {
+      "seed": 5,
+      "original_feature": 527,
+      "matched_feature": 1379,
+      "independent_argmax": 1379,
+      "train_corr_abs_error": 2.3651832143922746e-06,
+      "validation_corr_abs_error": 1.7719751604916567e-07,
+      "decoder_cos_abs_error": 1.0016876050844559e-08
+    },
+    {
+      "seed": 5,
+      "original_feature": 729,
+      "matched_feature": 170,
+      "independent_argmax": 170,
+      "train_corr_abs_error": 2.0210872652137724e-06,
+      "validation_corr_abs_error": 5.710039608919359e-07,
+      "decoder_cos_abs_error": 6.336465185885487e-09
+    },
+    {
+      "seed": 5,
+      "original_feature": 1969,
+      "matched_feature": 356,
+      "independent_argmax": 356,
+      "train_corr_abs_error": 3.7942879395069795e-06,
+      "validation_corr_abs_error": 1.2771816493284405e-08,
+      "decoder_cos_abs_error": 4.460411645590412e-08
+    }
+  ],
+  "stable_feature_count": 0,
+  "activation_only_feature_count": 7,
+  "limitations": [
+    "Validation species also selected checkpoint epochs; validation correlations are descriptive generalization checks, not untouched independent confirmation.",
+    "Only 15 prespecified candidate matches were independently re-maximized across all2048 features; all2048 feature gates recomputed from saved score arrays.",
+    "Nulls are diagnostic references, not calibrated significance tests.",
+    "Many-to-one matching permitted and reported; gate applies relative to original anchor, not all-pairs equivalence."
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "architecture": "768 -> 2048 nonnegative TopK (k=32) -> 768; linear decoder",
+  "preprocessing": "Subtract training mean and divide by one training-only global RMS; inverse in decoder",
+  "selection": "Lowest validation NMSE, checked every five epochs; test genera not used in selection",
+  "best_epoch": 15,
+  "epochs_run": 55,
+  "seed": 20260929,
+  "batch_size": 256,
+  "learning_rate": 0.001,
+  "metrics": {
+    "train": {
+      "mse": 0.06205768358033296,
+      "normalized_mse": 0.18114453608997838,
+      "variance_explained_vs_training_mean": 0.8188554639100216,
+      "cosine_mean": 0.9506478309631348,
+      "cosine_p05": 0.928131639957428,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2046,
+      "dead_dictionary_features": 2
+    },
+    "validation": {
+      "mse": 0.15762536707908614,
+      "normalized_mse": 0.45881767570145215,
+      "variance_explained_vs_training_mean": 0.5411823242985478,
+      "cosine_mean": 0.8719272613525391,
+      "cosine_p05": 0.8223785758018494,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2019,
+      "dead_dictionary_features": 29
+    },
+    "test": {
+      "mse": 0.1560882585825162,
+      "normalized_mse": 0.45856470021631407,
+      "variance_explained_vs_training_mean": 0.541435299783686,
+      "cosine_mean": 0.8711775541305542,
+      "cosine_p05": 0.8254483342170715,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2021,
+      "dead_dictionary_features": 27
+    }
+  },
+  "baselines": {
+    "pca_32": {
+      "train": {
+        "mse": 0.17222174986226474,
+        "normalized_mse": 0.5027101751714604,
+        "variance_explained_vs_training_mean": 0.49728982482853956,
+        "cosine_mean": 0.8558653593063354,
+        "cosine_p05": 0.7913608551025391,
+        "mean_active_features": 32.0,
+        "active_dictionary_features": 32,
+        "dead_dictionary_features": 0
+      },
+      "validation": {
+        "mse": 0.1796712156840519,
+        "normalized_mse": 0.5229889775879145,
+        "variance_explained_vs_training_mean": 0.4770110224120855,
+        "cosine_mean": 0.8515011668205261,
+        "cosine_p05": 0.792778730392456,
+        "mean_active_features": 32.0,
+        "active_dictionary_features": 32,
+        "dead_dictionary_features": 0
+      },
+      "test": {
+        "mse": 0.17767725565327697,
+        "normalized_mse": 0.521990047257973,
+        "variance_explained_vs_training_mean": 0.47800995274202696,
+        "cosine_mean": 0.8508022427558899,
+        "cosine_p05": 0.7914561033248901,
+        "mean_active_features": 32.0,
+        "active_dictionary_features": 32,
+        "dead_dictionary_features": 0
+      }
+    },
+    "pca_128": {
+      "train": {
+        "mse": 0.06862440047835028,
+        "normalized_mse": 0.20031258777185826,
+        "variance_explained_vs_training_mean": 0.7996874122281418,
+        "cosine_mean": 0.9445803761482239,
+        "cosine_p05": 0.9087240099906921,
+        "mean_active_features": 128.0,
+        "active_dictionary_features": 128,
+        "dead_dictionary_features": 0
+      },
+      "validation": {
+        "mse": 0.07865349620955084,
+        "normalized_mse": 0.22894547359596426,
+        "variance_explained_vs_training_mean": 0.7710545264040357,
+        "cosine_mean": 0.9375530481338501,
+        "cosine_p05": 0.9004807472229004,
+        "mean_active_features": 128.0,
+        "active_dictionary_features": 128,
+        "dead_dictionary_features": 0
+      },
+      "test": {
+        "mse": 0.07783312503847548,
+        "normalized_mse": 0.228662450169492,
+        "variance_explained_vs_training_mean": 0.771337549830508,
+        "cosine_mean": 0.9369350671768188,
+        "cosine_p05": 0.9027360081672668,
+        "mean_active_features": 128.0,
+        "active_dictionary_features": 128,
+        "dead_dictionary_features": 0
+      }
+    }
+  },
+  "elapsed_seconds": 3.3231099999975413,
+  "definition": "NMSE = sum squared reconstruction error / sum squared distance to TRAINING mean; explained fraction=1-NMSE",
+  "caveats": [
+    "TopK fixes an upper bound of 32 active features; sparsity is imposed, not independently discovered.",
+    "PCA comparison is a linear reconstruction reference, not a parameter-matched interpretability benchmark.",
+    "Single SAE initialization; feature stability across seeds untested.",
+    "Taxonomic strings explicitly contain relatedness; feature families can reflect words or taxonomy instead of separable visual traits."
+  ]
+}

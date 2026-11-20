@@ -1,0 +1,23 @@
+{
+  "usageKey": 9709230,
+  "scientificName": "Pipilo maculatus Swainson, 1827",
+  "canonicalName": "Pipilo maculatus",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Pipilo",
+  "species": "Pipilo maculatus",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2491204,
+  "speciesKey": 9709230,
+  "class": "Aves"
+}

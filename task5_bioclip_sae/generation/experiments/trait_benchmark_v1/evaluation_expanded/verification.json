@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": [
+    "embedding_ridge saved metrics independently recomputed from prediction CSV",
+    "taxonomy_baseline saved metrics independently recomputed from prediction CSV",
+    "training_mean saved metrics independently recomputed from prediction CSV",
+    "all test observed values recomputed from source-derived dimensions",
+    "label protocol and evaluator hashes unchanged since fit",
+    "persisted joined CSV has no overlapping genera across any split"
+  ],
+  "test_species": 774,
+  "test_genera": 197,
+  "gpu_used": false,
+  "hardware_error": false
+}

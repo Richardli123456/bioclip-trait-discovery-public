@@ -1,0 +1,34 @@
+{
+  "status": "prespecified_before_neighbor_calculation",
+  "created_utc": "2026-10-04T22:40:07.473354+00:00",
+  "input_dir": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v2",
+  "anchor_dir": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929",
+  "input_hashes": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v2\\data\\species.json": "80d1d4e14ff3ba5a4f97cd4e07997f248bc67d15e456fddd203ecae87a02085f",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v2\\data\\embeddings_raw.npy": "c239fc0e2a6d1215910353712fa0af9fdf1f916290b37c721631c7be4bd461fa",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929\\code_indices.npy": "fd0ec6992a5585cf8550075ed860133bdae48d65b0cc4af4af753fada5d580f9",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929\\code_values.npy": "92be2d8ef0a96602dac8b2bdebd83374896ec3c56c4649887fc0bcff540ef9ec",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929\\sae.pt": "933f3b5b6c9e447ad95c1c339209b6fc9e0cf68155370328a6fa525fd32f1781"
+  },
+  "species_count": 362460,
+  "width": 2048,
+  "k": 32,
+  "count": 10,
+  "query_batch": 256,
+  "export_full_csv": false,
+  "binary_threshold": "activation >1e-7",
+  "ranking": "Descending count of shared active coordinates; self excluded; ascending row_index breaks ties",
+  "jaccard": "Reported separately; intersection/union, defined zero for an empty union. Ranking by shared count is Jaccard-equivalent only when active counts are equal.",
+  "exactness": "float16 binary GEMM sums <=32 integers exactly; integer ranks impose deterministic ties; 128 queries independently verified with CPU postings",
+  "bridge_sources": [
+    "Coccinella septempunctata",
+    "Nyctibius griseus",
+    "Asio otus"
+  ],
+  "bridge_kind": "residual_preserving_source",
+  "bridge_order": "Descending abs(target_code-source_code) times decoder column norm times global scale; feature index breaks ties; replace one coordinate per step; no re-TopK",
+  "bridge_endpoint": "source_raw + decoder(target_code)-decoder(source_code); source residual retained. Raw and reconstructed target controls are separately saved.",
+  "interpretation": "Sparse support overlap and bridge geometry are exploratory mathematical quantities, not evidence of biological or perceptual similarity.",
+  "script_sha256": "1bd7209a0672804f1786a5197cd6a2d0f1835f8241e5552aae602e6261b823c9",
+  "hardware": "Stop on every exception/OOM, >=88C or <2GiB free; no automatic retries"
+}

@@ -1,0 +1,202 @@
+[
+  {
+    "scientific_name": "Spizella passerina",
+    "common_name": "Chipping sparrow",
+    "genus": "Spizella",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, passerina",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Spizella+passerina",
+    "gbif_usage_key": 2492109,
+    "reference_page": "https://en.wikipedia.org/wiki/Chipping_sparrow"
+  },
+  {
+    "scientific_name": "Spizella pallida",
+    "common_name": "Clay-colored sparrow",
+    "genus": "Spizella",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, pallida",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Spizella+pallida",
+    "gbif_usage_key": 2492101,
+    "reference_page": "https://en.wikipedia.org/wiki/Clay-colored_sparrow"
+  },
+  {
+    "scientific_name": "Spizella breweri",
+    "common_name": "Brewer's sparrow",
+    "genus": "Spizella",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, breweri",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Spizella+breweri",
+    "gbif_usage_key": 2492099,
+    "reference_page": "https://en.wikipedia.org/wiki/Brewer%27s_sparrow"
+  },
+  {
+    "scientific_name": "Spizella pusilla",
+    "common_name": "Field sparrow",
+    "genus": "Spizella",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, pusilla",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Spizella+pusilla",
+    "gbif_usage_key": 2492096,
+    "reference_page": "https://en.wikipedia.org/wiki/Field_sparrow"
+  },
+  {
+    "scientific_name": "Spizella atrogularis",
+    "common_name": "Black-chinned sparrow",
+    "genus": "Spizella",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, atrogularis",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Spizella+atrogularis",
+    "gbif_usage_key": 2492104,
+    "reference_page": "https://en.wikipedia.org/wiki/Black-chinned_sparrow"
+  },
+  {
+    "scientific_name": "Spizella wortheni",
+    "common_name": "Worthen's sparrow",
+    "genus": "Spizella",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, wortheni",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Spizella+wortheni",
+    "gbif_usage_key": 2492094,
+    "reference_page": "https://en.wikipedia.org/wiki/Worthen%27s_sparrow"
+  },
+  {
+    "scientific_name": "Zonotrichia leucophrys",
+    "common_name": "White-crowned sparrow",
+    "genus": "Zonotrichia",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, leucophrys",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Zonotrichia+leucophrys",
+    "gbif_usage_key": 5231132,
+    "reference_page": "https://en.wikipedia.org/wiki/White-crowned_sparrow"
+  },
+  {
+    "scientific_name": "Zonotrichia albicollis",
+    "common_name": "White-throated sparrow",
+    "genus": "Zonotrichia",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, albicollis",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Zonotrichia+albicollis",
+    "gbif_usage_key": 5231140,
+    "reference_page": "https://en.wikipedia.org/wiki/White-throated_sparrow"
+  },
+  {
+    "scientific_name": "Zonotrichia querula",
+    "common_name": "Harris's sparrow",
+    "genus": "Zonotrichia",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, querula",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Zonotrichia+querula",
+    "gbif_usage_key": 5231139,
+    "reference_page": "https://en.wikipedia.org/wiki/Harris%27s_sparrow"
+  },
+  {
+    "scientific_name": "Zonotrichia capensis",
+    "common_name": "Rufous-collared sparrow",
+    "genus": "Zonotrichia",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, capensis",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Zonotrichia+capensis",
+    "gbif_usage_key": 5231103,
+    "reference_page": "https://en.wikipedia.org/wiki/Rufous-collared_sparrow"
+  },
+  {
+    "scientific_name": "Zonotrichia atricapilla",
+    "common_name": "Golden-crowned sparrow",
+    "genus": "Zonotrichia",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, atricapilla",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Zonotrichia+atricapilla",
+    "gbif_usage_key": 5231138,
+    "reference_page": "https://en.wikipedia.org/wiki/Golden-crowned_sparrow"
+  },
+  {
+    "scientific_name": "Junco hyemalis",
+    "common_name": "Dark-eyed junco",
+    "genus": "Junco",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Junco, hyemalis",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Junco+hyemalis",
+    "gbif_usage_key": 9362842,
+    "reference_page": "https://en.wikipedia.org/wiki/Dark-eyed_junco"
+  },
+  {
+    "scientific_name": "Junco phaeonotus",
+    "common_name": "Yellow-eyed junco",
+    "genus": "Junco",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Junco, phaeonotus",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Junco+phaeonotus",
+    "gbif_usage_key": 2492031,
+    "reference_page": "https://en.wikipedia.org/wiki/Yellow-eyed_junco"
+  },
+  {
+    "scientific_name": "Junco vulcani",
+    "common_name": "Volcano junco",
+    "genus": "Junco",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Junco, vulcani",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Junco+vulcani",
+    "gbif_usage_key": 2492037,
+    "reference_page": "https://en.wikipedia.org/wiki/Volcano_junco"
+  },
+  {
+    "scientific_name": "Melospiza melodia",
+    "common_name": "Song sparrow",
+    "genus": "Melospiza",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Melospiza, melodia",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Melospiza+melodia",
+    "gbif_usage_key": 2492196,
+    "reference_page": "https://en.wikipedia.org/wiki/Song_sparrow"
+  },
+  {
+    "scientific_name": "Melospiza lincolnii",
+    "common_name": "Lincoln's sparrow",
+    "genus": "Melospiza",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Melospiza, lincolnii",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Melospiza+lincolnii",
+    "gbif_usage_key": 2492192,
+    "reference_page": "https://en.wikipedia.org/wiki/Lincoln%27s_sparrow"
+  },
+  {
+    "scientific_name": "Melospiza georgiana",
+    "common_name": "Swamp sparrow",
+    "genus": "Melospiza",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Melospiza, georgiana",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Melospiza+georgiana",
+    "gbif_usage_key": 2492235,
+    "reference_page": "https://en.wikipedia.org/wiki/Swamp_sparrow"
+  },
+  {
+    "scientific_name": "Pipilo erythrophthalmus",
+    "common_name": "Eastern towhee",
+    "genus": "Pipilo",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Pipilo, erythrophthalmus",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Pipilo+erythrophthalmus",
+    "gbif_usage_key": 2491205,
+    "reference_page": "https://en.wikipedia.org/wiki/Eastern_towhee"
+  },
+  {
+    "scientific_name": "Pipilo maculatus",
+    "common_name": "Spotted towhee",
+    "genus": "Pipilo",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Pipilo, maculatus",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Pipilo+maculatus",
+    "gbif_usage_key": 9709230,
+    "reference_page": "https://en.wikipedia.org/wiki/Spotted_towhee"
+  },
+  {
+    "scientific_name": "Pipilo chlorurus",
+    "common_name": "Green-tailed towhee",
+    "genus": "Pipilo",
+    "family": "Passerellidae",
+    "taxonomy": "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Pipilo, chlorurus",
+    "taxonomy_source": "https://api.gbif.org/v1/species/match?name=Pipilo+chlorurus",
+    "gbif_usage_key": 2491276,
+    "reference_page": "https://en.wikipedia.org/wiki/Green-tailed_towhee"
+  }
+]

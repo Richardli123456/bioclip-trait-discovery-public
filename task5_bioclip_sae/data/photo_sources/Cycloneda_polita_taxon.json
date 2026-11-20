@@ -1,0 +1,64 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 55492,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47158,
+      "ancestor_ids": [
+        48460,
+        1,
+        47120,
+        372739,
+        47158,
+        184884,
+        47208,
+        71130,
+        372852,
+        471714,
+        48486,
+        333790,
+        333796,
+        55490,
+        55492
+      ],
+      "is_active": true,
+      "name": "Cycloneda polita",
+      "parent_id": 55490,
+      "ancestry": "48460/1/47120/372739/47158/184884/47208/71130/372852/471714/48486/333790/333796/55490",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 184777592,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) vespidmacro, some rights reserved (CC BY-NC), uploaded by vespidmacro",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184777592/square.jpg",
+        "original_dimensions": {
+          "height": 1365,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "vespidmacro",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184777592/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/184777592/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 2,
+      "observations_count": 8235,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Cycloneda_polita",
+      "matched_term": "Cycloneda polita",
+      "iconic_taxon_name": "Insecta",
+      "preferred_common_name": "Western Polished Lady Beetle"
+    }
+  ]
+}

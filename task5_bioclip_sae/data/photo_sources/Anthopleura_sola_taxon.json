@@ -1,0 +1,60 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 49051,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 1,
+      "ancestor_ids": [
+        48460,
+        1,
+        47534,
+        47533,
+        202756,
+        47797,
+        813978,
+        813994,
+        47796,
+        49052,
+        49051
+      ],
+      "is_active": true,
+      "name": "Anthopleura sola",
+      "parent_id": 49052,
+      "ancestry": "48460/1/47534/47533/202756/47797/813978/813994/47796/49052",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 10551,
+        "license_code": "cc-by",
+        "attribution": "(c) Ed Bierman, some rights reserved (CC BY)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10551/square.jpg",
+        "original_dimensions": {
+          "height": 1072,
+          "width": 1600
+        },
+        "flags": [],
+        "attribution_name": "Ed Bierman",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10551/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/10551/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 1,
+      "observations_count": 33496,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": 1905,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Starburst_anemone",
+      "matched_term": "Anthopleura sola",
+      "iconic_taxon_name": "Animalia",
+      "preferred_common_name": "Sunburst Anemone"
+    }
+  ]
+}

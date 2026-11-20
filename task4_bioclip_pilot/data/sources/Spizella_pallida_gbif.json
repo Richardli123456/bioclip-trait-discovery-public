@@ -1,0 +1,23 @@
+{
+  "usageKey": 2492101,
+  "scientificName": "Spizella pallida (Swainson, 1832)",
+  "canonicalName": "Spizella pallida",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Spizella",
+  "species": "Spizella pallida",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2492093,
+  "speciesKey": 2492101,
+  "class": "Aves"
+}

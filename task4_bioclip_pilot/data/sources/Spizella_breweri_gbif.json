@@ -1,0 +1,23 @@
+{
+  "usageKey": 2492099,
+  "scientificName": "Spizella breweri Cassin, 1856",
+  "canonicalName": "Spizella breweri",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Spizella",
+  "species": "Spizella breweri",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2492093,
+  "speciesKey": 2492099,
+  "class": "Aves"
+}

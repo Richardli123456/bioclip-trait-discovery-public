@@ -1,0 +1,37 @@
+{
+  "192": {
+    "label": "Owl-like face and frontal eyes",
+    "observation": "The four inspected owl photos show prominent forward-facing eyes, broad heads and relatively short central bills. Plumage and ear tufts differ; ear tufts are not shared by all four.",
+    "hypothesis": "This feature may associate with owl head/face structure.",
+    "alternative": "It may primarily encode the family Strigidae or the complete owl appearance, rather than an independently controllable face trait.",
+    "future_test": "Hold species, prompt and seed fixed; change feature 192 and check face/eye structure while measuring unintended changes in plumage, body and background. Include non-owl controls."
+  },
+  "190": {
+    "label": "Long pointed bill in kingfishers",
+    "observation": "All four kingfisher photos show an elongated pointed bill, despite substantial differences in color and markings. The Pied Kingfisher's bill is open, so pose differs.",
+    "hypothesis": "This feature may associate with the elongated bill and head proportions typical of kingfishers.",
+    "alternative": "All top-eight training examples are Alcedinidae; family wording and overall kingfisher identity are confounded with bill shape.",
+    "future_test": "Measure bill length relative to head size under small feature edits across several species and seeds; check whether the entire animal changes into a kingfisher."
+  },
+  "208": {
+    "label": "Rounded, domed ladybird body",
+    "observation": "The four ladybird references show compact oval or rounded bodies and curved wing covers. Color and spots vary; the spotless example rules out treating this simply as a spots feature.",
+    "hypothesis": "This feature may associate with rounded body/wing-cover shape.",
+    "alternative": "It may encode Coccinellidae identity or beetle appearance broadly. One small reference shows limited detail, and there are no controlled shape measurements.",
+    "future_test": "Vary feature 208 while tracking body outline and wing-cover curvature; use spotted and spotless examples and inspect unwanted color changes."
+  },
+  "598": {
+    "label": "Squirrel-like fur and bushy tail",
+    "observation": "All four squirrel photos show fur and small rounded or pointed ears; several clearly show a bushy tail, while the tail is only partly visible in the Pallas's squirrel view. Ear tufts and body markings vary.",
+    "hypothesis": "This feature may associate with squirrel-like body and tail appearance.",
+    "alternative": "It may encode Sciuridae identity; the selected photos cannot isolate tail bushiness from the rest of the animal.",
+    "future_test": "Use full-body generations with visible tails; measure whether tail fullness changes without changing species, pose, fur color or body size."
+  },
+  "287": {
+    "label": "Radial tentacles in sea anemones",
+    "observation": "The four anemone photographs show tentacles arranged around a central disc. Their colors, tentacle proportions and body surfaces differ substantially.",
+    "hypothesis": "This feature may associate with radial tentacle organization.",
+    "alternative": "It may encode sea-anemone taxonomy or the whole body plan. All four displayed photos are Actiniidae, although the top-eight list also includes Sagartiidae.",
+    "future_test": "Vary feature 287 while inspecting tentacle arrangement and count across different anemones; check whether it instead changes the whole organism or scene."
+  }
+}

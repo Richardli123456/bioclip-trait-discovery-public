@@ -1,0 +1,39 @@
+{
+  "split": "validation",
+  "species": 875,
+  "genera": 214,
+  "active_support": {
+    "species": 29,
+    "genera": 12,
+    "families": 10
+  },
+  "endpoint_values_used": true,
+  "passed": false,
+  "support_passed": true,
+  "family_centered_r": 0.08032411241748069,
+  "ordinary_r": 0.051444582785157816,
+  "correlation_95ci": [
+    -0.047444049741697,
+    0.17381901893271332
+  ],
+  "defined_correlation_resamples": 2000,
+  "undefined_correlation_resamples": 0,
+  "taxonomy_baseline": {
+    "rmse": 0.226795123716197,
+    "mae": 0.16881520244646064,
+    "r2": 0.5438867170162734
+  },
+  "taxonomy_plus_activation": {
+    "rmse": 0.2282073877268424,
+    "mae": 0.16926563308852097,
+    "r2": 0.5381885525454758
+  },
+  "rmse_improvement": -0.0014122640106453976,
+  "improvement_95ci": [
+    -0.005816207631527513,
+    0.0022038086510128827
+  ],
+  "association_passed": false,
+  "prediction_passed": false,
+  "reason": "association_or_predictive_improvement_did_not_confirm"
+}

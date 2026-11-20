@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Clay-colored sparrow",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Clay-colored sparrow</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q551729",
+  "titles": {
+    "canonical": "Clay-colored_sparrow",
+    "normalized": "Clay-colored sparrow",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Clay-colored sparrow</span></span>"
+  },
+  "pageid": 481946,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Spizella_pallida4_edit.jpg/330px-Spizella_pallida4_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 237
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/e/eb/Spizella_pallida4_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3138,
+    "height": 2256
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1321188949",
+  "tid": "77d25055-bd2b-11f0-9cc7-a3d5556a9c28",
+  "timestamp": "2025-11-09T05:18:04Z",
+  "description": "Species of bird",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Clay-colored_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Clay-colored_sparrow?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Clay-colored_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Clay-colored_sparrow"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Clay-colored_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Clay-colored_sparrow",
+      "edit": "https://en.wikipedia.org/wiki/Clay-colored_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Clay-colored_sparrow"
+    }
+  },
+  "extract": "The clay-colored sparrow or clay-coloured sparrow is a small New World sparrow of North America.",
+  "extract_html": "<p>The <b>clay-colored sparrow</b> or <b>clay-coloured sparrow</b> is a small New World sparrow of North America.</p>"
+}

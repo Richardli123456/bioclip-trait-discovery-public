@@ -1,0 +1,28 @@
+{
+  "created_date": "2026-10-04",
+  "status": "locked_before_expanded_SAE_training",
+  "authorization": "User requested completion of the combined checklist, including training; pause on hardware problems. User selected provisional AI image scoring, human review later.",
+  "corpus": "363192 conservative kingdom+binomial taxonomy records from released TreeOfLife-10M species list, preserving all5388 pilot rows. This is not verified TaxaAdapter TreeOfLife-1M training membership.",
+  "embedding": "Frozen BioCLIP2 raw768-dimensional output from space-separated full taxonomy; no normalization before TaxaAdapter",
+  "primary_SAE": {"width":2048,"k":32,"anchor_seed":20260929,"new_seeds":[1,2,3,4,5]},
+  "conditional_sweep": {"trigger":"No primary SAE feature passes unchanged recurrence gate","configurations":[[1024,16],[1024,32],[2048,16]],"selection":"Report all configurations. Prefer primary if passing; otherwise greatest number of passing features, then lower validation NMSE, then smaller width and k. Test reconstruction is descriptive only."},
+  "recurrence_gate": "For each anchor coordinate, best signed activation correlation across training species selects a match in each replicate. Require training r>=0.7 AND signed cosine of that same decoder pair>=0.7 in all five replicates. Report collisions; no sign flips or threshold relaxation.",
+  "trait_benchmark": "Separate prespecified AVONET beak length/depth endpoint and CPU ridge-vs-taxonomy control. Its protocol is in ../trait_benchmark_v1/protocol.json. Positive prediction does not by itself validate an SAE feature or image intervention.",
+  "candidate_selection": {
+    "independent_label_endpoint":"Natural log of AVONET beak length from nares divided by depth",
+    "eligibility":"Passing SAE recurrence gate; positive activity in at least30 labelled training birds from at least10 genera and3 families",
+    "ranking":"Largest absolute Pearson correlation of training feature activation and measured trait after subtracting each training family's mean from both variables. Record ordinary correlations too. Select one candidate without validation/test trait results.",
+    "confirmation":"Use validation birds only to check the preselected association direction with a2000-resample genus-cluster bootstrap95% interval excluding zero. This is exploratory validation because SAE checkpoints used validation reconstruction, and the raw-vector probe also uses these labels.",
+    "failure":"If no candidate satisfies these criteria, preserve the negative result and do not force a large image intervention study. Support-neighbor and bridge demonstrations may still be generated as representation exploration, without trait claims."
+  },
+  "intervention_branch": {
+    "prerequisites":"Stable, independently labelled candidate plus measurable baseline image endpoint. Provisional AI scores are not human validation.",
+    "pilot":"One selected species, eight paired image seeds, fixed view prompt, original/reconstruction/residual-preserving removal/half/double/other-feature/matched-norm random controls. Define endpoint and blind scores before condition unblinding.",
+    "replication":"Only a promising interpretable pilot advances to32 fresh paired seeds and replication in a second species and independently trained SAE. Report missingness separately from zeros and biological changes separately from background/pose.",
+    "edit":"x_edited = x + decode(z_edited) - decode(z); edit one coordinate without reapplying TopK."
+  },
+  "overlap_and_bridges":"Exact binary support overlap, positive values only, exclude self, deterministic ties. Rank top10 neighbors for every expanded taxonomy record. A selected bridge changes one coordinate at a time and retains source residual, with raw endpoint references; its last edited vector need not equal the raw target vector.",
+  "human_review":"Deferred by user; retain blank human annotation files and clearly separate provisional AI labels.",
+  "hardware":"Single GPU owner; stop on OOM/CUDA failure, temperature>=88C or freeVRAM<2048MiB. No automatic hardware fallback or retry.",
+  "reporting":"Archive protocols, input/output hashes, scripts, checkpoints, scores, exclusions and negative findings. Do not describe unrun conditional experiments as completed validation."
+}

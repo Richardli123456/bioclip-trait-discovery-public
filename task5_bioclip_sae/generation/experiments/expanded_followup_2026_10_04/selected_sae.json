@@ -1,0 +1,10 @@
+{
+  "selected_study":"../expanded_stability_w2048_k32_v2",
+  "selection_rule":"Use the primary2048/32 configuration when at least one feature passes the unchanged five-replicate recurrence gate.",
+  "stable_feature_count":732,
+  "anchor_seed":20260929,
+  "conditional_capacity_sweep":"Not triggered because the primary configuration passed; no other configurations trained.",
+  "test_results_used_for_selection":false,
+  "biological_trait_validation":false,
+  "note":"732 stable SAE coordinates are not732 validated biological traits."
+}

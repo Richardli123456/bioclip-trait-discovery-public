@@ -1,0 +1,59 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 9096,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        7251,
+        559248,
+        9091,
+        9096
+      ],
+      "is_active": true,
+      "name": "Melospiza georgiana",
+      "parent_id": 9091,
+      "ancestry": "48460/1/2/355675/3/7251/559248/9091",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 174194997,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Ad Konings, some rights reserved (CC BY-NC), uploaded by Ad Konings",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174194997/square.jpg",
+        "original_dimensions": {
+          "height": 1380,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Ad Konings",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174194997/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/174194997/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 9,
+      "observations_count": 31304,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Swamp_sparrow",
+      "complete_rank": "subspecies",
+      "matched_term": "Melospiza georgiana",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Swamp Sparrow"
+    }
+  ]
+}

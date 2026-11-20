@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Worthen's sparrow",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Worthen&#039;s sparrow</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q903920",
+  "titles": {
+    "canonical": "Worthen's_sparrow",
+    "normalized": "Worthen's sparrow",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Worthen&#039;s sparrow</span></span>"
+  },
+  "pageid": 11398445,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Worthen%27s_Sparrow_imported_from_iNaturalist_photo_341409246_on_3_July_2024.jpg/330px-Worthen%27s_Sparrow_imported_from_iNaturalist_photo_341409246_on_3_July_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 495
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Worthen%27s_Sparrow_imported_from_iNaturalist_photo_341409246_on_3_July_2024.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 1233,
+    "height": 1848
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1315238673",
+  "tid": "9e204151-a203-11f0-9ffe-92b1db568e58",
+  "timestamp": "2025-10-05T15:54:47Z",
+  "description": "Species of bird",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Worthen's_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Worthen's_sparrow?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Worthen's_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Worthen's_sparrow"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Worthen's_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Worthen's_sparrow",
+      "edit": "https://en.wikipedia.org/wiki/Worthen's_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Worthen's_sparrow"
+    }
+  },
+  "extract": "Worthen's sparrow is a species of American sparrow that is endemic to northeastern Mexico. It was first described by Robert Ridgway in 1884 and named for the American naturalist Charles K. Worthen. This small bird has been listed as endangered by the IUCN since 1994.",
+  "extract_html": "<p><b>Worthen's sparrow</b> is a species of American sparrow that is endemic to northeastern Mexico. It was first described by Robert Ridgway in 1884 and named for the American naturalist Charles K. Worthen. This small bird has been listed as endangered by the IUCN since 1994.</p>"
+}

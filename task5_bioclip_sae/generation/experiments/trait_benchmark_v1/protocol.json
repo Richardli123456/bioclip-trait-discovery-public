@@ -1,0 +1,37 @@
+{
+  "protocol_version": 1,
+  "created_local_date": "2026-10-04",
+  "endpoint": "ln_beak_nares_length_over_depth",
+  "source_sheet": "AVONET2_eBird",
+  "inclusion": "Unique exact binomial join within Animalia/Aves lineage, Inference=NO, Complete.measures>=4, positive finite dimensions; cross-lineage homonyms are not joined",
+  "split": "Reuse species manifest train/validation/test assignments; assert no genus crosses partitions",
+  "target_selection": "One endpoint selected before any fitting; no SAE activations or generated-image results used",
+  "input": "Original 768-dimensional space-formatted BioCLIP 2 embeddings",
+  "ridge": {
+    "standardization": "Per-coordinate train mean and population SD; zero-variance SD replaced by 1",
+    "objective": "mean squared error plus alpha times squared coefficient norm; unpenalized intercept",
+    "alpha_grid": [0.00001, 0.0001, 0.001, 0.01, 0.1, 1, 10, 100],
+    "selection": "Lowest validation MSE; larger alpha wins exact ties"
+  },
+  "taxonomy_baseline": {
+    "definition": "Training-only family mean shrunk to order mean shrunk to global mean",
+    "family_pseudocount_grid": [0, 1, 4, 16, 64],
+    "order_pseudocount_grid": [0, 4, 16, 64],
+    "unseen_family": "order estimate",
+    "unseen_order": "global mean",
+    "selection": "Lowest validation MSE; larger total pseudocount wins exact ties"
+  },
+  "final_fit": "Refit both selected models on train+validation exactly once, evaluate untouched test",
+  "metrics": ["species-weighted RMSE", "species-weighted MAE", "test-mean-based R2", "genus-macro MSE"],
+  "uncertainty": {
+    "quantity": "taxonomy baseline RMSE minus embedding ridge RMSE",
+    "resampling_unit": "test genus, with replacement; retain all species in sampled genus",
+    "resamples": 2000,
+    "seed": 20261004,
+    "interval": "2.5th and 97.5th percentiles"
+  },
+  "primary_metric": "species-weighted held-out-genus RMSE",
+  "positive_signal_rule": "Embedding test R2 > 0 and 95% genus-bootstrap interval for RMSE improvement entirely above 0",
+  "interpretation": "Predictive association on genera held out from probe fitting, not pretraining novelty, independent anatomical validation, or a causal SAE trait",
+  "execution": "CPU only; no image generation, SAE fitting, BioCLIP updates or TaxaAdapter updates"
+}

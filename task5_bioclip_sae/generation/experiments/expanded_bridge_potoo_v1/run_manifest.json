@@ -1,0 +1,21 @@
+{
+  "status": "completed",
+  "image_count": 96,
+  "elapsed_seconds": 216.85025649997988,
+  "all_model_hashes_unchanged": true,
+  "model_state_sha256": {
+    "0_CLIP": "2dd75d27da1d912a660cdf4594e0e575b3ef8e1d4a8882811726d04ae29f7b91",
+    "1_UNet2DConditionModel": "9c3977a596fc70c259f78213a4fa51c9071857dbe8fdf06457a27cb3ddeeda5c",
+    "2_AutoencoderKL": "d1be034cf9189d05f18b2b1b64e328cd135d3e79a1d4491b514a16456839d84a",
+    "3_CLIPTextModel": "de4847aeb43f1b58ce3f618f1e5ee9104750a996d3d52494c8d0f50c2e9f7f03",
+    "4_ImageProjModel": "2b995b93f2f97bf67f724351511aa251512867f08050a08a677baee438266fbd"
+  },
+  "all_input_and_image_hashes_verified": true,
+  "matches_unedited_calibration_model_state": true,
+  "calibration_manifest_sha256": "37875b90792ed93694fe1e4c695abbf4d9cc411434aaaf9c3ab0fd53d9b76866",
+  "maximum_temperature_c": 63,
+  "minimum_free_mib": 22375,
+  "hardware_errors": [],
+  "training_performed": false,
+  "model_updates": false
+}

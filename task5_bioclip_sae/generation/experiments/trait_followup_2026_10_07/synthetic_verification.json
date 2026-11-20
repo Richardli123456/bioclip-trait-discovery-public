@@ -1,0 +1,8 @@
+{
+  "status": "passed",
+  "scope": "Syntax and independent small synthetic checks only; no real endpoint associations evaluated",
+  "family_centering": true,
+  "fixed_effects_slope_matches_lstsq": true,
+  "unknown_taxonomy_fallback": true,
+  "bootstrap_duplicate_rows_centering": true
+}

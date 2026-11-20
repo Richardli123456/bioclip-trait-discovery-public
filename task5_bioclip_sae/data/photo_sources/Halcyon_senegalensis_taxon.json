@@ -1,0 +1,60 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 2337,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        2114,
+        2314,
+        1542375,
+        2315,
+        2337
+      ],
+      "is_active": true,
+      "name": "Halcyon senegalensis",
+      "parent_id": 2315,
+      "ancestry": "48460/1/2/355675/3/2114/2314/1542375/2315",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 9906575,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Nik Borrow, some rights reserved (CC BY-NC)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9906575/square.jpg",
+        "original_dimensions": {
+          "height": 600,
+          "width": 800
+        },
+        "flags": [],
+        "attribution_name": "Nik Borrow",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9906575/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/9906575/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 7,
+      "observations_count": 3728,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Woodland_kingfisher",
+      "complete_rank": "subspecies",
+      "matched_term": "Halcyon senegalensis",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Woodland Kingfisher"
+    }
+  ]
+}

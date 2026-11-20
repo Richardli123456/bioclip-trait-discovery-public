@@ -1,0 +1,21 @@
+{
+  "checked_utc": "2026-09-29T12:01:43.091316+00:00",
+  "source_url": "https://api.github.com/repos/Imageomics/TaxaAdapter/contents",
+  "files": [
+    {
+      "name": ".gitignore",
+      "type": "file",
+      "sha": "b7faf403d915ca307532bb0eb9cceaf0214e8e5b"
+    },
+    {
+      "name": "LICENSE",
+      "type": "file",
+      "sha": "c73891644da604f0db5377a73fd1ec1233b1b0e2"
+    },
+    {
+      "name": "README.md",
+      "type": "file",
+      "sha": "0a3ccd7a3e0442ae18aaf701abfd4e68f5c2ce2b"
+    }
+  ]
+}

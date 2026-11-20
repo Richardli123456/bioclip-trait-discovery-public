@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "independent_metric_recalculation": true,
+  "source_trait_arithmetic": true,
+  "no_overlapping_genera": true,
+  "label_protocol_evaluator_unchanged_from_v1": true,
+  "joined_species_and_embedding_values_identical_to_v1": true,
+  "test_prediction_csv_byte_identical_to_v1": true,
+  "final_v2_joined_row_indices_recomputed": true,
+  "test_species": 774,
+  "test_genera": 197,
+  "previous_v1_outcomes_known": true,
+  "hardware_error": false,
+  "gpu_used": false
+}

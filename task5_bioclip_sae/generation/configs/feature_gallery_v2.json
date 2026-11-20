@@ -1,0 +1,76 @@
+{
+  "description": "Feature gallery v2: remaining appearance-word stable features. Add levels = 0.4x, 0.8x, 1.2x the feature's top training activation.",
+  "add_species": [
+    "Passer domesticus",
+    "Sciurus carolinensis",
+    "Ardea alba",
+    "Carabus nemoralis"
+  ],
+  "features": {
+    "709": {
+      "label": "red (coccineus, cardinalis, rubinus)",
+      "top_training_activation": 14.37,
+      "add_levels": [
+        5.7,
+        11.5,
+        17.2
+      ],
+      "remove_species": [
+        "Pyrrhidium sanguineum",
+        "Graphocephala coccinea"
+      ]
+    },
+    "766": {
+      "label": "yellow (citrina, flavella, sulphurea)",
+      "top_training_activation": 12.28,
+      "add_levels": [
+        4.9,
+        9.8,
+        14.7
+      ],
+      "remove_species": [
+        "Emberiza citrinella",
+        "Eurema hecabe"
+      ]
+    },
+    "689": {
+      "label": "blue-grey (glauca, glaucescens)",
+      "top_training_activation": 7.82,
+      "add_levels": [
+        3.1,
+        6.3,
+        9.4
+      ],
+      "remove_species": [
+        "Euphilotes glaucon",
+        "Mactra glauca"
+      ]
+    },
+    "1878": {
+      "label": "two-coloured (bicolor, tricolor)",
+      "top_training_activation": 9.61,
+      "add_levels": [
+        3.8,
+        7.7,
+        11.5
+      ],
+      "remove_species": [
+        "Speculipastor bicolor",
+        "Acrida bicolor"
+      ]
+    },
+    "1372": {
+      "label": "slender (gracilis, gracilipes)",
+      "top_training_activation": 9.97,
+      "add_levels": [
+        4.0,
+        8.0,
+        12.0
+      ],
+      "remove_species": [
+        "Suezichthys gracilis",
+        "Eleginus gracilis"
+      ]
+    }
+  }
+}

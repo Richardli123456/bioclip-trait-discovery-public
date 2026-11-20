@@ -1,0 +1,23 @@
+{
+  "eligible_avonet_labels": 8677,
+  "matched_species": 8187,
+  "unmatched_species": 490,
+  "exact_binomial_join": true,
+  "no_cross_split_genera": true,
+  "manifest_duplicate_name_count_all_lineages": 367,
+  "ambiguous_label_names_within_Aves": 0,
+  "excluded_non_bird_lineages": 0,
+  "split_species": {
+    "train": 6538,
+    "test": 774,
+    "validation": 875
+  },
+  "split_genera": {
+    "train": 1697,
+    "validation": 214,
+    "test": 197
+  },
+  "family_disagreements_between_sources": 109,
+  "order_disagreements_between_sources": 374,
+  "baseline_taxonomy": "Embedding manifest taxonomy, matching the information supplied to BioCLIP"
+}

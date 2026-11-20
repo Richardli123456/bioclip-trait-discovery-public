@@ -1,0 +1,101 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "File:Spizella-passerina-015_edit.jpg",
+        "to": "File:Spizella-passerina-015 edit.jpg"
+      }
+    ],
+    "pages": {
+      "3189699": {
+        "pageid": 3189699,
+        "ns": 6,
+        "title": "File:Spizella-passerina-015 edit.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/2/29/Spizella-passerina-015_edit.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Spizella-passerina-015_edit.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=3189699",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2007-12-06 03:42:42",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Spizella-passerina-015 edit",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "GFDL|License migration redundant|Self-published work|Featured pictures on Wikipedia, English|Birds in May 2007|Files with Assessments template missing SDC Commons no value quality assessment|Birds of Rondeau Provincial Park|Spizella passerina in Canada",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A <a href=\"https://en.wikipedia.org/wiki/Chipping_Sparrow\" class=\"extiw\" title=\"en:Chipping Sparrow\">Chipping Sparrow</a> at the feeders, behind the visitor centre, Rondeau Provincial Park, Ontario, Canada.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2007-05-06",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Mdf\" title=\"User:Mdf\">Mdf</a>, Edited by <a href=\"//commons.wikimedia.org/wiki/User:Fir0002\" title=\"User:Fir0002\">Fir0002</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 3.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 3.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "http://creativecommons.org/licenses/by-sa/3.0/",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-3.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

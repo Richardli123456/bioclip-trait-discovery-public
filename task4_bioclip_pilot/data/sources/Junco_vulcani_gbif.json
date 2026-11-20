@@ -1,0 +1,23 @@
+{
+  "usageKey": 2492037,
+  "scientificName": "Junco vulcani (Boucard, 1878)",
+  "canonicalName": "Junco vulcani",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Junco",
+  "species": "Junco vulcani",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2492009,
+  "speciesKey": 2492037,
+  "class": "Aves"
+}

@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Brewer's sparrow",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Brewer&#039;s sparrow</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q659632",
+  "titles": {
+    "canonical": "Brewer's_sparrow",
+    "normalized": "Brewer's sparrow",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Brewer&#039;s sparrow</span></span>"
+  },
+  "pageid": 1451530,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Brewer%27s_sparrow_%28Spizella_breweri%29_foraging_in_front_of_an_American_Tarwort_%28Flourensia_cernua%29_in_Picacho_Hills%2C_Las_Cruces%2C_New_Mexico%2C_USA.jpg/330px-Brewer%27s_sparrow_%28Spizella_breweri%29_foraging_in_front_of_an_American_Tarwort_%28Flourensia_cernua%29_in_Picacho_Hills%2C_Las_Cruces%2C_New_Mexico%2C_USA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 220
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Brewer%27s_sparrow_%28Spizella_breweri%29_foraging_in_front_of_an_American_Tarwort_%28Flourensia_cernua%29_in_Picacho_Hills%2C_Las_Cruces%2C_New_Mexico%2C_USA.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3547,
+    "height": 2365
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1354922762",
+  "tid": "760bca97-5318-11f1-a641-4c6a0aba6d7d",
+  "timestamp": "2026-05-19T00:19:55Z",
+  "description": "Species of bird",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Brewer's_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Brewer's_sparrow?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Brewer's_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Brewer's_sparrow"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Brewer's_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Brewer's_sparrow",
+      "edit": "https://en.wikipedia.org/wiki/Brewer's_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Brewer's_sparrow"
+    }
+  },
+  "extract": "Brewer's sparrow is a small, slim species of American sparrow in the family Passerellidae. This bird was named after the ornithologist Thomas Mayo Brewer.",
+  "extract_html": "<p><b>Brewer's sparrow</b> is a small, slim species of American sparrow in the family Passerellidae. This bird was named after the ornithologist Thomas Mayo Brewer.</p>"
+}

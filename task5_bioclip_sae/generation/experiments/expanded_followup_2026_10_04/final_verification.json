@@ -1,0 +1,609 @@
+{
+  "status": "passed",
+  "created_utc": "2026-10-04T22:58:01.702656+00:00",
+  "scope": "Final package consistency, artifact existence, selected runtime hashes and saved audit results; no retraining or image regeneration. Full array/hash/numerical audits are linked separately.",
+  "counts": {
+    "records": 362460,
+    "embedding_dimensions": 768,
+    "sae_dimensions": 2048,
+    "topk": 32,
+    "fits": 6,
+    "stable_features": 732,
+    "neighbor_edges": 3624600,
+    "unedited_images": 32,
+    "bridge_images": 98
+  },
+  "human_review": {
+    "rows": 32,
+    "all_score_fields_blank": true,
+    "ai_scores_are_provisional": true
+  },
+  "scientific_gates": {
+    "stability_passed": true,
+    "raw_probe_added_signal_confirmed": false,
+    "sae_trait_candidate_confirmed": false,
+    "trait_image_pilot_run": false,
+    "large_trait_replication_run": false
+  },
+  "runtime_script_hashes_match_execution": true,
+  "generation_models_match_and_unchanged": true,
+  "training_hardware": {
+    "maximum_temperature_c": 48,
+    "minimum_free_mib": 21750
+  },
+  "recorded_hardware_errors": [],
+  "browser_qa": {
+    "observed_on": "2026-10-04",
+    "condition_count": 49,
+    "middle_step22_feature337_loaded": true,
+    "last_step44_feature1513_selected": true,
+    "target_original_next_disabled": true,
+    "target_original_both_images_loaded_at_512_square": true,
+    "human_forms_untouched": true
+  },
+  "relative_file_links_checked": 139,
+  "relative_file_links": [
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_bridge_images_v2/viewer.html"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_bridge_images_v2/bridge_overview.pdf"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../unedited_dorsal_v1/human_review/review.html"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../cache/expanded_tol10m_v2/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery/task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md",
+      "target": "final_verification.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "old_ladybird_corrected.csv"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "old_ladybird_correction_provenance.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../trait_readiness_v1/SCORING_CORRECTION.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../unedited_dorsal_v1/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../unedited_dorsal_v1/AI_REVIEW_PROVISIONAL.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../cache/expanded_tol10m_v2/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../cache/expanded_tol10m_v2/embedding_provenance.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../cache/expanded_tol10m_v2/data/species.csv"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../cache/expanded_tol10m_v2/data/embeddings_raw.npy"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_stability_w2048_k32_v2/protocol.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_stability_w2048_k32_v2/summary.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_stability_w2048_k32_v2/feature_stability.csv"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_stability_w2048_k32_v2/independent_cpu_audit.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "selected_sae.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../trait_benchmark_v1/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../trait_benchmark_v1/sae_candidate_w2048_k32_v2/summary.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "conditional_decisions.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "beak_image_protocol.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "conditional_decisions.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_overlap_v2/summary.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_overlap_v2/selected_neighbors.csv"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_bridge_images_v2/viewer.html"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "figures/feature_stability.png"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_stability_w2048_k32_v2/common_pilot_test_comparison.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "figures/STABILITY_FIGURES.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_stability_w2048_k32_v2/all_feature_matches.csv"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_bridge_images_v2/bridge_overview.png"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_overlap_v2/neighbor_indices.npy"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_overlap_v2/shared_active.npy"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_overlap_v2/active_counts.npy"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_overlap_v2/bridge_plan.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_bridge_images_v2/bridge_overview_audit.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "prior_leads_reassessment.csv"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../expanded_stability_w2048_k32_v1/SUPERSEDED.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "METHOD_SCOPE.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../cache/expanded_tol10m_v2/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "protocol.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "protocol_amendment_v2.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../prepare_expanded_edit.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../render_expanded_bridge.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../../run_expanded_sae_study.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../unedited_dorsal_v1/human_review/review.html"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_followup_2026_10_04\\REPORT.md",
+      "target": "../unedited_dorsal_v1/human_review/scoring.csv"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/unedited_dorsal_v1/AI_REVIEW_PROVISIONAL.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/existing_sae_v1/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/existing_sae_v1/viewer.html"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task4_bioclip_pilot/results/RESULTS.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/results/RESULTS.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/README.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/existing_sae_v1/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/README.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task4_bioclip_pilot/run_embeddings.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/prepare_embeddings.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/train_sae.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/prepare_alignment.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/run_interventions.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/analyze_overlap.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/run_frozen_experiments.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/run_expanded_sae_study.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/results/evaluation.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/aligned_evaluation.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/results/verification.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "THIRD_PARTY.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/README.md#reproduce-the-initial-pilot-includes-sae-training"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task4_bioclip_pilot/requirements-lock.txt"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task4_bioclip_pilot/README.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/README.md#reproduce-the-initial-pilot-includes-sae-training"
+    },
+    {
+      "document": "bioclip-trait-discovery\\README.md",
+      "target": "task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/experiments/unedited_dorsal_v1/AI_REVIEW_PROVISIONAL.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "results/RESULTS.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/experiments/followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/experiments/existing_sae_v1/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/README.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/README.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "../README.md#set-up-an-independent-environment"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/assets.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\README.md",
+      "target": "generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/unedited_dorsal_v1/AI_REVIEW_PROVISIONAL.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/unedited_dorsal_v1/human_review/review.html"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/existing_sae_v1/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/existing_sae_v1/viewer.html"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/existing_sae_v1/verification.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/expanded_followup_2026_10_04/METHOD_SCOPE.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "results/comparison.png"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/existing_sae_v1/REPORT.md#reproduce-the-inference-only-continuation"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "run_aligned_stability.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "download_assets.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "assets.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "download_diffusion_assets.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "diffusion_assets.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "prepare_alignment.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "format_comparison.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "aligned_evaluation.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "run_interventions.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "feature_selection.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "results/comparison.png"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "results/run_manifest.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "verify_interventions.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "results/verification.json"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "experiment_common.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "analyze_overlap.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "run_frozen_experiments.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "verify_frozen_experiments.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "summarize_frozen_experiments.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "build_frozen_viewer.py"
+    },
+    {
+      "document": "bioclip-trait-discovery\\task5_bioclip_sae\\generation\\README.md",
+      "target": "audit_species_sources.py"
+    },
+    {
+      "document": "README.md",
+      "target": "bioclip-trait-discovery/task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task1_sst/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task2_sae/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task3_sam3_video_segmentation/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task4_bioclip_pilot/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task5_bioclip_sae/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task6_format_check/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "tabpfn_exploration/"
+    },
+    {
+      "document": "README.md",
+      "target": "bioclip-trait-discovery/README.md"
+    },
+    {
+      "document": "README.md",
+      "target": "bioclip-trait-discovery/task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task3_sam3_video_segmentation/RESULTS.md"
+    },
+    {
+      "document": "README.md",
+      "target": "task6_format_check/summary.json"
+    },
+    {
+      "document": "README.md",
+      "target": "bioclip-trait-discovery/task5_bioclip_sae/generation/experiments/expanded_followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "bioclip-trait-discovery/task5_bioclip_sae/generation/experiments/followup_2026_10_04/REPORT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "bioclip-trait-discovery/task5_bioclip_sae/generation/experiments/existing_sae_v1/REPORT.md"
+    },
+    {
+      "document": "README.md",
+      "target": "tabpfn_exploration/demo_results.json"
+    },
+    {
+      "document": "README.md",
+      "target": "tabpfn_exploration/demo_tabpfn3.py"
+    },
+    {
+      "document": "README.md",
+      "target": "tabpfn_exploration/demo_results.json"
+    },
+    {
+      "document": "README.md",
+      "target": ".gitignore"
+    }
+  ],
+  "limitations": [
+    "No biological trait control established",
+    "Human scoring deferred",
+    "Broader TreeOfLife-10M corpus, not exact TreeOfLife-1M membership",
+    "Browser checks cover representative states; saved-image audit covers all 98 outputs"
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "usageKey": 2492192,
+  "scientificName": "Melospiza lincolnii (Audubon, 1834)",
+  "canonicalName": "Melospiza lincolnii",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Melospiza",
+  "species": "Melospiza lincolnii",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2492191,
+  "speciesKey": 2492192,
+  "class": "Aves"
+}

@@ -1,0 +1,56 @@
+{
+  "created_utc": "2026-10-04T22:15:08.725244+00:00",
+  "status": "prespecified_before_training",
+  "authorization": "User authorized all listed research steps; pause on hardware problems",
+  "input_dir": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v1",
+  "input_sha256": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v1\\data\\species.json": "f626f2034e6c2a6af83d767b4da240c8c528727bd9b56e83a8cd8d208c68518a",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v1\\data\\embeddings_raw.npy": "b285d4e729b40cc4a445d6c0ae213ff77e33b3288495cb06c064ca80bc35d563"
+  },
+  "species_count": 363192,
+  "split_counts": {
+    "train": 290417,
+    "validation": 36149,
+    "test": 36626
+  },
+  "width": 2048,
+  "k": 32,
+  "anchor_seed": 20260929,
+  "replicate_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "evaluation_chunk": 4096,
+  "train": {
+    "max_epochs": 200,
+    "batch_size": 256,
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "clip_gradient_norm": 1.0,
+    "decoder_column_normalization": "after every optimizer step",
+    "preprocessing": "training-only mean/global RMS",
+    "selection": "Lowest validation NMSE at epoch 1/every fifth epoch; >1e-5 improvement; stop at 8 unimproved checks"
+  },
+  "matching": "Per expanded-anchor feature, best signed training Pearson correlation; same-pair signed decoder cosine; no sign flips; collisions reported",
+  "gate": {
+    "minimum_training_activation_correlation_in_every_replicate": 0.7,
+    "minimum_same_match_decoder_cosine_in_every_replicate": 0.7,
+    "validation": "diagnostic only; not used to select matches or alter the gate"
+  },
+  "test_policy": "Test metrics descriptive only; never for checkpoint or configuration selection",
+  "split_validation": "Disjoint split_group when supplied (kingdom|genus); otherwise composite full-lineage genus_key",
+  "conditional_sweep": "If expanded 2048/32 baseline has no passing features, only alternatives (1024,16), (1024,32), (2048,16), each same anchor and five seeds",
+  "code_storage": "Two N x k .npy arrays: int32 feature indices and float32 values; no N x width full arrays",
+  "anchor_identity": "New expanded-data feature IDs; earlier 729/1969/527 IDs are not transferred",
+  "feature_exemplars": "Top eight training species per feature only; exact tied cutoff chosen by Torch topk",
+  "hardware": {
+    "stop_temperature_c": 88,
+    "minimum_free_mib": 2048,
+    "on_error": "Stop; no automatic fallback/retry"
+  },
+  "script_sha256": "76ce9db16f112e977245789223f3d6178bf890f333aba1d990d54ac8c753f24a",
+  "trainer_sha256": "820db1c025b86303f24418a8327fd7ec6fa86eb9929e456d6ed9bc09f4d7e1a2"
+}

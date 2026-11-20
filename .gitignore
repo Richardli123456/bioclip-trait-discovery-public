@@ -1,0 +1,28 @@
+# Local environments, downloads, and transient files
+.venv*/
+**/cache/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.DS_Store
+Thumbs.db
+.env
+.env.*
+*.log
+
+# Regenerate these large artifacts with the documented pipeline.
+task5_bioclip_sae/data/*.npy
+task5_bioclip_sae/results/*.npy
+task5_bioclip_sae/results/*.pt
+task5_bioclip_sae/results/features.json
+
+# Reproducible experiment checkpoints and arrays remain available locally.
+task5_bioclip_sae/generation/experiments/**/*.pt
+task5_bioclip_sae/generation/experiments/**/*.npy
+
+# Private blind review materials
+**/KEY_do_not_send/
+**/blind_key.*
+**/unblinded_annotations.*
+**/colour_review.html
+**/prepare_blind_color_review.py

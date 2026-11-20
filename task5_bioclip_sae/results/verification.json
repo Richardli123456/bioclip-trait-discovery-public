@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "checks": [
+    "Shapes, finite arrays and nonnegative sparse codes",
+    "Exactly 32 active features per species",
+    "Pinned input and embedding SHA256 hashes",
+    "No genus leakage between train/validation/test",
+    "Reloaded checkpoint reproduces saved codes and reconstructions",
+    "Single-feature edit equals the expected decoder-direction change",
+    "All split reconstruction metrics independently recomputed in NumPy float64",
+    "Five selected features have four attributed, valid reference images each",
+    "All displayed example activations match saved vectors and use training species"
+  ],
+  "not_tested": [
+    "TaxaAdapter image-generation behavior",
+    "Causal biological trait specificity",
+    "Stability across SAE seeds"
+  ]
+}

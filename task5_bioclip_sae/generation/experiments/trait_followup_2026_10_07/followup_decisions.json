@@ -1,0 +1,46 @@
+{
+  "date_local": "2026-10-07",
+  "human_review": {
+    "completed": true,
+    "reviewed_images": 32,
+    "eligible_and_scorable": 27,
+    "unscorable": 5,
+    "exact_seven_among_scorable": 3,
+    "reviewers": "One human; earlier AI screening retained separately",
+    "three_visibility_clarifications": "User explicitly confirmed visible spots and count 5 for D002, D008, D027; raw export preserved",
+    "measurement_readiness": "Descriptive support for an exploratory count pilot, not a retrospectively passed numerical gate or a trait-coordinate label",
+    "unresolved": "Human/AI view-eligibility disagreement; no expert adjudication or human inter-rater reliability estimate"
+  },
+  "new_trait_validation": {
+    "endpoint": "ln_tail_length_over_wing_length",
+    "source": "Pinned AVONET v7; existing 8,187 matched bird cohort",
+    "feature": 814,
+    "selection": "Training only; one candidate from 188 eligible existing stable features",
+    "validation_support_passed": true,
+    "validation_association_passed": false,
+    "validation_predictive_improvement_passed": false,
+    "candidate_confirmed": false,
+    "replacement_selected": false,
+    "test_endpoint_computed_or_analyzed": false
+  },
+  "controlled_spot_pilot": {
+    "executed": false,
+    "reason": "Human spot counts do not independently identify a stable spot-related SAE coordinate"
+  },
+  "tail_calibration_and_pilot": {
+    "executed": false,
+    "reason": "Locked validation prerequisite failed"
+  },
+  "large_trait_replication": {
+    "executed": false,
+    "reason": "No confirmed candidate and successful scored pilot"
+  },
+  "existing_embedding_SAE_neighbor_and_bridge_artifacts": "Preserved unchanged",
+  "hardware_error": false,
+  "GPU_used": false,
+  "SAE_retrained": false,
+  "new_generated_images": 0,
+  "phase_status": "Human review integration and bounded next trait test complete; scientific stop rule reached",
+  "biological_discovery_goal_achieved": false,
+  "remaining_requirement": "Independently confirmed, measurably visible trait association followed by a valid controlled image intervention; no positive trait claim supported yet"
+}

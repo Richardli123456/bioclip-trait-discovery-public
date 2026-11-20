@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "training_only_ranking_selects_feature": 506,
+  "eligible_features": 188,
+  "independent_validation_within_family_r": -0.030636847861672884,
+  "selected_validation_active_species": 14,
+  "selected_validation_active_genera": 4,
+  "selected_validation_active_families": 3,
+  "bootstrap_counts_sum_to_2000": true,
+  "failure_due_to_interval_crossing_zero": true,
+  "candidate_protocol_hash_unchanged": true,
+  "no_new_candidate_selected": true,
+  "gpu_used": false
+}

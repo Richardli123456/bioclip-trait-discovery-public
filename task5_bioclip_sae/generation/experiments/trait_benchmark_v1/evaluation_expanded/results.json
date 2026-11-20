@@ -1,0 +1,142 @@
+{
+  "join": {
+    "eligible_avonet_labels": 8677,
+    "matched_species": 8187,
+    "unmatched_species": 490,
+    "exact_binomial_join": true,
+    "no_cross_split_genera": true,
+    "manifest_duplicate_name_count_all_lineages": 367,
+    "ambiguous_label_names_within_Aves": 0,
+    "excluded_non_bird_lineages": 0,
+    "split_species": {
+      "train": 6538,
+      "test": 774,
+      "validation": 875
+    },
+    "split_genera": {
+      "train": 1697,
+      "validation": 214,
+      "test": 197
+    },
+    "family_disagreements_between_sources": 109,
+    "order_disagreements_between_sources": 374,
+    "baseline_taxonomy": "Embedding manifest taxonomy, matching the information supplied to BioCLIP"
+  },
+  "protocol": {
+    "protocol_version": 1,
+    "created_local_date": "2026-10-04",
+    "endpoint": "ln_beak_nares_length_over_depth",
+    "source_sheet": "AVONET2_eBird",
+    "inclusion": "Unique exact binomial join within Animalia/Aves lineage, Inference=NO, Complete.measures>=4, positive finite dimensions; cross-lineage homonyms are not joined",
+    "split": "Reuse species manifest train/validation/test assignments; assert no genus crosses partitions",
+    "target_selection": "One endpoint selected before any fitting; no SAE activations or generated-image results used",
+    "input": "Original 768-dimensional space-formatted BioCLIP 2 embeddings",
+    "ridge": {
+      "standardization": "Per-coordinate train mean and population SD; zero-variance SD replaced by 1",
+      "objective": "mean squared error plus alpha times squared coefficient norm; unpenalized intercept",
+      "alpha_grid": [
+        1e-05,
+        0.0001,
+        0.001,
+        0.01,
+        0.1,
+        1,
+        10,
+        100
+      ],
+      "selection": "Lowest validation MSE; larger alpha wins exact ties"
+    },
+    "taxonomy_baseline": {
+      "definition": "Training-only family mean shrunk to order mean shrunk to global mean",
+      "family_pseudocount_grid": [
+        0,
+        1,
+        4,
+        16,
+        64
+      ],
+      "order_pseudocount_grid": [
+        0,
+        4,
+        16,
+        64
+      ],
+      "unseen_family": "order estimate",
+      "unseen_order": "global mean",
+      "selection": "Lowest validation MSE; larger total pseudocount wins exact ties"
+    },
+    "final_fit": "Refit both selected models on train+validation exactly once, evaluate untouched test",
+    "metrics": [
+      "species-weighted RMSE",
+      "species-weighted MAE",
+      "test-mean-based R2",
+      "genus-macro MSE"
+    ],
+    "uncertainty": {
+      "quantity": "taxonomy baseline RMSE minus embedding ridge RMSE",
+      "resampling_unit": "test genus, with replacement; retain all species in sampled genus",
+      "resamples": 2000,
+      "seed": 20261004,
+      "interval": "2.5th and 97.5th percentiles"
+    },
+    "primary_metric": "species-weighted held-out-genus RMSE",
+    "positive_signal_rule": "Embedding test R2 > 0 and 95% genus-bootstrap interval for RMSE improvement entirely above 0",
+    "interpretation": "Predictive association on genera held out from probe fitting, not pretraining novelty, independent anatomical validation, or a causal SAE trait",
+    "execution": "CPU only; no image generation, SAE fitting, BioCLIP updates or TaxaAdapter updates"
+  },
+  "hardware": "CPU only",
+  "sae_training": false,
+  "fitted_models": [
+    "linear ridge probe",
+    "hierarchical taxonomy means"
+  ],
+  "selected_ridge_alpha": 1,
+  "selected_family_pseudocount": 0,
+  "selected_order_pseudocount": 64,
+  "test": {
+    "embedding_ridge": {
+      "n": 774,
+      "genera": 197,
+      "rmse": 0.27178544131360777,
+      "mae": 0.19656856528554065,
+      "mse": 0.07386732611003254,
+      "r2": 0.6559081734775605,
+      "genus_macro_mse": 0.08805877392589748
+    },
+    "taxonomy_baseline": {
+      "n": 774,
+      "genera": 197,
+      "rmse": 0.26095377535753583,
+      "mae": 0.17873666607583732,
+      "mse": 0.06809687287335127,
+      "r2": 0.6827883368547252,
+      "genus_macro_mse": 0.07530299801979853
+    },
+    "training_mean": {
+      "n": 774,
+      "genera": 197,
+      "rmse": 0.46396027458904343,
+      "mae": 0.329041208736807,
+      "mse": 0.2152591363967406,
+      "r2": -0.002728991544442838,
+      "genus_macro_mse": 0.22995930517460983
+    }
+  },
+  "embedding_rmse_improvement_over_taxonomy": {
+    "estimate": -0.010831665956071934,
+    "genus_bootstrap_95_percent_interval": [
+      -0.05664150529193129,
+      0.03917718884716502
+    ]
+  },
+  "embedding_mse_improvement_over_taxonomy": -0.005770453236681261,
+  "positive_signal_rule_passed": false,
+  "validation_seconds": 1.8068311214447021,
+  "input_sha256": {
+    "manifest": "f626f2034e6c2a6af83d767b4da240c8c528727bd9b56e83a8cd8d208c68518a",
+    "embeddings": "b285d4e729b40cc4a445d6c0ae213ff77e33b3288495cb06c064ca80bc35d563",
+    "labels": "b4bc593ca35f22e093886df18cc6f3fc95ac1221bd1408160ad1fd515febb930",
+    "protocol": "f490cff308b0ee135637aad32c79f470ee3f5ae5bada16444c3f95f580e370b0",
+    "evaluation_script": "8822645b58f4ec10dba8ca404d1bbd3ff914cb748006a37aa1460bac020aaddf"
+  }
+}

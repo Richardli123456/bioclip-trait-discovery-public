@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "date": "2026-10-04",
+  "selection_timing": "Locked before completed expanded-SAE stability results",
+  "eligibility": "Pass existing SAE recurrence gate; positive activity on >=30 labelled training birds from >=10 genera and >=3 families",
+  "training_rank": "Absolute Pearson correlation after subtracting each training family's mean from both activation and trait, over all labelled training birds; exact ties use smaller feature ID",
+  "ordinary_correlations": "Reported alongside family-centered correlations without changing ranking",
+  "candidate_count": 1,
+  "validation_statistic": "Pearson correlation after subtracting each validation family's mean from activation and trait, over all labelled validation birds",
+  "bootstrap": {
+    "unit": "Validation genus; sampled with replacement, retaining all constituent species",
+    "family_means": "Recomputed within each bootstrap sample, including multiplicities",
+    "resamples": 2000,
+    "seed": 20261005,
+    "required_defined_resamples": 1900,
+    "interval": "2.5th and 97.5th percentiles of defined resample correlations"
+  },
+  "confirmation": "At least1900 defined resamples, interval excludes zero in the training-selected direction, and validation point estimate has that direction",
+  "test_trait_labels": "Not used in candidate ranking, validation, confirmation, exemplars or output",
+  "negative_policy": "No eligible stable feature or failed validation is retained; no new handpicked candidate",
+  "interpretation": "Exploratory association confirmation only: SAE model selection and raw-vector probe used validation data, and raw-probe evidence beyond taxonomy failed"
+}

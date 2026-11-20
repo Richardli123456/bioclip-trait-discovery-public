@@ -1,0 +1,186 @@
+{
+  "files": [
+    {
+      "id": 34480856,
+      "name": "AVONET Supplementary dataset 1.xlsx",
+      "size": 21524673,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/34480856",
+      "supplied_md5": "1445afdcfb6df784010c2ca034544bc8",
+      "computed_md5": "1445afdcfb6df784010c2ca034544bc8",
+      "mimetype": "undefined"
+    },
+    {
+      "id": 34480862,
+      "name": "Supplementary dataset 2.xlsx",
+      "size": 1241301,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/34480862",
+      "supplied_md5": "7aaddac5a05d6123d6e91df3158eef7f",
+      "computed_md5": "7aaddac5a05d6123d6e91df3158eef7f",
+      "mimetype": "undefined"
+    },
+    {
+      "id": 38429873,
+      "name": "ELEData.zip",
+      "size": 17758930,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/38429873",
+      "supplied_md5": "ab2db72c48e0200a697c88d95e362380",
+      "computed_md5": "ab2db72c48e0200a697c88d95e362380",
+      "mimetype": "application/zip"
+    },
+    {
+      "id": 38429885,
+      "name": "ELECode.zip",
+      "size": 38817,
+      "is_link_only": false,
+      "download_url": "https://ndownloader.figshare.com/files/38429885",
+      "supplied_md5": "f7d3ac68e76bb991324388fd7988994b",
+      "computed_md5": "f7d3ac68e76bb991324388fd7988994b",
+      "mimetype": "application/zip"
+    }
+  ],
+  "folder_structure": {},
+  "authors": [
+    {
+      "id": 11406668,
+      "full_name": "Joseph Tobias",
+      "first_name": "Joseph",
+      "last_name": "Tobias",
+      "is_active": true,
+      "url_name": "Joseph_Tobias",
+      "orcid_id": ""
+    }
+  ],
+  "custom_fields": [],
+  "figshare_url": "https://figshare.com/articles/dataset/AVONET_morphological_ecological_and_geographical_data_for_all_birds_Tobias_et_al_2021_Ecology_Letters_/16586228",
+  "download_disabled": false,
+  "description": "The AVONET database contains comprehensive functional trait data for all birds, including six ecological variables, eleven continuous morphological traits, and information on range size and location. Raw morphological measurements are available from 90020 individuals of 11009 extant bird species sampled from 181 countries. These data are also summarised as species averages in three taxonomic formats, allowing integration with a global phylogeny, geographical range maps, IUCN Red List data, and the eBird citizen science database. <div><br></div><div>The full AVONET dataset including raw morphological measurements as well as species averages for each taxonomy is provided in 'AVONET Supplementary dataset 1' </div><div><br></div><div>Data on duplicate measurements for a subset of individuals are provided in 'Supplementary dataset 2'</div><div><br></div><div>Data and Code to reproduce the analyses and figures presented in Tobias et al 2022 (Ecology Letters doi: https://doi.org/10.111/ele.13898) is included in the 'ELEData' and 'ELECode' zip files.<div><br></div><div><br></div></div>",
+  "funding": "Structure, function and resilience of avian communities in tropical ecosystems",
+  "funding_list": [
+    {
+      "id": 1431572,
+      "title": "Structure, function and resilience of avian communities in tropical ecosystems",
+      "grant_code": "NE/I028068/1",
+      "funder_name": "Natural Environment Research Council",
+      "is_user_defined": 0,
+      "url": "https://app.dimensions.ai/details/grant/grant.2754241"
+    },
+    {
+      "id": 10206998,
+      "title": "AFIRE - Assessing ENSO-induced Fire Impacts in tropical Rainforest Ecosystems",
+      "grant_code": "NE/P004512/1",
+      "funder_name": "UK Research and Innovation",
+      "is_user_defined": 0,
+      "url": "https://app.dimensions.ai/details/grant/grant.5125836"
+    },
+    {
+      "id": 12502568,
+      "title": "GCRF: Social and Environmental Trade-offs in African Agriculture",
+      "grant_code": "ES/P011306/1",
+      "funder_name": "UK Research and Innovation",
+      "is_user_defined": 0,
+      "url": "https://app.dimensions.ai/details/grant/grant.7084434"
+    }
+  ],
+  "version": 7,
+  "status": "public",
+  "size": 40563721,
+  "created_date": "2022-12-05T16:56:26Z",
+  "modified_date": "2022-12-05T16:56:37Z",
+  "is_public": true,
+  "is_confidential": false,
+  "is_metadata_record": false,
+  "confidential_reason": "",
+  "metadata_reason": "",
+  "license": {
+    "value": 1,
+    "name": "CC BY 4.0",
+    "url": "https://creativecommons.org/licenses/by/4.0/"
+  },
+  "tags": [
+    "Avian traits",
+    "continuous variables",
+    "ecomorphology",
+    "data integration",
+    "functional diversity",
+    "macroevolution",
+    "macroecology",
+    "trait-based ecology"
+  ],
+  "keywords": [
+    "Avian traits",
+    "continuous variables",
+    "ecomorphology",
+    "data integration",
+    "functional diversity",
+    "macroevolution",
+    "macroecology",
+    "trait-based ecology"
+  ],
+  "categories": [
+    {
+      "id": 24238,
+      "title": "Ecology not elsewhere classified",
+      "parent_id": 24211,
+      "path": "/24130/24211/24238",
+      "source_id": "310399",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24280,
+      "title": "Evolutionary biology not elsewhere classified",
+      "parent_id": 24241,
+      "path": "/24130/24241/24280",
+      "source_id": "310499",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24247,
+      "title": "Biogeography and phylogeography",
+      "parent_id": 24241,
+      "path": "/24130/24241/24247",
+      "source_id": "310402",
+      "taxonomy_id": 100
+    },
+    {
+      "id": 24430,
+      "title": "Animal structure and function",
+      "parent_id": 24397,
+      "path": "/24130/24397/24430",
+      "source_id": "310911",
+      "taxonomy_id": 100
+    }
+  ],
+  "references": [],
+  "has_linked_file": false,
+  "citation": "Tobias, Joseph (2021). AVONET: morphological, ecological and geographical data for all birds (Tobias et al 2022 Ecology Letters doi: https://doi.org/10.111/ele.13898). figshare. Dataset. https://doi.org/10.6084/m9.figshare.16586228.v7",
+  "related_materials": [],
+  "is_embargoed": false,
+  "embargo_date": null,
+  "embargo_type": "file",
+  "embargo_title": "",
+  "embargo_reason": "",
+  "embargo_options": [],
+  "id": 16586228,
+  "title": "AVONET: morphological, ecological and geographical data for all birds (Tobias et al 2022 Ecology Letters doi: https://doi.org/10.111/ele.13898)",
+  "doi": "10.6084/m9.figshare.16586228.v7",
+  "handle": "",
+  "url": "https://api.figshare.com/v2/articles/16586228",
+  "published_date": "2022-12-05T16:56:26Z",
+  "thumb": "",
+  "defined_type": 3,
+  "defined_type_name": "dataset",
+  "group_id": null,
+  "url_private_api": "https://api.figshare.com/v2/account/articles/16586228",
+  "url_public_api": "https://api.figshare.com/v2/articles/16586228",
+  "url_private_html": "https://figshare.com/account/articles/16586228",
+  "url_public_html": "https://figshare.com/articles/dataset/AVONET_morphological_ecological_and_geographical_data_for_all_birds_Tobias_et_al_2021_Ecology_Letters_/16586228",
+  "timeline": {
+    "posted": "2022-12-05T16:56:26",
+    "firstOnline": "2021-09-08"
+  },
+  "resource_title": null,
+  "resource_doi": null
+}

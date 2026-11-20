@@ -1,0 +1,32 @@
+{
+  "purpose": "Blinded exploratory assessment of whether visible spot counts are scorable in the 28 existing ladybird images; no biological validation or confirmatory effect claim.",
+  "new_training": false,
+  "new_generation": false,
+  "annotation_type": "AI visual assessment, not expert human ground truth",
+  "blindness": "Sheets show only arbitrary IDs. Annotators must not open blind_key.json or original condition-named images.",
+  "primary_readiness_endpoint": "Fraction scorable for a visible dark elytral spot count under the fixed rules below.",
+  "scorable_rules": [
+    "Exactly one recognizable focal ladybird, body at least 100 pixels in its longest dimension in the 512px original.",
+    "Both wing cases mostly visible in a dorsal or near-dorsal view; no major occlusion, truncation, or wing opening.",
+    "Wing cases have a recognizable red/orange/yellow background and distinguishable dark markings.",
+    "Count only separate visible dark patches on wing cases; exclude the head, pronotum, legs, central seam and continuous dark edge.",
+    "One connected dark patch crossing the seam counts as one visible patch; do not infer hidden or fused spots.",
+    "If separation is ambiguous, record uncertain and no numeric count. Do not force an expected species count."
+  ],
+  "fields": [
+    "blind_id",
+    "scorable",
+    "visible_spots",
+    "reason",
+    "bbox_xyxy",
+    "confidence"
+  ],
+  "bbox_rule": "Approximate tight box around the focal animal including appendages, in original 512x512 pixel coordinates. Null if no recognizable single animal.",
+  "limitations": [
+    "Existing images were generated before this measurement rule; exploratory only.",
+    "AI annotators are not independent biological experts.",
+    "Scorability may depend on the intervention and must be reported by condition after unblinding."
+  ],
+  "source_manifest_sha256": "9fd6dee4299e61668a06db117fbd48f8b70146442fa9c64639e117d3398fa60a",
+  "shuffle_seed": 20261004
+}

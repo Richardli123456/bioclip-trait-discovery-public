@@ -1,0 +1,11 @@
+scientific_name,common_name,source_pattern_summary,fixed_dark_count,status,reason,source_url
+Coccinella septempunctata,7-spot,7 dark,7,reference_phenotype_only,Single usable fixed dark-count reference,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Harmonia axyridis,Harlequin,0-21; several colors,,excluded_variable,Polymorphic,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Adalia bipunctata,2-spot,2 dark or 2/4/6 red,,excluded_variable,Color morph changes count,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Adalia decempunctata,10-spot,variable,,excluded_variable,Common name not a fixed count,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Anatis ocellata,Eyed,usually 15 dark,,excluded_variable,Typical rather than invariant,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Halyzia sedecimguttata,Orange,12 or 16 white,,excluded_light_and_variable,Not dark spots,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Calvia quatuordecimguttata,Cream-spot,14 cream,,excluded_light,Not dark spots,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Propylea quatuordecimpunctata,14-spot,usually 14; fusion,,excluded_variable,Fused marks complicate count,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Psyllobora vigintiduopunctata,22-spot,20 or 22 dark,,excluded_variable,Not invariant,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf
+Exochomus quadripustulatus,Pine,4 red,,excluded_light,Not dark spots,https://www.coleoptera.org.uk/sites/default/files/Ladybird%20descriptions_Info%20pack_NEW_v.5.pdf

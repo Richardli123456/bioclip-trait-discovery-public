@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "checked_on": "2026-10-02",
+  "browser": "Codex in-app browser",
+  "checks": [
+    "Species, image-seed and condition selectors update the displayed records",
+    "Next step changes exactly one displayed bridge coordinate",
+    "End key reaches step 49 with zero remaining target-code distance and disabled Next button",
+    "Previous step returns to step 48 and enables Next",
+    "Bridge seed selector updates source/target alignment and images",
+    "All five rendered image elements loaded at 512x512",
+    "No browser console errors were reported"
+  ],
+  "viewer_sha256": "27cd5e2e4c708aaecfa9f3b6be4da0571a2711566e23502613f34a10674e4082",
+  "local_report_links_checked": 64,
+  "training_performed": false
+}

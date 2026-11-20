@@ -1,0 +1,59 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 9424,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        7251,
+        559248,
+        9405,
+        9424
+      ],
+      "is_active": true,
+      "name": "Pipilo erythrophthalmus",
+      "parent_id": 9405,
+      "ancestry": "48460/1/2/355675/3/7251/559248/9405",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 45584021,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Terry Sohl, some rights reserved (CC BY-NC), uploaded by Terry Sohl",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45584021/square.jpg",
+        "original_dimensions": {
+          "height": 707,
+          "width": 930
+        },
+        "flags": [],
+        "attribution_name": "Terry Sohl",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45584021/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45584021/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 9,
+      "observations_count": 45686,
+      "flag_counts": {
+        "resolved": 1,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": 12731,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Eastern_towhee",
+      "complete_rank": "subspecies",
+      "matched_term": "Pipilo erythrophthalmus",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Eastern Towhee"
+    }
+  ]
+}

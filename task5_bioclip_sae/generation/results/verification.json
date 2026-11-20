@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checks": [
+    "Dimensions, finite values, nonnegative codes and 32 active features",
+    "Whole-genus split isolation",
+    "All reconstruction metrics independently recomputed in NumPy float64",
+    "Aligned checkpoint reload reproduces saved codes and reconstructions on CPU",
+    "Pinned official code and checkpoint SHA256 hashes match",
+    "Eight 512x512 generated images match recorded checksums and condition/seed coverage",
+    "Runtime recorded exact equivalence of the original projection and precomputed-vector path",
+    "Runtime verified the expected decoder direction for the selected-feature edits"
+  ],
+  "not_established": [
+    "Causal specificity of a biological trait",
+    "Cross-species or multi-seed stability beyond this pilot"
+  ],
+  "comparison_sha256": "41a11de423d4520a25ce3cba4a864f481f78268d9012dd6a8ca35fb698b20e36"
+}

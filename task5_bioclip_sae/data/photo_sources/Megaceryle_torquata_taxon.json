@@ -1,0 +1,60 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 2552,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        2114,
+        2314,
+        1542374,
+        2547,
+        2552
+      ],
+      "is_active": true,
+      "name": "Megaceryle torquata",
+      "parent_id": 2547,
+      "ancestry": "48460/1/2/355675/3/2114/2314/1542374/2547",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 29962569,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Amelia Ryan, some rights reserved (CC BY-NC), uploaded by Amelia Ryan",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29962569/square.jpg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Amelia Ryan",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29962569/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/29962569/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 9,
+      "observations_count": 17298,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Ringed_kingfisher",
+      "complete_rank": "subspecies",
+      "matched_term": "Megaceryle torquata",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Ringed Kingfisher"
+    }
+  ]
+}

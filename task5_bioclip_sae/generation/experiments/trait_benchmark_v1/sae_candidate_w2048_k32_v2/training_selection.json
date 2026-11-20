@@ -1,0 +1,9 @@
+{
+  "feature": 506,
+  "active_training_species": 184,
+  "active_training_genera": 52,
+  "active_training_families": 18,
+  "ordinary_training_r": -0.01145621417521387,
+  "within_family_training_r": -0.15027213674350862,
+  "eligible": true
+}

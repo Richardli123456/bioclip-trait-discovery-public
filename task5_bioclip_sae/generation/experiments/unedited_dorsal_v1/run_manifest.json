@@ -1,0 +1,38 @@
+{
+  "status": "completed",
+  "training_performed": false,
+  "model_updates": false,
+  "model_state_sha256": {
+    "0_CLIP": "2dd75d27da1d912a660cdf4594e0e575b3ef8e1d4a8882811726d04ae29f7b91",
+    "1_UNet2DConditionModel": "9c3977a596fc70c259f78213a4fa51c9071857dbe8fdf06457a27cb3ddeeda5c",
+    "2_AutoencoderKL": "d1be034cf9189d05f18b2b1b64e328cd135d3e79a1d4491b514a16456839d84a",
+    "3_CLIPTextModel": "de4847aeb43f1b58ce3f618f1e5ee9104750a996d3d52494c8d0f50c2e9f7f03",
+    "4_ImageProjModel": "2b995b93f2f97bf67f724351511aa251512867f08050a08a677baee438266fbd"
+  },
+  "all_model_state_hashes_unchanged": true,
+  "all_input_hashes_unchanged": true,
+  "frozen_parameter_assertions_passed": true,
+  "image_count": 32,
+  "image_sha256_checks_passed": true,
+  "human_scoring_status": "blank; requires actual human review",
+  "ai_scoring_performed": false,
+  "generation_seconds": 68.17946050001774,
+  "elapsed_seconds": 100.53267459999188,
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "minimum_free_mib": 20857,
+  "maximum_temperature_c": 60,
+  "hardware_guard_triggered": false,
+  "official_embedding_cosine": 0.9999992847442627,
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "numpy": "2.3.2",
+    "diffusers": "0.29.2",
+    "transformers": "4.41.2",
+    "open_clip_torch": "3.3.0"
+  },
+  "script_sha256": {
+    "run_unedited_baseline.py": "84f6e7c45d0806efc778bfae7a01948667dd5405fd7f864c853c13ff4add13f6",
+    "run_frozen_experiments.py": "00cce493bf59b9a6c4350f782d5045e2e7df7b9a2acae581648f16492e0496f8",
+    "run_interventions.py": "db430bcd68009996c398e464fa4d4d480f34605484d4e10259e6e8362d709199"
+  }
+}

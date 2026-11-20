@@ -1,0 +1,60 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 2679,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        2114,
+        2314,
+        1542374,
+        2668,
+        2679
+      ],
+      "is_active": true,
+      "name": "Chloroceryle amazona",
+      "parent_id": 2668,
+      "ancestry": "48460/1/2/355675/3/2114/2314/1542374/2668",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 170123283,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Estaci\u00f3n Biol\u00f3gica Las Guacamayas, some rights reserved (CC BY-NC), uploaded by Estaci\u00f3n Biol\u00f3gica Las Guacamayas",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170123283/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Estaci\u00f3n Biol\u00f3gica Las Guacamayas",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170123283/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/170123283/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 8,
+      "observations_count": 9822,
+      "flag_counts": {
+        "resolved": 1,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Amazon_kingfisher",
+      "complete_rank": "subspecies",
+      "matched_term": "Chloroceryle amazona",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Amazon Kingfisher"
+    }
+  ]
+}

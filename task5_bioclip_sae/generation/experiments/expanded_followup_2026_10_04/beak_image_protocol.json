@@ -1,0 +1,28 @@
+{
+  "date":"2026-10-04",
+  "status":"fixed_before_candidate_result_and_before_any_beak_images",
+  "prerequisite":"The single training-selected stable SAE feature must pass its prespecified validation association check. The negative raw-vector taxonomy comparison remains disclosed.",
+  "species_selection":"Highest-activation labelled training species for the selected feature; scientific-name order breaks ties. The second-species replication, if reached, uses the highest-activation species from a different genus.",
+  "prompt":"best quality, high quality, close-up profile photograph of the head of a single adult bird, seen directly from the side, closed beak, entire head and beak visible, sharp focus",
+  "prompt_scope":"Names no species or beak elongation/size; taxonomy vector supplies species conditioning.",
+  "generator":"Frozen released TreeOfLife-1M TaxaAdapter and pinnedSD1.5,512x512,50DDIMsteps,guidance6,adapter1",
+  "calibration":{"conditions":["original"],"image_seeds":[3000,3001,3002,3003,3004,3005,3006,3007],"feasibility_gate":"At least6of8 images have an eligible and measurable endpoint. Otherwise record failure and stop this image-trait branch."},
+  "measurement":{
+    "review":"One provisional AI screening pass using blind image IDs, separate from blank human scoring; no expert or independent-human claim.",
+    "eligibility":"Single recognizable bird head, strict side profile, closed intact beak, complete tip and nasal opening visible, no substantial occlusion or glare over landmarks. Uncertain anatomy or view givesNA.",
+    "landmarks":"Visible near-side nostril center, beak tip, upper beak surface at nostril level, lower beak surface at nostril level. All4 must be identifiable; do not infer hidden landmarks.",
+    "endpoint":"ln(pixel distance nostril-to-tip / pixel distance upper-to-lower surface at nostril level). Treat as an image proxy for the published morphology, not a calibrated physical measurement.",
+    "uncertainty":"Record image eligibility, coordinates, confidence notes andNA separately. Never substitute zero or infer an unseen nostril. Approximate pixel placements and projection remain limitations.",
+    "animal_focus":"Use the bird-head region and landmark distances, not a whole-image embedding score. Retain original pixels with optional display-only overlays."
+  },
+  "controlled_pilot":{
+    "seeds":[3000,3001,3002,3003,3004,3005,3006,3007],
+    "conditions":["original","reconstruction","remove_residual","half_residual","double_residual","other_active_feature_removed","matched_norm_random_control"],
+    "controls":"Pairedimage seeds and allgeneration settings fixed. Otheractive feature chosen beforegeneration byclosest full-removal norm. Fixed orthogonalrandom direction matched to candidate-removal norm. Allfeature edits preserve original reconstruction residual.",
+    "blinding":"Randomizeall56images and freezeAIannotationsbeforeunblinding conditions.",
+    "promising_gate":"At least6paired seeds measurable in original/remove/half/double/random conditions, at least6of8 seeds with expected-signed double-minus-remove effect, and2000paired-seedbootstrap95%interval for expected-signed mean(double-minus-remove) entirelypositive. Expected sign comes only from the training trait association. Record control effects and reject if pose/anatomy changes explain the measurements.",
+    "interpretation":"A passing provisional screen warrants replication; it does not establish a causal biological trait. A failed screen is retained, without selecting another feature after looking at images."
+  },
+  "conditional_replication":"If pilot passes,32freshpaired image seeds4000-4031 for the primary species, then the preselecteddifferent-genus species and matchedfeature inSAEseed1. Preserve missingness,paired estimates andcontrols. Human validation remains deferred.",
+  "hardware_stop":"OOM/CUDA error,temperature>=88C,or freeVRAM<2048MiB stopsGPUwork withoutautomaticretry."
+}

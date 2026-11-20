@@ -1,0 +1,154 @@
+{
+  "repo_id": "imageomics/bioclip-2",
+  "revision": "2957b322090f9cb17ae72c71981c7218a28d81e0",
+  "created_utc": "2026-09-27T23:22:18.472346+00:00",
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "python": "3.12.14",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "numpy": "2.3.2",
+    "open_clip_torch": "3.3.0",
+    "huggingface_hub": "2.0.0",
+    "safetensors": "0.8.0"
+  },
+  "shape": [
+    20,
+    768
+  ],
+  "dtype": "float32",
+  "precision": "fp32; TF32 disabled",
+  "checkpoint_sha256": "b7b2bf6fbc95799e42630e394cf95803892ab447c1a8ab629dbc82fbeaf7dfef",
+  "taxonomy_file_sha256": "3336b005ae70dcbbaa32582b6b4450d539554d19bf41204abb5397b4f2656fa6",
+  "embedding_sha256": "4a74a6223c231065aa97e44f8b7fb007b084db33aa659bdeb3b900a4b89b2ec8",
+  "prompt_format": "Kingdom, Phylum, Class, Order, Family, Genus, specific epithet",
+  "pooling": "OpenCLIP encode_text: pooled end-of-text representation followed by text_projection",
+  "input_names": [
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, passerina",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, pallida",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, breweri",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, pusilla",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, atrogularis",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Spizella, wortheni",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, leucophrys",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, albicollis",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, querula",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, capensis",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Zonotrichia, atricapilla",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Junco, hyemalis",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Junco, phaeonotus",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Junco, vulcani",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Melospiza, melodia",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Melospiza, lincolnii",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Melospiza, georgiana",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Pipilo, erythrophthalmus",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Pipilo, maculatus",
+    "Animalia, Chordata, Aves, Passeriformes, Passerellidae, Pipilo, chlorurus"
+  ],
+  "row_order": [
+    "Spizella passerina",
+    "Spizella pallida",
+    "Spizella breweri",
+    "Spizella pusilla",
+    "Spizella atrogularis",
+    "Spizella wortheni",
+    "Zonotrichia leucophrys",
+    "Zonotrichia albicollis",
+    "Zonotrichia querula",
+    "Zonotrichia capensis",
+    "Zonotrichia atricapilla",
+    "Junco hyemalis",
+    "Junco phaeonotus",
+    "Junco vulcani",
+    "Melospiza melodia",
+    "Melospiza lincolnii",
+    "Melospiza georgiana",
+    "Pipilo erythrophthalmus",
+    "Pipilo maculatus",
+    "Pipilo chlorurus"
+  ],
+  "token_lengths": [
+    28,
+    27,
+    27,
+    28,
+    29,
+    28,
+    30,
+    30,
+    28,
+    28,
+    29,
+    27,
+    29,
+    27,
+    27,
+    28,
+    28,
+    30,
+    28,
+    27
+  ],
+  "raw_norm_range": [
+    17.61005401611328,
+    23.133386611938477
+  ],
+  "batch_vs_single_max_absolute_difference": 5.7220458984375e-06,
+  "top1_same_genus_count": 20,
+  "top3_same_genus_count": 49,
+  "strongest_pairs": [
+    [
+      0.945232629776001,
+      "Junco hyemalis",
+      "Junco phaeonotus"
+    ],
+    [
+      0.9240220785140991,
+      "Junco hyemalis",
+      "Junco vulcani"
+    ],
+    [
+      0.9114997386932373,
+      "Zonotrichia leucophrys",
+      "Zonotrichia atricapilla"
+    ],
+    [
+      0.9097571969032288,
+      "Spizella pallida",
+      "Spizella pusilla"
+    ],
+    [
+      0.9070535898208618,
+      "Spizella pallida",
+      "Spizella wortheni"
+    ],
+    [
+      0.906266987323761,
+      "Spizella breweri",
+      "Spizella wortheni"
+    ],
+    [
+      0.9045097827911377,
+      "Spizella passerina",
+      "Spizella wortheni"
+    ],
+    [
+      0.9037543535232544,
+      "Zonotrichia leucophrys",
+      "Zonotrichia querula"
+    ],
+    [
+      0.9022167325019836,
+      "Spizella pusilla",
+      "Spizella wortheni"
+    ],
+    [
+      0.9011037349700928,
+      "Zonotrichia querula",
+      "Zonotrichia atricapilla"
+    ]
+  ],
+  "elapsed_seconds": 17.935967700002948,
+  "scope": "20 hand-selected Passerellidae species; neighbors only within this subset. No classification benchmark, SAE training, trait validation, or TaxaAdapter inference."
+}

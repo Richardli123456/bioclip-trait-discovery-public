@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Chipping sparrow",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Chipping sparrow</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q645203",
+  "titles": {
+    "canonical": "Chipping_sparrow",
+    "normalized": "Chipping sparrow",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Chipping sparrow</span></span>"
+  },
+  "pageid": 342539,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/Spizella-passerina-015_edit.jpg/330px-Spizella-passerina-015_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 220
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/2/29/Spizella-passerina-015_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 3504,
+    "height": 2336
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1373949742",
+  "tid": "252a23b7-abd8-11f1-9234-4395c7420654",
+  "timestamp": "2026-09-08T22:53:45Z",
+  "description": "Species of bird",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Chipping_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Chipping_sparrow?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Chipping_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Chipping_sparrow"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Chipping_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Chipping_sparrow",
+      "edit": "https://en.wikipedia.org/wiki/Chipping_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Chipping_sparrow"
+    }
+  },
+  "extract": "The chipping sparrow is a species of New World sparrow, a passerine bird in the family Passerellidae. It is widespread, fairly tame, and common across most of its North American range.",
+  "extract_html": "<p>The <b>chipping sparrow</b> is a species of New World sparrow, a passerine bird in the family Passerellidae. It is widespread, fairly tame, and common across most of its North American range.</p>"
+}

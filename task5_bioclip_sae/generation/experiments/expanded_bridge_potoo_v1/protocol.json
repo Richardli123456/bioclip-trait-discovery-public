@@ -1,0 +1,41 @@
+{
+  "training_performed": false,
+  "model_updates": false,
+  "source": "Nyctibius griseus",
+  "target": "Nyctibius grandis",
+  "seeds": [
+    2000,
+    2001
+  ],
+  "prompt": "best quality, high quality, photograph of a single bird perched, whole body visible, centered, sharp focus",
+  "negative_prompt": "monochrome, lowres, bad anatomy, worst quality, low quality",
+  "steps": 50,
+  "guidance_scale": 6.0,
+  "adapter_scale": 1.0,
+  "resolution": [
+    512,
+    512
+  ],
+  "image_count": 96,
+  "plan_sha256": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_overlap_v2\\bridge_plan.json": "25120530aa3df30a5fc861902b958f4fb97df7cc052d9e2ed1bc07b14457cac1",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_overlap_v2\\bridge_vectors.npy": "d36b5236624513f9f4c239d1c8b24dd2a66ff41f4219e801b7bf796303969359",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\adapter\\taxaadapter_tol-1m.bin": "fca2ed741122930e3b636a55016cf03b22334ce6b079a7c8f4d70c36ee3e367c",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\assets.json": "923cf05112146433743dc4a77ac2d8e5a27ba006b945642f8f3340650d694488",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\upstream\\taxa_adapter\\__init__.py": "97565b274275480fff3e3c4f7d61ae6f14ce76bb4ff02fd027f2cde2a9a26ac2",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\upstream\\taxa_adapter\\attention_processor.py": "3c7fa095d8c1704dde0b0cd3cb68e18faba6aa45913da5dd779f2a54f7908501",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\upstream\\taxa_adapter\\resampler.py": "f651b8bfee690c988b202522aa4849f32271228ba49da873858ae44f3df4be8a",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\upstream\\taxa_adapter\\sd3_attention_processor.py": "0b2846320230cdcddf6e320f7d69f17ac1410b1b00571ea5fd18017e5b7dae40",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\upstream\\taxa_adapter\\taxa_adapter.py": "8f172048676cf2cc881949ca1136ac1fd99191fa1d6f97b349cd35fb8ac8e4b5",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\upstream\\taxa_adapter\\utils.py": "9b8a05a8ae7fb9c2b694b110b2c40072badcdbfd5b78c646fbf5f84e99adcbc3"
+  },
+  "record_selection": "All saved states and references for the prespecified source; no image-based selection",
+  "kind": "bridge",
+  "interpretation": "Exploratory representation bridge, not a biological trait intervention test",
+  "script_sha256": {
+    "render_expanded_bridge.py": "253e3a3bcbe376a5b76a11f266c1adc853e9e25cb9ce1c0ae8c75667eff8bd96",
+    "run_frozen_experiments.py": "00cce493bf59b9a6c4350f782d5045e2e7df7b9a2acae581648f16492e0496f8",
+    "run_interventions.py": "db430bcd68009996c398e464fa4d4d480f34605484d4e10259e6e8362d709199",
+    "run_unedited_baseline.py": "84f6e7c45d0806efc778bfae7a01948667dd5405fd7f864c853c13ff4add13f6"
+  }
+}

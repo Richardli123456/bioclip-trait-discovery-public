@@ -1,0 +1,16 @@
+{
+  "source_rows": 5,
+  "source_sha256": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_followup_2026_10_07\\tail_candidate_v1\\summary.json": "666e0ba7cfd983535aada4ff2812400c0ad3f7a7a4b36f3376770e27e95fa95a",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_followup_2026_10_07\\protocol.json": "95e68ac67c67320402b7d4f1375a34f963491d20338e1803a02486fb467721bb"
+  },
+  "plot_script_sha256": "b1ff65b68d029cc1940d3578f9bba9559c2432697ec621f0aaae23f76d9420ce",
+  "plotting_library": "Matplotlib 3.10.5",
+  "outputs_sha256": {
+    "tail_validation_evidence.png": "218887a59eebcd3b1bb0bed5b8ee15b98f8397e7cba9aaaeea32373256613d1e",
+    "tail_validation_evidence.pdf": "9a6d19d1432e78e647bc937c54cc01272866a7b7ce3668e7c206ca1df96660a3"
+  },
+  "new_fits": false,
+  "new_image_generation": false,
+  "notes": "Figures use saved results. Missing observations remain separate, interval units are explicit, and negative confirmation outcomes are preserved."
+}

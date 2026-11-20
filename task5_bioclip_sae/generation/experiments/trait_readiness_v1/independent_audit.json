@@ -1,0 +1,530 @@
+{
+  "status": "passed",
+  "completed_utc": "2026-10-04T07:01:11.846559+00:00",
+  "scope": "Independent CPU-only review of preparation/summarization source and saved artifacts; no inference, training, or annotation changes.",
+  "checks": {
+    "source_manifest_hash_matches": true,
+    "shuffle_and_every_metadata_field_reproduced": true,
+    "unique_28_ids_each_reviewer": true,
+    "locked_annotation_and_key_hashes_match": true,
+    "every_blind_copy_source_and_record_hash_matches": true,
+    "all_blind_pngs_no_embedded_condition_metadata": true,
+    "all28_full_resolution_sheet_cells_pixel_exact": true,
+    "all28_native_crops_union_5percent_padding_pixel_exact": true,
+    "scorability_count_statistics_recomputed": true,
+    "every_condition_table_recomputed": true,
+    "paired_counts_omit_missing_and_never_impute_zero": true,
+    "all28_unblinded_metadata_and_consensus_match": true,
+    "unscorable_counts_are_null_not_zero": true
+  },
+  "recomputed_statistics": {
+    "reviewer_a_scorable": 8,
+    "reviewer_b_scorable": 8,
+    "scorability_agreement": 26,
+    "both_scorable": 7,
+    "exact_count_agreement": 7,
+    "scorability_disagreement_ids": [
+      "B016",
+      "B021"
+    ],
+    "both_scorable_ids": [
+      "B002",
+      "B004",
+      "B009",
+      "B020",
+      "B022",
+      "B023",
+      "B024"
+    ],
+    "paired_counts": [
+      {
+        "condition": "control_remove_residual",
+        "eligible_consensus_pairs": 1,
+        "differences": [
+          {
+            "seed": 42,
+            "difference": 0
+          }
+        ]
+      },
+      {
+        "condition": "double_residual",
+        "eligible_consensus_pairs": 1,
+        "differences": [
+          {
+            "seed": 42,
+            "difference": 0
+          }
+        ]
+      },
+      {
+        "condition": "half_residual",
+        "eligible_consensus_pairs": 1,
+        "differences": [
+          {
+            "seed": 42,
+            "difference": 0
+          }
+        ]
+      },
+      {
+        "condition": "random_direction_control",
+        "eligible_consensus_pairs": 0,
+        "differences": []
+      },
+      {
+        "condition": "reconstruction",
+        "eligible_consensus_pairs": 1,
+        "differences": [
+          {
+            "seed": 42,
+            "difference": 0
+          }
+        ]
+      },
+      {
+        "condition": "remove_residual",
+        "eligible_consensus_pairs": 1,
+        "differences": [
+          {
+            "seed": 42,
+            "difference": 0
+          }
+        ]
+      }
+    ]
+  },
+  "crop_checks": [
+    {
+      "blind_id": "B001",
+      "bbox": [
+        135,
+        56,
+        277,
+        400
+      ],
+      "native_dimensions": [
+        142,
+        344
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "053a55d271b4175958ca48a85c1e69d311a60c2514dfe211e2f8f88da07b3c54"
+    },
+    {
+      "blind_id": "B002",
+      "bbox": [
+        113,
+        176,
+        355,
+        322
+      ],
+      "native_dimensions": [
+        242,
+        146
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "0c11aa72c362b5ad984b705f8665c55fe4da769b14629495842d659febc3f525"
+    },
+    {
+      "blind_id": "B003",
+      "bbox": [
+        143,
+        70,
+        374,
+        405
+      ],
+      "native_dimensions": [
+        231,
+        335
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "51ac0a80cd45f711a054a6c7a7d64d934769815706805a28ffd043bf92ea107d"
+    },
+    {
+      "blind_id": "B004",
+      "bbox": [
+        175,
+        207,
+        359,
+        351
+      ],
+      "native_dimensions": [
+        184,
+        144
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "0b4f47fb5f1f2411af869b3cc157395ff001988115887926975fef028c8edc6b"
+    },
+    {
+      "blind_id": "B005",
+      "bbox": [
+        121,
+        217,
+        324,
+        325
+      ],
+      "native_dimensions": [
+        203,
+        108
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "35fb85b2caa83d615f16566b70e4cb0869d92c9c3042a440bc7690b7bb9d6e6f"
+    },
+    {
+      "blind_id": "B006",
+      "bbox": [
+        133,
+        50,
+        305,
+        380
+      ],
+      "native_dimensions": [
+        172,
+        330
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "f3a02643b52ebf29551ea3af61b146567daaa5874fe9ca3e647c8e4e4ee70e1b"
+    },
+    {
+      "blind_id": "B007",
+      "bbox": [
+        169,
+        263,
+        298,
+        357
+      ],
+      "native_dimensions": [
+        129,
+        94
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "33a71a2891e7ab3031965ba1ae841e609c5330b060da420189b70c4306668211"
+    },
+    {
+      "blind_id": "B008",
+      "bbox": [
+        170,
+        254,
+        298,
+        359
+      ],
+      "native_dimensions": [
+        128,
+        105
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "fd968cf44054d4be98958bbebc33189cc1f0350f63596cb8c6d9105b8a0f010e"
+    },
+    {
+      "blind_id": "B009",
+      "bbox": [
+        171,
+        207,
+        359,
+        351
+      ],
+      "native_dimensions": [
+        188,
+        144
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "06afdc6ce93e6729fa02650b56d0403347e1af2c766f9009b855646948611f9d"
+    },
+    {
+      "blind_id": "B010",
+      "bbox": [
+        175,
+        255,
+        293,
+        356
+      ],
+      "native_dimensions": [
+        118,
+        101
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "3f8efbeb1548bc8627baefdf89c35270b85d6ede07f4e3a6e51af23e996a0ab7"
+    },
+    {
+      "blind_id": "B011",
+      "bbox": [
+        134,
+        53,
+        280,
+        404
+      ],
+      "native_dimensions": [
+        146,
+        351
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "5218cb8d567e4c63b3554e9a69c2ee8f518dc2d776b665caac2ff3d9fe1934d4"
+    },
+    {
+      "blind_id": "B012",
+      "bbox": [
+        193,
+        274,
+        295,
+        349
+      ],
+      "native_dimensions": [
+        102,
+        75
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "7cec11a0a7e046b9c8a99748b837a2b561ff9997cbcce7500996ec3648e9ada0"
+    },
+    {
+      "blind_id": "B013",
+      "bbox": [
+        137,
+        49,
+        287,
+        385
+      ],
+      "native_dimensions": [
+        150,
+        336
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "1d5c8bd3cb7423009801b3409c9676c63466794ed40312e1adf36c96892c5401"
+    },
+    {
+      "blind_id": "B014",
+      "bbox": [
+        137,
+        55,
+        281,
+        370
+      ],
+      "native_dimensions": [
+        144,
+        315
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "2c008ec409e19c202f4f0299a617f62524233e9479100f62de2623601baa2abe"
+    },
+    {
+      "blind_id": "B015",
+      "bbox": [
+        108,
+        207,
+        320,
+        320
+      ],
+      "native_dimensions": [
+        212,
+        113
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "2cf36cd8419802a8dc1194bdad9ed8fe53488b03f4719959b96a2d16530459e5"
+    },
+    {
+      "blind_id": "B016",
+      "bbox": [
+        148,
+        213,
+        316,
+        313
+      ],
+      "native_dimensions": [
+        168,
+        100
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "e896cd6844c33675e48ecd13de298914ff197237c61f740bbfe30be7c5e70121"
+    },
+    {
+      "blind_id": "B017",
+      "bbox": [
+        116,
+        213,
+        361,
+        323
+      ],
+      "native_dimensions": [
+        245,
+        110
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "92ac7ba75ba48d3bf31b053c6db69560960d28bf112dc9f399b1f5f20d97412a"
+    },
+    {
+      "blind_id": "B018",
+      "bbox": [
+        119,
+        211,
+        350,
+        335
+      ],
+      "native_dimensions": [
+        231,
+        124
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "d2004f82618e999946bd7d7ab0271c8446d2eea6eb4755d4584e90c2bbc2df8f"
+    },
+    {
+      "blind_id": "B019",
+      "bbox": [
+        107,
+        206,
+        320,
+        321
+      ],
+      "native_dimensions": [
+        213,
+        115
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "51c3de254a0e8f053ac904517b67b9d4a9648c77167d8ac86ddcf22893347d40"
+    },
+    {
+      "blind_id": "B020",
+      "bbox": [
+        169,
+        211,
+        361,
+        353
+      ],
+      "native_dimensions": [
+        192,
+        142
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "f572eb52e161b2ce62df8fc77038f47e3b693e3f36e18e9a1349b8d934cb3d61"
+    },
+    {
+      "blind_id": "B021",
+      "bbox": [
+        134,
+        88,
+        373,
+        424
+      ],
+      "native_dimensions": [
+        239,
+        336
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "50ce966c9da4e9dfcc8dd3dd73d4c8bdda34841344a11e5c50622792551d4164"
+    },
+    {
+      "blind_id": "B022",
+      "bbox": [
+        170,
+        209,
+        361,
+        356
+      ],
+      "native_dimensions": [
+        191,
+        147
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "92b6b3a254eac80363e78faa672e2aab730188c984c85a38960580fbc540e75d"
+    },
+    {
+      "blind_id": "B023",
+      "bbox": [
+        172,
+        206,
+        359,
+        354
+      ],
+      "native_dimensions": [
+        187,
+        148
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "80426b375c37d047ec1068d28be416e5ff1d274fba894bbb10894ceb416ec4ed"
+    },
+    {
+      "blind_id": "B024",
+      "bbox": [
+        172,
+        206,
+        360,
+        354
+      ],
+      "native_dimensions": [
+        188,
+        148
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "4e7ad180e32c07f512a29fae3f29ab51f4655055ab35a48e45399a03ccfccda2"
+    },
+    {
+      "blind_id": "B025",
+      "bbox": [
+        192,
+        274,
+        297,
+        350
+      ],
+      "native_dimensions": [
+        105,
+        76
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "a0a4d408c27c3f9f92a5708de6b967d2d7b6337b85c230d498f28ffe3d2714b9"
+    },
+    {
+      "blind_id": "B026",
+      "bbox": [
+        170,
+        194,
+        337,
+        341
+      ],
+      "native_dimensions": [
+        167,
+        147
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "70d7aeed1ad42a6775df33d2437a757124717053864ba9be8147c3ec9b07da6a"
+    },
+    {
+      "blind_id": "B027",
+      "bbox": [
+        168,
+        263,
+        298,
+        357
+      ],
+      "native_dimensions": [
+        130,
+        94
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "52215d66524fd3b9e1883da71732c9a821c8250a9459aefa30bb7c566d047b02"
+    },
+    {
+      "blind_id": "B028",
+      "bbox": [
+        136,
+        255,
+        304,
+        355
+      ],
+      "native_dimensions": [
+        168,
+        100
+      ],
+      "pixels_match_original_crop": true,
+      "sha256": "740de9a28b7dc782390ad425c6895b7fbaf62f982bbb96aaed75856233ff6c50"
+    }
+  ],
+  "source_script_sha256": {
+    "prepare_trait_readiness.py": "045810d66bb76acc8a94d26ba735b83108b714edc856be00271c80fcc5f93e71",
+    "summarize_trait_readiness.py": "d87a083b6574dec14d9bc0e612e9dd66ac59446aa0f408f92d69c2b9dbc9019d"
+  },
+  "limitations": [
+    "Retrospective annotation feasibility on the earlier four-seed pilot, not a prospective trait intervention experiment.",
+    "Agreement verifies consistency of saved AI annotations, not their biological accuracy or expert validity.",
+    "Artifact audit confirms condition-free image IDs/sheets/PNG metadata, but cannot independently prove historical reviewer adherence to no-key-access instructions.",
+    "Many unscorable observations and at most one complete consensus pair per edited condition preclude meaningful trait-effect estimation.",
+    "Confidence uses different reviewer scales; no confidence averaging or thresholding was applied."
+  ]
+}

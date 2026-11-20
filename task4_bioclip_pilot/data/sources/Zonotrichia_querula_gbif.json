@@ -1,0 +1,23 @@
+{
+  "usageKey": 5231139,
+  "scientificName": "Zonotrichia querula (Nuttall, 1840)",
+  "canonicalName": "Zonotrichia querula",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Zonotrichia",
+  "species": "Zonotrichia querula",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 6173226,
+  "speciesKey": 5231139,
+  "class": "Aves"
+}

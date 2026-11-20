@@ -1,0 +1,332 @@
+{
+  "source": {
+    "scientific_name": "Coccinella septempunctata",
+    "common_name": "Seven-spotted Ladybird Beetle",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class_name": "Insecta",
+    "order": "Coleoptera",
+    "family": "Coccinellidae",
+    "genus": "Coccinella",
+    "epithet": "septempunctata",
+    "taxonomy": "Animalia Arthropoda Insecta Coleoptera Coccinellidae Coccinella septempunctata",
+    "source_id": "310",
+    "split": "train",
+    "original_pilot_index": 1309,
+    "source": "original_inat21_pilot+tol10m",
+    "source_index": 113786,
+    "row_index": 1309,
+    "genus_key": "Animalia|Arthropoda|Insecta|Coleoptera|Coccinellidae|Coccinella",
+    "split_group": "Animalia|Coccinella"
+  },
+  "target": {
+    "scientific_name": "Coccinella undecimpunctata",
+    "common_name": "Eleven-spotted Ladybird Beetle",
+    "kingdom": "Animalia",
+    "phylum": "Arthropoda",
+    "class_name": "Insecta",
+    "order": "Coleoptera",
+    "family": "Coccinellidae",
+    "genus": "Coccinella",
+    "epithet": "undecimpunctata",
+    "taxonomy": "Animalia Arthropoda Insecta Coleoptera Coccinellidae Coccinella undecimpunctata",
+    "source_id": "313",
+    "split": "train",
+    "original_pilot_index": 1312,
+    "source": "original_inat21_pilot+tol10m",
+    "source_index": 113788,
+    "row_index": 1312,
+    "genus_key": "Animalia|Arthropoda|Insecta|Coleoptera|Coccinellidae|Coccinella",
+    "split_group": "Animalia|Coccinella"
+  },
+  "steps": [
+    {
+      "step": 0,
+      "changed_feature": null,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 63.596195220947266
+    },
+    {
+      "step": 1,
+      "changed_feature": 92,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 58.184425354003906
+    },
+    {
+      "step": 2,
+      "changed_feature": 1784,
+      "active_count_above_1e-7": 30,
+      "remaining_code_l1": 54.52119445800781
+    },
+    {
+      "step": 3,
+      "changed_feature": 1632,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 50.92595672607422
+    },
+    {
+      "step": 4,
+      "changed_feature": 1894,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 47.99058151245117
+    },
+    {
+      "step": 5,
+      "changed_feature": 323,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 45.58050537109375
+    },
+    {
+      "step": 6,
+      "changed_feature": 709,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 43.614723205566406
+    },
+    {
+      "step": 7,
+      "changed_feature": 1097,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 41.68449783325195
+    },
+    {
+      "step": 8,
+      "changed_feature": 543,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 39.91242599487305
+    },
+    {
+      "step": 9,
+      "changed_feature": 698,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 38.149513244628906
+    },
+    {
+      "step": 10,
+      "changed_feature": 643,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 36.41371154785156
+    },
+    {
+      "step": 11,
+      "changed_feature": 1008,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 34.72439193725586
+    },
+    {
+      "step": 12,
+      "changed_feature": 905,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 33.083831787109375
+    },
+    {
+      "step": 13,
+      "changed_feature": 1433,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 31.63018798828125
+    },
+    {
+      "step": 14,
+      "changed_feature": 222,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 30.18511962890625
+    },
+    {
+      "step": 15,
+      "changed_feature": 831,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 28.75941276550293
+    },
+    {
+      "step": 16,
+      "changed_feature": 1081,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 27.34625816345215
+    },
+    {
+      "step": 17,
+      "changed_feature": 1035,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 25.93720054626465
+    },
+    {
+      "step": 18,
+      "changed_feature": 872,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 24.542356491088867
+    },
+    {
+      "step": 19,
+      "changed_feature": 1871,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 23.157590866088867
+    },
+    {
+      "step": 20,
+      "changed_feature": 208,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 21.780094146728516
+    },
+    {
+      "step": 21,
+      "changed_feature": 1368,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 20.411291122436523
+    },
+    {
+      "step": 22,
+      "changed_feature": 337,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 19.08262825012207
+    },
+    {
+      "step": 23,
+      "changed_feature": 1269,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 17.759084701538086
+    },
+    {
+      "step": 24,
+      "changed_feature": 1106,
+      "active_count_above_1e-7": 36,
+      "remaining_code_l1": 16.471622467041016
+    },
+    {
+      "step": 25,
+      "changed_feature": 1607,
+      "active_count_above_1e-7": 37,
+      "remaining_code_l1": 15.203218460083008
+    },
+    {
+      "step": 26,
+      "changed_feature": 983,
+      "active_count_above_1e-7": 36,
+      "remaining_code_l1": 13.975931167602539
+    },
+    {
+      "step": 27,
+      "changed_feature": 1255,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 12.75294303894043
+    },
+    {
+      "step": 28,
+      "changed_feature": 1055,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 11.560785293579102
+    },
+    {
+      "step": 29,
+      "changed_feature": 1654,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 10.383456230163574
+    },
+    {
+      "step": 30,
+      "changed_feature": 938,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 9.24304485321045
+    },
+    {
+      "step": 31,
+      "changed_feature": 163,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 8.107879638671875
+    },
+    {
+      "step": 32,
+      "changed_feature": 1409,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 6.977047920227051
+    },
+    {
+      "step": 33,
+      "changed_feature": 1444,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 5.902422904968262
+    },
+    {
+      "step": 34,
+      "changed_feature": 560,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 4.893821716308594
+    },
+    {
+      "step": 35,
+      "changed_feature": 1067,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 3.8907105922698975
+    },
+    {
+      "step": 36,
+      "changed_feature": 1445,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 3.050706624984741
+    },
+    {
+      "step": 37,
+      "changed_feature": 260,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 2.2514522075653076
+    },
+    {
+      "step": 38,
+      "changed_feature": 317,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 1.467742919921875
+    },
+    {
+      "step": 39,
+      "changed_feature": 1438,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.9196968078613281
+    },
+    {
+      "step": 40,
+      "changed_feature": 952,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.5372238159179688
+    },
+    {
+      "step": 41,
+      "changed_feature": 1619,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.25118112564086914
+    },
+    {
+      "step": 42,
+      "changed_feature": 1646,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.0338287353515625
+    },
+    {
+      "step": 43,
+      "changed_feature": 1397,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.002668619155883789
+    },
+    {
+      "step": 44,
+      "changed_feature": 1513,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.0
+    }
+  ],
+  "coordinates_changed": 44,
+  "one_coordinate_per_step_verified": true,
+  "exact_target_code_reached": true,
+  "raw_source_start_verified": true,
+  "source_residual_preserved": true,
+  "endpoint_controls_order": [
+    "source_original",
+    "target_original",
+    "source_reconstruction",
+    "target_reconstruction"
+  ],
+  "target_embedding_distance_from_bridge_endpoint": 8.097519874572754,
+  "limitation": "Exact target SAE code with the source residual is generally not the raw target embedding. No biological or generated-image result is established by this plan.",
+  "sha256": {
+    "code_states.npy": "52c7d8492227b6af4108f1d48d8a647178809c512bc85907b98335ce45a37afb",
+    "endpoint_controls.npy": "ef10b36d699ad50ae00c7ca630760ae17fcf197dd49231a079e8f940ab974494",
+    "vectors.npy": "e4cd186d4a859a180235e76c4d4408897d2f94804a43f5ea5cd35c84313562a8"
+  }
+}

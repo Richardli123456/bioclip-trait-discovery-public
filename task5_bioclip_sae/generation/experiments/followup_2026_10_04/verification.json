@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "local_links_checked": 85,
+  "missing_links": [],
+  "stable_features": 0,
+  "activation_only_features": 7,
+  "images_in_readiness_audit": 28,
+  "reviewer_scorable_counts": [
+    8,
+    8
+  ],
+  "both_scorable": 7,
+  "new_intervention_images": 0,
+  "generation_not_launched_reason": "No candidate passed the prespecified representation stability gate",
+  "hardware_errors_reported": false,
+  "evidence_sha256": {
+    "task5_bioclip_sae\\generation\\experiments\\aligned_stability_v1\\independent_audit.json": "28fd800492b6316de3eec7607c4bab12ab2ec2a91bfced8616f62c2c6facd317",
+    "task5_bioclip_sae\\generation\\experiments\\trait_readiness_v1\\independent_audit.json": "d95230449dd2d212ab931bfeade4ea9daab236f8cdace18ee5a590a5fb27fdb9",
+    "task5_bioclip_sae\\generation\\experiments\\aligned_stability_v1\\summary.json": "5c52f7fae91c5fee96b9f114721e897e1edd00f7084ba6344174abe2077f2278",
+    "task5_bioclip_sae\\generation\\experiments\\trait_readiness_v1\\summary.json": "b6506f7827e3d3536e76e121833d29e1c4f692bd7e53e1e9ea41cc6b8bc1c94c"
+  },
+  "limitations": [
+    "Artifact checks do not establish biological trait validity.",
+    "Independent AI annotation passes are not expert human ground truth."
+  ]
+}

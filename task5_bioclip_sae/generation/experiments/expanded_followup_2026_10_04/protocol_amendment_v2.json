@@ -1,0 +1,10 @@
+{
+  "date":"2026-10-04",
+  "reason":"Source-quality correction discovered during primary expandedSAE fitting, before final stability/candidate evaluation.",
+  "original_protocol":"protocol.json is retained as the initial prospective plan.",
+  "data_change":"Exclude every cross-kingdom ambiguous binomial group unless its original5388-pilot lineage is known; in that case retain only the original pilot row. Work in a new corpus directory; original inputs remain immutable.",
+  "training_change":"Restart the unchanged2048/32 anchor plus seeds1-5 on corrected inputs in a new output directory; original run is preliminary and superseded.",
+  "trait_change":"Repeat the same fixed AVONET probe protocol on corrected joins, preserve old results, and disclose that the earlier test result had already been observed. Exclusions use taxonomy conflicts, not trait values or test performance.",
+  "unchanged":"SAE optimizer, preprocessing, split policy, matching, recurrence thresholds, candidate-selection rules and conditional capacity sweep remain unchanged.",
+  "hardware_problem":false
+}

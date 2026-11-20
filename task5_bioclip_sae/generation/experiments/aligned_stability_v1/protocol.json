@@ -1,0 +1,54 @@
+{
+  "created_utc": "2026-10-04T06:54:25.084979+00:00",
+  "status": "prespecified_before_training",
+  "authorization": "User: proceed, finish all necessary, pause on hardware problems such as OOM",
+  "input_root": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\aligned",
+  "input_sha256": {
+    "data/embeddings_raw.npy": "26811f1054b496f0381ce2c22810fea025b4b71801a5448711caf18343805ef9",
+    "data/species.json": "21093d3cbdfcdf7c27e2b37363dba08c4f6ba62896aed1c69c1650b065496dd6",
+    "results/sparse_vectors.npy": "bf84e1aa00914c534b7dcb833bee921c56abf3f99125e0a736274e820df7d538",
+    "results/reconstructed_embeddings.npy": "3368c548ffeda6de288d258a9c3cced1ee8bfcb991b84f7b0a086b3c9c0bbb94",
+    "results/sae.pt": "10eaa321217db74d4d990a9aaf5bb879070f67a4a54205fe02ce671051b32c7f",
+    "results/evaluation.json": "3242297a4c9f5517c08c792cbe5d9888ce8ad8851b06e1af4e5c34f3838182ee"
+  },
+  "script_sha256": "49e39f12aa58c3f22c544d6595199f4020a82721e24dce903080a3380e7fb8d3",
+  "trainer_sha256": "820db1c025b86303f24418a8327fd7ec6fa86eb9929e456d6ed9bc09f4d7e1a2",
+  "seeds": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "reproduction_seed_only": 20260929,
+  "architecture": "768 -> 2048 nonnegative TopK k=32 -> 768; linear decoder",
+  "training": {
+    "optimizer": "Adam",
+    "learning_rate": 0.001,
+    "batch_size": 256,
+    "max_epochs": 200,
+    "gradient_clip_norm": 1.0,
+    "decoder_unit_columns_after_each_step": true,
+    "selection": "validation NMSE at epoch 1 and every 5 epochs; minimum improvement 1e-5; stop after 8 unimproved checks",
+    "preprocessing": "training-only mean and one global RMS; reuse fixed whole-genus splits"
+  },
+  "matching": "For each original feature, maximize signed Pearson correlation of activations across training species. Report same-pair signed decoder cosine and validation Pearson correlation. No sign flips: activations are nonnegative.",
+  "matching_reuse": "Best matches can reuse new features; explicitly report collisions. SciPy unavailable; no one-to-one assignment used.",
+  "candidate_gate": {
+    "minimum_training_activation_correlation_all_five": 0.7,
+    "minimum_same_match_decoder_cosine_all_five": 0.7,
+    "validation": "confirmation reported separately; no post hoc gate changes"
+  },
+  "selected_features": {
+    "729": "ladybird candidate",
+    "1969": "owl candidate",
+    "527": "squirrel candidate"
+  },
+  "nulls": "One independent species-row permutation of each trained seed plus a fixed random unit-column dictionary; diagnostic references, not significance tests",
+  "hardware": "CUDA required; snapshot before/after each run; stop on any exception/OOM, >=88 C, or <2 GiB free VRAM; no fallback/retry",
+  "limitations": [
+    "Matching is anchored to the original SAE, not an all-pairs equivalence proof.",
+    "A stable feature is not necessarily a biological trait.",
+    "5,388 animal species subset is not the complete TreeOfLife-1M species set."
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "source": {
+    "scientific_name": "Asio otus",
+    "common_name": "Long-eared Owl",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class_name": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Asio",
+    "epithet": "otus",
+    "taxonomy": "Animalia Chordata Aves Strigiformes Strigidae Asio otus",
+    "source_id": "4542",
+    "split": "train",
+    "original_pilot_index": 583,
+    "source": "original_inat21_pilot+tol10m",
+    "source_index": 180456,
+    "row_index": 583,
+    "genus_key": "Animalia|Chordata|Aves|Strigiformes|Strigidae|Asio",
+    "split_group": "Animalia|Asio"
+  },
+  "target": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class_name": "Aves",
+    "order": "Strigiformes",
+    "family": "Strigidae",
+    "genus": "Otus",
+    "epithet": "asio",
+    "scientific_name": "Otus asio",
+    "common_name": "eastern screech owl",
+    "taxonomy": "Animalia Chordata Aves Strigiformes Strigidae Otus asio",
+    "split": "train",
+    "original_pilot_index": null,
+    "source": "tol10m_txt_emb_species",
+    "source_index": 180549,
+    "source_id": "tol10m_species_index:180549",
+    "row_index": 192722,
+    "genus_key": "Animalia|Chordata|Aves|Strigiformes|Strigidae|Otus",
+    "split_group": "Animalia|Otus"
+  },
+  "steps": [
+    {
+      "step": 0,
+      "changed_feature": null,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 43.384952545166016
+    },
+    {
+      "step": 1,
+      "changed_feature": 5,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 40.486541748046875
+    },
+    {
+      "step": 2,
+      "changed_feature": 434,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 37.75706481933594
+    },
+    {
+      "step": 3,
+      "changed_feature": 163,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 35.038230895996094
+    },
+    {
+      "step": 4,
+      "changed_feature": 1185,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 32.97793960571289
+    },
+    {
+      "step": 5,
+      "changed_feature": 520,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 30.956748962402344
+    },
+    {
+      "step": 6,
+      "changed_feature": 222,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 29.00050926208496
+    },
+    {
+      "step": 7,
+      "changed_feature": 159,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 27.132009506225586
+    },
+    {
+      "step": 8,
+      "changed_feature": 1081,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 25.277149200439453
+    },
+    {
+      "step": 9,
+      "changed_feature": 1235,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 23.43578338623047
+    },
+    {
+      "step": 10,
+      "changed_feature": 897,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 21.807157516479492
+    },
+    {
+      "step": 11,
+      "changed_feature": 511,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 20.19308853149414
+    },
+    {
+      "step": 12,
+      "changed_feature": 1871,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 18.581588745117188
+    },
+    {
+      "step": 13,
+      "changed_feature": 557,
+      "active_count_above_1e-7": 36,
+      "remaining_code_l1": 16.984146118164062
+    },
+    {
+      "step": 14,
+      "changed_feature": 77,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 15.469709396362305
+    },
+    {
+      "step": 15,
+      "changed_feature": 960,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 13.959914207458496
+    },
+    {
+      "step": 16,
+      "changed_feature": 1130,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 12.548311233520508
+    },
+    {
+      "step": 17,
+      "changed_feature": 385,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 11.156668663024902
+    },
+    {
+      "step": 18,
+      "changed_feature": 516,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 10.029008865356445
+    },
+    {
+      "step": 19,
+      "changed_feature": 981,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 8.983917236328125
+    },
+    {
+      "step": 20,
+      "changed_feature": 92,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 8.033479690551758
+    },
+    {
+      "step": 21,
+      "changed_feature": 1905,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 7.164915084838867
+    },
+    {
+      "step": 22,
+      "changed_feature": 530,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 6.356331825256348
+    },
+    {
+      "step": 23,
+      "changed_feature": 405,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 5.740018844604492
+    },
+    {
+      "step": 24,
+      "changed_feature": 1133,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 5.156295299530029
+    },
+    {
+      "step": 25,
+      "changed_feature": 298,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 4.573524475097656
+    },
+    {
+      "step": 26,
+      "changed_feature": 323,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 3.994699478149414
+    },
+    {
+      "step": 27,
+      "changed_feature": 1834,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 3.426950454711914
+    },
+    {
+      "step": 28,
+      "changed_feature": 2043,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 2.8605570793151855
+    },
+    {
+      "step": 29,
+      "changed_feature": 1471,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 2.3232126235961914
+    },
+    {
+      "step": 30,
+      "changed_feature": 625,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 1.8365387916564941
+    },
+    {
+      "step": 31,
+      "changed_feature": 1240,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 1.3688387870788574
+    },
+    {
+      "step": 32,
+      "changed_feature": 952,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.9856314659118652
+    },
+    {
+      "step": 33,
+      "changed_feature": 929,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.6093683242797852
+    },
+    {
+      "step": 34,
+      "changed_feature": 810,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.4516758918762207
+    },
+    {
+      "step": 35,
+      "changed_feature": 543,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.33402442932128906
+    },
+    {
+      "step": 36,
+      "changed_feature": 180,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.22913384437561035
+    },
+    {
+      "step": 37,
+      "changed_feature": 1397,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.14634108543395996
+    },
+    {
+      "step": 38,
+      "changed_feature": 1788,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.08389496803283691
+    },
+    {
+      "step": 39,
+      "changed_feature": 64,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.02447509765625
+    },
+    {
+      "step": 40,
+      "changed_feature": 800,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.0
+    }
+  ],
+  "coordinates_changed": 40,
+  "one_coordinate_per_step_verified": true,
+  "exact_target_code_reached": true,
+  "raw_source_start_verified": true,
+  "source_residual_preserved": true,
+  "endpoint_controls_order": [
+    "source_original",
+    "target_original",
+    "source_reconstruction",
+    "target_reconstruction"
+  ],
+  "target_embedding_distance_from_bridge_endpoint": 6.010782718658447,
+  "limitation": "Exact target SAE code with the source residual is generally not the raw target embedding. No biological or generated-image result is established by this plan.",
+  "sha256": {
+    "code_states.npy": "518dbe441749c06632f187d6662454f32fd67c86979b1e499c425bfb808d05c1",
+    "endpoint_controls.npy": "1f69ebb83f632bc4a85da2442e5246b8a490072e3408d99be8700a82bad24cba",
+    "vectors.npy": "257c9945ce9c065e278904b23661c51ef5bc210229cb194b88c7830199a5a671"
+  }
+}

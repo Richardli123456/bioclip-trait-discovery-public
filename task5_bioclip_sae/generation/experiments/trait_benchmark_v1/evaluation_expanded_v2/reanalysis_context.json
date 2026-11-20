@@ -1,0 +1,15 @@
+{
+  "type": "data_quality_reanalysis",
+  "previous_v1_results_known": true,
+  "historically_untouched_test": false,
+  "protocol_changed": false,
+  "labels_changed": false,
+  "evaluator_changed": false,
+  "exclusion_basis": "Remove all cross-kingdom ambiguous scientific-name records except known original pilot lineages; decided from taxonomy QA, not trait predictions or SAE outcomes",
+  "original_v1_results_sha256": "42d68dcff42e1c522c50baa9975652ca114774987ba9e79c92b3066829050359",
+  "protocol_sha256": "f490cff308b0ee135637aad32c79f470ee3f5ae5bada16444c3f95f580e370b0",
+  "v2_manifest_sha256": "80d1d4e14ff3ba5a4f97cd4e07997f248bc67d15e456fddd203ecae87a02085f",
+  "v2_embeddings_sha256": "c239fc0e2a6d1215910353712fa0af9fdf1f916290b37c721631c7be4bd461fa",
+  "timing": "Recorded before v2 CPU fitting",
+  "hardware": "CPU only"
+}

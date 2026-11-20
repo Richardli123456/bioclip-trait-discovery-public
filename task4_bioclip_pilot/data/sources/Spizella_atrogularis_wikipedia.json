@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Black-chinned sparrow",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Black-chinned sparrow</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q2926383",
+  "titles": {
+    "canonical": "Black-chinned_sparrow",
+    "normalized": "Black-chinned sparrow",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Black-chinned sparrow</span></span>"
+  },
+  "pageid": 3240067,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fe/Black-chinned_Sparrow_%28Spizella_atrogularis%29_%2816690054929%29.jpg/330px-Black-chinned_Sparrow_%28Spizella_atrogularis%29_%2816690054929%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 291
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/f/fe/Black-chinned_Sparrow_%28Spizella_atrogularis%29_%2816690054929%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2774,
+    "height": 2447
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1341618731",
+  "tid": "8ed5fd83-177b-11f1-8680-fc5e575b401d",
+  "timestamp": "2026-03-04T03:38:07Z",
+  "description": "Species of bird",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Black-chinned_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Black-chinned_sparrow?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Black-chinned_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Black-chinned_sparrow"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Black-chinned_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Black-chinned_sparrow",
+      "edit": "https://en.wikipedia.org/wiki/Black-chinned_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Black-chinned_sparrow"
+    }
+  },
+  "extract": "The black-chinned sparrow is a small bird in the genus Spizella, in the New World sparrow family Passerellidae. It is found in the southwestern United States and throughout much of Mexico north of the Isthmus of Tehuantepec; most populations in the US migrate south after breeding while those in Mexico are resident. It is a slim, long-tailed bird, primarily gray with a reddish-brown back streaked with black, brown wings and tail, a pink beak, and brownish legs and feet. In the breeding season, the male shows black on his throat, chin, and the front of his face. Females, youngsters and nonbreeding males show little or no black in these areas. An unobtrusive bird, it spends much of its time foraging slowly along the ground, either alone or in small groups, sometimes mixing with other Spizella species. It is an omnivore, feeding primarily on seeds during the winter and insects during the summer. It builds a cup-shaped nest of grasses, rootlets, or plant fibers, into which the female lays 2–5 pale blue eggs. The female does most or all of the egg incubation, but both parents feed the hatched nestlings.",
+  "extract_html": "<p>The <b>black-chinned sparrow</b> is a small bird in the genus <i>Spizella</i>, in the New World sparrow family Passerellidae. It is found in the southwestern United States and throughout much of Mexico north of the Isthmus of Tehuantepec; most populations in the US migrate south after breeding while those in Mexico are <dfn><span><span class=\"glossary-link \" style=\"color:inherit\">resident</span></span></dfn>. It is a slim, long-tailed bird, primarily gray with a reddish-brown back streaked with black, brown wings and tail, a pink beak, and brownish legs and feet. In the breeding season, the male shows black on his throat, chin, and the front of his face. Females, youngsters and nonbreeding males show little or no black in these areas. An unobtrusive bird, it spends much of its time foraging slowly along the ground, either alone or in small groups, sometimes mixing with other <i>Spizella</i> species. It is an omnivore, feeding primarily on seeds during the winter and insects during the summer. It builds a cup-shaped nest of grasses, rootlets, or plant fibers, into which the female lays 2–5 pale blue eggs. The female does most or all of the egg incubation, but both parents feed the hatched nestlings.</p>"
+}

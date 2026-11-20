@@ -1,0 +1,141 @@
+{
+  "status": "completed_exploratory_readiness_audit",
+  "image_count": 28,
+  "new_training": false,
+  "new_image_generation": false,
+  "annotation_type": "Two blinded AI annotation passes; not independent expert human ground truth",
+  "reviewer_a_scorable": 8,
+  "reviewer_b_scorable": 8,
+  "scorability_agreement": 26,
+  "scorability_agreement_fraction": 0.9285714285714286,
+  "both_scorable": 7,
+  "exact_count_agreement": 7,
+  "count_mean_absolute_disagreement_on_both_scorable": 0.0,
+  "conditions": [
+    {
+      "condition": "control_remove_residual",
+      "images": 4,
+      "a_scorable": 1,
+      "b_scorable": 1,
+      "both_scorable": 1,
+      "count_agreement": 1
+    },
+    {
+      "condition": "double_residual",
+      "images": 4,
+      "a_scorable": 1,
+      "b_scorable": 1,
+      "both_scorable": 1,
+      "count_agreement": 1
+    },
+    {
+      "condition": "half_residual",
+      "images": 4,
+      "a_scorable": 1,
+      "b_scorable": 1,
+      "both_scorable": 1,
+      "count_agreement": 1
+    },
+    {
+      "condition": "original",
+      "images": 4,
+      "a_scorable": 1,
+      "b_scorable": 1,
+      "both_scorable": 1,
+      "count_agreement": 1
+    },
+    {
+      "condition": "random_direction_control",
+      "images": 4,
+      "a_scorable": 0,
+      "b_scorable": 0,
+      "both_scorable": 0,
+      "count_agreement": 0
+    },
+    {
+      "condition": "reconstruction",
+      "images": 4,
+      "a_scorable": 2,
+      "b_scorable": 3,
+      "both_scorable": 2,
+      "count_agreement": 2
+    },
+    {
+      "condition": "remove_residual",
+      "images": 4,
+      "a_scorable": 2,
+      "b_scorable": 1,
+      "both_scorable": 1,
+      "count_agreement": 1
+    }
+  ],
+  "paired_counts": [
+    {
+      "condition": "control_remove_residual",
+      "eligible_consensus_pairs": 1,
+      "differences": [
+        {
+          "seed": 42,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "condition": "double_residual",
+      "eligible_consensus_pairs": 1,
+      "differences": [
+        {
+          "seed": 42,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "condition": "half_residual",
+      "eligible_consensus_pairs": 1,
+      "differences": [
+        {
+          "seed": 42,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "condition": "random_direction_control",
+      "eligible_consensus_pairs": 0,
+      "differences": []
+    },
+    {
+      "condition": "reconstruction",
+      "eligible_consensus_pairs": 1,
+      "differences": [
+        {
+          "seed": 42,
+          "difference": 0
+        }
+      ]
+    },
+    {
+      "condition": "remove_residual",
+      "eligible_consensus_pairs": 1,
+      "differences": [
+        {
+          "seed": 42,
+          "difference": 0
+        }
+      ]
+    }
+  ],
+  "effect_estimation": "Not performed: existing pilot has only four seeds, scoring disagreement/missingness, and failed representation stability. The proposed new-study requirement of at least 16 paired counts cannot be met.",
+  "sha256": {
+    "annotations_reviewer_a.json": "a93fd457a21008079b03b71fa25db7a26caca0893ea35fbdbdc67ec44be263f1",
+    "annotations_reviewer_b.json": "262f068d922f46f46cbed4ac3f24e7b8701630ba49351c26d6122c560aad3eeb",
+    "blind_key.json": "a6a5162fccaa6126fc4b9ce33860844aaee778d87bbebb484a065866fde64420",
+    "annotation_protocol.json": "6ff9ffa5758bb3dd5bf18e4e7a086cb59b21f1b6784c8f1a954cef7bb1cee5b7"
+  },
+  "script_sha256": {
+    "prepare_trait_readiness.py": "045810d66bb76acc8a94d26ba735b83108b714edc856be00271c80fcc5f93e71",
+    "summarize_trait_readiness.py": "d87a083b6574dec14d9bc0e612e9dd66ac59446aa0f408f92d69c2b9dbc9019d"
+  },
+  "crops": "Union of two approximate animal boxes, with 5 percent padding, saved at native resolution. Background may remain. Display sheet only downsizes images."
+}

@@ -1,0 +1,59 @@
+{
+  "version": 1,
+  "date": "2026-10-07",
+  "status": "fixed_before_new_endpoint_associations",
+  "endpoint": "ln_tail_length_over_wing_length",
+  "definition": "Natural log of AVONET species-mean Tail.Length divided by species-mean Wing.Length; ratio of means, not a specimen-level mean ratio or allometric residual.",
+  "source": "Pinned AVONET v7 workbook, AVONET2_eBird sheet; positive finite lengths, Inference=NO and Complete.measures>=4.",
+  "cohort": "Reuse the existing exact Animalia/Aves name join and original whole-genus train/validation/test assignments; independently recheck against corrected species manifest.",
+  "representation": "Existing expanded_tol10m_v2 raw space-format BioCLIP2 vectors and expanded_stability_w2048_k32_v2 anchor SAE; no SAE retraining or threshold changes.",
+  "candidate_pool": "Only the 732 features passing the original five-replicate stability gate.",
+  "selection": {
+    "minimum_active_training_species": 30,
+    "minimum_active_training_genera": 10,
+    "minimum_active_training_families": 3,
+    "active_threshold": 0.0000001,
+    "rank": "Largest absolute Pearson correlation after subtracting each training family's mean from activation and endpoint; smaller feature ID breaks exact ties.",
+    "number_selected": 1,
+    "seal": "Save training_selection.json before computing validation endpoint values. No runner-up after failed support or confirmation."
+  },
+  "confirmation": {
+    "minimum_active_species": 20,
+    "minimum_active_genera": 10,
+    "minimum_active_families": 3,
+    "association": "Family-centered correlation has training-selected sign and two-sided 95% genus-bootstrap interval excludes zero in that sign.",
+    "prediction": "Training-fitted taxonomy-plus-selected-activation has lower held-out species-weighted RMSE than taxonomy alone, with a two-sided 95% genus-bootstrap interval for baseline minus augmented RMSE entirely above zero.",
+    "all_required": true,
+    "support_failure": "Stop without computing or analyzing endpoint values for that confirmation split; record insufficient support. The source workbook itself is parsed for all splits.",
+    "validation_failure": "Stop; do not compute or analyze test endpoint values or launch image generation.",
+    "test": "Only if validation passes every gate, apply the same frozen training-selected feature, sign, training-fitted predictors and support/interval rules to test once. No train+validation refit."
+  },
+  "taxonomy_control": {
+    "family_pseudocount": 4,
+    "order_pseudocount": 16,
+    "baseline": "Training family mean shrunk to training order mean shrunk to global mean; unseen family falls back to order, unseen order to global.",
+    "augmentation": "beta*(activation - training-taxonomy-predicted activation), added to baseline endpoint prediction; beta is training within-family least-squares slope with no intercept after family centering.",
+    "hyperparameters": "Fixed here without new label performance inspection; no validation tuning or raw-vector ridge sweep."
+  },
+  "bootstrap": {
+    "unit": "held-out genus",
+    "resamples": 2000,
+    "validation_seed": 20261007,
+    "test_seed": 20261008,
+    "required_defined_correlations": 1900,
+    "method": "Sample genera with replacement, retaining every species and multiplicity. Recompute family means within each correlation resample; predictions remain frozen.",
+    "interval": [0.025, 0.975]
+  },
+  "multiple_testing": "One new endpoint and one training-selected feature; both association and predictive-improvement gates are required. No alternative endpoint/candidate after a failed confirmation in this run.",
+  "sequential_research_disclosure": "The earlier beak experiment failed and was seen before this endpoint was chosen. The same cohort and SAE are reused, and SAE checkpoints used validation embeddings. This is prospective follow-up analysis for a new endpoint, not a pristine independent project-level test or full phylogenetic control.",
+  "image_branch": {
+    "prerequisite": "Validation and test pass every gate; otherwise no tail-image experiment.",
+    "species_selection": "Highest-activation training species for the sealed feature with trait value, existing model coverage uncertainty and species sex/age variation disclosed; smaller scientific-name lexical order breaks ties.",
+    "calibration": "Eight unedited images before feature edits; require at least six measurable images under a separately frozen anatomical-landmark protocol. Tail root and wrist must be identifiable; a silhouette proxy cannot silently replace AVONET geometry.",
+    "pilot": "Only after calibration passes: eight paired seeds, original/reconstruction/removal/half/double/other-active/removal-norm-matched orthogonal random controls. Freeze endpoint, scoring, contrasts and scaling rule before generating edits.",
+    "large_replication": "Only after a scored successful small pilot; use new seeds, a preselected different-genus species and matched features in independently trained SAEs.",
+    "human_status": "Existing32 ladybird human scores do not constitute new tail-image scores. Any AI scores are provisional and separate."
+  },
+  "hardware": "CPU-only numerical analysis; stop on memory or hardware errors, preserve logs, no automatic fallback or repeated altered runs.",
+  "negative_result": "Retain failed support/association/control/measurement gates as completed negative findings; do not relabel stable features as biological traits."
+}

@@ -1,0 +1,12 @@
+{
+  "source_summary_sha256": "5c52f7fae91c5fee96b9f114721e897e1edd00f7084ba6344174abe2077f2278",
+  "source_all_matches_sha256": "278108d67d06ac2350e51e7734799e14182c1fb2fe8da2baea05282693a61c75",
+  "source_raw_codes_sha256": "bf84e1aa00914c534b7dcb833bee921c56abf3f99125e0a736274e820df7d538",
+  "script_sha256": "07dbcd1c790aba5c13460bf3cf4b8fd2ed7b47cde17ff297733a7a007b00ef2b",
+  "png_sha256": "7cb7dc92723bbea6b111a03af2a76e5e009cb156bca8e495264e930565fda889",
+  "pdf_sha256": "a4cc0b29b61f1b9fa0ba42922ada2c09ba4ea44f6e7d0dde52e6cfaa18eac8cf",
+  "point_count": 2048,
+  "training_seed_count": 5,
+  "test_species_count": 593,
+  "cpu_only": true
+}

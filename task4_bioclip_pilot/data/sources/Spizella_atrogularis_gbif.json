@@ -1,0 +1,23 @@
+{
+  "usageKey": 2492104,
+  "scientificName": "Spizella atrogularis (Cabanis, 1851)",
+  "canonicalName": "Spizella atrogularis",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Spizella",
+  "species": "Spizella atrogularis",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2492093,
+  "speciesKey": 2492104,
+  "class": "Aves"
+}

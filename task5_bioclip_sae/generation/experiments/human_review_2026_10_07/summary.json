@@ -1,0 +1,230 @@
+{
+  "status": "completed",
+  "human_reviewers": 1,
+  "human_expertise": "Not established; no biological-expert claim",
+  "human_review_blinding": "Interface used randomized opaque IDs and did not show AI scores; actual compliance with seed-key avoidance was not independently verified",
+  "human": {
+    "images": 32,
+    "eligibility_counts": {
+      "yes": 27,
+      "NA": 5
+    },
+    "view_eligible_rate": {
+      "numerator": 27,
+      "denominator": 32,
+      "proportion": 0.84375,
+      "wilson_95_interval": [
+        0.6824585040246961,
+        0.931355797174943
+      ]
+    },
+    "count_scorable_rate": {
+      "numerator": 27,
+      "denominator": 32,
+      "proportion": 0.84375,
+      "wilson_95_interval": [
+        0.6824585040246961,
+        0.931355797174943
+      ]
+    },
+    "visible_spots_among_eligible": {
+      "numerator": 27,
+      "denominator": 27,
+      "proportion": 1.0,
+      "wilson_95_interval": [
+        0.8754449702581331,
+        1.0
+      ]
+    },
+    "exact_count_distribution": {
+      "1": 1,
+      "3": 1,
+      "4": 4,
+      "5": 7,
+      "6": 2,
+      "7": 3,
+      "8": 5,
+      "9": 2,
+      "10": 2
+    },
+    "count_mean_among_scorable": 6.148148148148148,
+    "count_median_among_scorable": 6,
+    "count_sample_sd_among_scorable": 2.230965705072128,
+    "count_min_max_among_scorable": [
+      1,
+      10
+    ],
+    "exactly_seven_ids": [
+      "D005",
+      "D010",
+      "D026"
+    ],
+    "exactly_seven_among_scorable": {
+      "numerator": 3,
+      "denominator": 27,
+      "proportion": 0.1111111111111111,
+      "wilson_95_interval": [
+        0.03852034828309843,
+        0.2805780081827982
+      ]
+    },
+    "observed_scorable_seven_yield_all_images": {
+      "numerator": 3,
+      "denominator": 32,
+      "proportion": 0.09375,
+      "wilson_95_interval": [
+        0.032401551298366194,
+        0.24218154728387864
+      ]
+    },
+    "unscorable_ids": [
+      "D009",
+      "D014",
+      "D016",
+      "D024",
+      "D028"
+    ],
+    "notes_present": 0
+  },
+  "ai_provisional_separate": {
+    "images": 32,
+    "eligibility_counts": {
+      "no": 13,
+      "yes": 12,
+      "NA": 7
+    },
+    "view_eligible_rate": {
+      "numerator": 12,
+      "denominator": 32,
+      "proportion": 0.375,
+      "wilson_95_interval": [
+        0.22933887309454212,
+        0.5474559264692255
+      ]
+    },
+    "count_scorable_rate": {
+      "numerator": 1,
+      "denominator": 32,
+      "proportion": 0.03125,
+      "wilson_95_interval": [
+        0.005537860164003122,
+        0.15744263820012555
+      ]
+    },
+    "visible_spots_among_eligible": {
+      "numerator": 12,
+      "denominator": 12,
+      "proportion": 1.0,
+      "wilson_95_interval": [
+        0.7575059933447593,
+        1.0
+      ]
+    },
+    "exact_count_distribution": {
+      "8": 1
+    },
+    "count_mean_among_scorable": 8,
+    "count_median_among_scorable": 8,
+    "count_sample_sd_among_scorable": null,
+    "count_min_max_among_scorable": [
+      8,
+      8
+    ],
+    "exactly_seven_ids": [],
+    "exactly_seven_among_scorable": {
+      "numerator": 0,
+      "denominator": 1,
+      "proportion": 0.0,
+      "wilson_95_interval": [
+        0.0,
+        0.7934506856227626
+      ]
+    },
+    "observed_scorable_seven_yield_all_images": {
+      "numerator": 0,
+      "denominator": 32,
+      "proportion": 0.0,
+      "wilson_95_interval": [
+        0.0,
+        0.10717919825507058
+      ]
+    },
+    "unscorable_ids": [
+      "D001",
+      "D002",
+      "D003",
+      "D004",
+      "D005",
+      "D006",
+      "D007",
+      "D008",
+      "D009",
+      "D010",
+      "D012",
+      "D013",
+      "D014",
+      "D015",
+      "D016",
+      "D017",
+      "D018",
+      "D019",
+      "D020",
+      "D021",
+      "D022",
+      "D023",
+      "D024",
+      "D025",
+      "D026",
+      "D027",
+      "D028",
+      "D029",
+      "D030",
+      "D031",
+      "D032"
+    ],
+    "notes_present": 32
+  },
+  "paired_comparison": {
+    "eligibility_descriptor_confusion_human_rows_ai_columns": {
+      "yes": {
+        "yes": 11,
+        "no": 10,
+        "NA": 6
+      },
+      "no": {
+        "yes": 0,
+        "no": 0,
+        "NA": 0
+      },
+      "NA": {
+        "yes": 1,
+        "no": 3,
+        "NA": 1
+      }
+    },
+    "eligibility_three_category_agreement": 12,
+    "spots_visibility_three_category_agreement": 15,
+    "exact_count_scorable_status_agreement": 6,
+    "both_exact_count_scorable": 1,
+    "same_numeric_count_when_both_scorable": 1,
+    "disagreement_rows": 30,
+    "disagreement_definition": "Any view descriptor, spot descriptor, count-scorability, or jointly available count differs; NA-versus-number is missingness disagreement, not count error",
+    "interpretation": "Descriptive comparison of one human review with one earlier provisional AI pass; no independent-human reliability or adjudication"
+  },
+  "feasibility_conclusion": "The human found exact visible counts usable for 27 of these 32 baseline images. This supports a small exploratory follow-up under this rater and rule, but substantial eligibility disagreement with the provisional AI calls for explicit annotation calibration. It is not SAE-trait confirmation, canonical-seven fidelity, independent-rater reliability, or evidence of an intervention effect.",
+  "predeclared_feasibility_threshold": null,
+  "feasibility_gate_note": "No numerical pass threshold was fixed for this 32-image human calibration; do not retroactively call a confirmatory gate passed.",
+  "uncertainty_method": "Two-sided 95% Wilson score intervals with z=NormalDist.inv_cdf(0.975); descriptive uncertainty over these generation seeds with a fixed rater and generator. Intervals omit rater error, systematic model error, and species generalization.",
+  "missingness": "Five NA counts stay NA, not zero. All-image seven yield counts a jointly observable event (scorable and counted seven); it does not classify unscorable images as non-seven.",
+  "training_performed": false,
+  "generation_performed": false,
+  "images_rescored_by_ai": false,
+  "input_sha256": {
+    "raw_human_csv": "ed129aa5afb8b07f8131a311976ec1bdaa0d95c356d1fb16fc11dbf3e00105fe",
+    "ai_csv": "8ebe1e5a389ef16771c7e43552673de23101a14b238f877927efe60f5d186c32",
+    "scoring_rules": "09eea79ed7836f660b689b88745af0a5cbd33c74929615bea8540a6e58d623f7",
+    "generation_protocol": "35453c4716605c9c38f3060546f2a568c37bdb31536ed1401cec31923b66f118",
+    "analysis_script": "e10065791af3fea43554bf916ddfcb8fe9be7bb3489b52dae3e920438ed8e76b"
+  },
+  "corrected_human_csv_sha256": "e2a3880d3db8903938b0b8bba10db8cd02a71ef66d62300154c3e14d5e6bab9b"
+}

@@ -1,0 +1,64 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 118967,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 47158,
+      "ancestor_ids": [
+        48460,
+        1,
+        47120,
+        372739,
+        47158,
+        184884,
+        47208,
+        71130,
+        372852,
+        471714,
+        48486,
+        333790,
+        333796,
+        54467,
+        118967
+      ],
+      "is_active": true,
+      "name": "Psyllobora vigintimaculata",
+      "parent_id": 54467,
+      "ancestry": "48460/1/47120/372739/47158/184884/47208/71130/372852/471714/48486/333790/333796/54467",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 45808691,
+        "license_code": "cc-by-nc-nd",
+        "attribution": "(c) Jason M Crockwell, some rights reserved (CC BY-NC-ND), uploaded by Jason M Crockwell",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45808691/square.jpeg",
+        "original_dimensions": {
+          "height": 1015,
+          "width": 1014
+        },
+        "flags": [],
+        "attribution_name": "Jason M Crockwell",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45808691/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/45808691/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 2,
+      "observations_count": 14587,
+      "flag_counts": {
+        "resolved": 1,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Psyllobora_vigintimaculata",
+      "matched_term": "Psyllobora vigintimaculata",
+      "iconic_taxon_name": "Insecta",
+      "preferred_common_name": "Twenty-spotted Lady Beetle"
+    }
+  ]
+}

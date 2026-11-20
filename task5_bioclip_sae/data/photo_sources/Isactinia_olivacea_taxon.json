@@ -1,0 +1,60 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 340587,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 1,
+      "ancestor_ids": [
+        48460,
+        1,
+        47534,
+        47533,
+        202756,
+        47797,
+        813978,
+        813994,
+        47796,
+        340586,
+        340587
+      ],
+      "is_active": true,
+      "name": "Isactinia olivacea",
+      "parent_id": 340586,
+      "ancestry": "48460/1/47534/47533/202756/47797/813978/813994/47796/340586",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 4947022,
+        "license_code": "cc-by-sa",
+        "attribution": "(c) Tony Wills, some rights reserved (CC BY-SA), uploaded by Tony Wills",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4947022/square.jpeg",
+        "original_dimensions": {
+          "height": 1536,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Tony Wills",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4947022/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/4947022/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 2,
+      "observations_count": 923,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": 22482,
+      "complete_species_count": null,
+      "wikipedia_url": null,
+      "matched_term": "Isactinia olivacea",
+      "iconic_taxon_name": "Animalia",
+      "preferred_common_name": "Olive Anemone"
+    }
+  ]
+}

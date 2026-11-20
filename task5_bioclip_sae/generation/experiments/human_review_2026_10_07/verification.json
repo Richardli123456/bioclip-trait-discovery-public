@@ -1,0 +1,29 @@
+{
+  "status": "passed",
+  "human_records": 32,
+  "raw_export_hash_preserved": true,
+  "only_authorized_three_visibility_changes": true,
+  "human_eligible": 27,
+  "human_exact_count_scorable": 27,
+  "human_exactly_seven": 3,
+  "human_unscorable": 5,
+  "exact_histogram_independently_checked": true,
+  "both_raters_numeric_counts": [
+    [
+      "D011",
+      8,
+      8
+    ]
+  ],
+  "three_category_view_agreement": 12,
+  "disagreement_rows": 30,
+  "wilson_intervals_checked_by_numerical_score_inversion": 10,
+  "maximum_interval_error": 1.1102230246251565e-16,
+  "original_and_blind_image_hashes_verified": 32,
+  "relative_report_links_checked": 10,
+  "source_and_analysis_hashes_verified": true,
+  "verification_script_sha256": "5b4ff10a07928e710a32f9535b9965ea61bd850ebc4d0fda7c1973a29518d019",
+  "summary_sha256": "22144f4a0dadb6fcd484c0e696a5fc55517c2f726169f365042759b903e5d9d6",
+  "image_scoring_performed": false,
+  "interpretation": "Independent arithmetic/code-path verification; not a second human or AI image review"
+}

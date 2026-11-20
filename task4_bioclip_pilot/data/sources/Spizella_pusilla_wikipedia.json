@@ -1,0 +1,49 @@
+{
+  "type": "standard",
+  "title": "Field sparrow",
+  "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Field sparrow</span></span>",
+  "namespace": {
+    "id": 0,
+    "text": ""
+  },
+  "wikibase_item": "Q611926",
+  "titles": {
+    "canonical": "Field_sparrow",
+    "normalized": "Field sparrow",
+    "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Field sparrow</span></span>"
+  },
+  "pageid": 429446,
+  "thumbnail": {
+    "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3c/Field_sparrow_in_CP_%2841484%29_%28cropped%29.jpg/330px-Field_sparrow_in_CP_%2841484%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "width": 330,
+    "height": 270
+  },
+  "originalimage": {
+    "source": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Field_sparrow_in_CP_%2841484%29_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "width": 2403,
+    "height": 1966
+  },
+  "lang": "en",
+  "dir": "ltr",
+  "revision": "1354970131",
+  "tid": "edf2e6e4-534a-11f1-bdec-848b1507dbd0",
+  "timestamp": "2026-05-19T06:21:11Z",
+  "description": "Species of bird",
+  "description_source": "local",
+  "content_urls": {
+    "desktop": {
+      "page": "https://en.wikipedia.org/wiki/Field_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Field_sparrow?action=history",
+      "edit": "https://en.wikipedia.org/wiki/Field_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Field_sparrow"
+    },
+    "mobile": {
+      "page": "https://en.wikipedia.org/wiki/Field_sparrow",
+      "revisions": "https://en.wikipedia.org/wiki/Special:History/Field_sparrow",
+      "edit": "https://en.wikipedia.org/wiki/Field_sparrow?action=edit",
+      "talk": "https://en.wikipedia.org/wiki/Talk:Field_sparrow"
+    }
+  },
+  "extract": "The field sparrow is a small New World sparrow in the family Passerellidae. It is about 140 mm (6 in) long and weighs about 12.5 g (0.4 oz). The head is grey with a rust-coloured crown, white eye-ring and pink bill. The upper parts are brown streaked with black and buff, the breast is buff, the belly is white and the tail is forked. There are two different colour morphs, one being greyer and the other more rufous.",
+  "extract_html": "<p>The <b>field sparrow</b> is a small New World sparrow in the family Passerellidae. It is about 140 mm (6 in) long and weighs about 12.5 g (0.4 oz). The head is grey with a rust-coloured crown, white eye-ring and pink bill. The upper parts are brown streaked with black and buff, the breast is buff, the belly is white and the tail is forked. There are two different colour morphs, one being greyer and the other more rufous.</p>"
+}

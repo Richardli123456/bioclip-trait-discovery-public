@@ -1,0 +1,59 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 10115,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        7251,
+        559248,
+        10093,
+        10115
+      ],
+      "is_active": true,
+      "name": "Junco vulcani",
+      "parent_id": 10093,
+      "ancestry": "48460/1/2/355675/3/7251/559248/10093",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 122617306,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) Nick Moore, some rights reserved (CC BY-NC), uploaded by Nick Moore",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122617306/square.jpg",
+        "original_dimensions": {
+          "height": 1365,
+          "width": 2048
+        },
+        "flags": [],
+        "attribution_name": "Nick Moore",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122617306/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/122617306/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 7,
+      "observations_count": 557,
+      "flag_counts": {
+        "resolved": 0,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Volcano_junco",
+      "complete_rank": "subspecies",
+      "matched_term": "Junco vulcani",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Volcano Junco"
+    }
+  ]
+}

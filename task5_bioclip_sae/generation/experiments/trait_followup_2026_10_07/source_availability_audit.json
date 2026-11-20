@@ -1,0 +1,84 @@
+{
+  "scope": "Measurement availability only; no embedding, SAE association, prediction, or new endpoint outcome analyzed.",
+  "source_sha256": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e",
+  "source_url": "https://figshare.com/articles/dataset/16586228/7",
+  "source_sheet": "AVONET2_eBird",
+  "source_rows": 10661,
+  "candidate_endpoints": {
+    "ln_tail_length_over_wing_length": {
+      "source_fields": [
+        "Tail.Length",
+        "Wing.Length"
+      ],
+      "source_eligible_species": 8677,
+      "source_genera": 2180,
+      "source_families": 243,
+      "exclusions": {
+        "fewer_than_four_complete_specimens": 1232,
+        "some_morphology_inferred": 752
+      },
+      "matched_using_existing_exact_bird_join": 8187,
+      "matched_species_by_split": {
+        "train": 6538,
+        "test": 774,
+        "validation": 875
+      },
+      "matched_genera_by_split": {
+        "train": 1697,
+        "validation": 214,
+        "test": 197
+      },
+      "existing_join_species_missing_new_measurements": 0
+    },
+    "ln_tarsus_length_over_wing_length": {
+      "source_fields": [
+        "Tarsus.Length",
+        "Wing.Length"
+      ],
+      "source_eligible_species": 8677,
+      "source_genera": 2180,
+      "source_families": 243,
+      "exclusions": {
+        "fewer_than_four_complete_specimens": 1232,
+        "some_morphology_inferred": 752
+      },
+      "matched_using_existing_exact_bird_join": 8187,
+      "matched_species_by_split": {
+        "train": 6538,
+        "test": 774,
+        "validation": 875
+      },
+      "matched_genera_by_split": {
+        "train": 1697,
+        "validation": 214,
+        "test": 197
+      },
+      "existing_join_species_missing_new_measurements": 0
+    },
+    "hand_wing_index": {
+      "source_fields": [
+        "Hand-Wing.Index"
+      ],
+      "source_eligible_species": 8677,
+      "source_genera": 2180,
+      "source_families": 243,
+      "exclusions": {
+        "fewer_than_four_complete_specimens": 1232,
+        "some_morphology_inferred": 752
+      },
+      "matched_using_existing_exact_bird_join": 8187,
+      "matched_species_by_split": {
+        "train": 6538,
+        "test": 774,
+        "validation": 875
+      },
+      "matched_genera_by_split": {
+        "train": 1697,
+        "validation": 214,
+        "test": 197
+      },
+      "existing_join_species_missing_new_measurements": 0
+    }
+  },
+  "audit_script_sha256": "fe475a946657a9f1d2f5ca5356510298000696cdcc4ff3bbaa2cf96e5b72080e"
+}

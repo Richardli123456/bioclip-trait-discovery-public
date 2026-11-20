@@ -1,0 +1,24 @@
+{
+  "code_repo": "https://github.com/Imageomics/TaxaAdapter",
+  "code_revision": "1f8f64a53b2d5ac88aaa1e98ea0ed12e35b4a506",
+  "weight_repo": "https://huggingface.co/mridulk/TaxaAdapter",
+  "weight_revision": "b70f29d0d5f834e8d3f3718e00e055646874e430",
+  "weight_filename": "taxaadapter_tol-1m.bin",
+  "weight_sha256": "fca2ed741122930e3b636a55016cf03b22334ce6b079a7c8f4d70c36ee3e367c",
+  "code_sha256": {
+    ".gitignore": "b7306196bd8d21ccd62cf86fb081c98cab2e17a8d579118307bd7d7acae2d0f0",
+    "LICENSE": "66782fe980771238c83dfc4890414ea7de4a632c07033b75ac5e8edc77f01ccf",
+    "README.md": "34d3b5af7941f20e7f385e833d19cdd88aa9f28e2850d0db90d6abef9e3303ae",
+    "checkpoint_bin_change.py": "e11f71ec0558989a566d599868c44b13b366e473a6ae89679c6ae9fd80659a03",
+    "data_json/train_mini_subset_1103_one_per_family.json": "46c0f2840bd4280187e0faf7b51aadff7c148abe80cb3b8c1598650b0c742c74",
+    "inference.py": "82c9003c0fc7ed6c773ad58af927dd35bac0f54fed3fb92ccc86ae8784a7b826",
+    "requirements.txt": "f5e250b262db5726d9a7afd31f244a81bfaee7c68d8aebf9702c466650e9dda1",
+    "taxa_adapter/__init__.py": "97565b274275480fff3e3c4f7d61ae6f14ce76bb4ff02fd027f2cde2a9a26ac2",
+    "taxa_adapter/attention_processor.py": "3c7fa095d8c1704dde0b0cd3cb68e18faba6aa45913da5dd779f2a54f7908501",
+    "taxa_adapter/resampler.py": "f651b8bfee690c988b202522aa4849f32271228ba49da873858ae44f3df4be8a",
+    "taxa_adapter/sd3_attention_processor.py": "0b2846320230cdcddf6e320f7d69f17ac1410b1b00571ea5fd18017e5b7dae40",
+    "taxa_adapter/taxa_adapter.py": "8f172048676cf2cc881949ca1136ac1fd99191fa1d6f97b349cd35fb8ac8e4b5",
+    "taxa_adapter/utils.py": "9b8a05a8ae7fb9c2b694b110b2c40072badcdbfd5b78c646fbf5f84e99adcbc3",
+    "train.py": "5a34a9d27998c28105d998db0d45bb564f155eb6f3c793a457d845020ea493a1"
+  }
+}

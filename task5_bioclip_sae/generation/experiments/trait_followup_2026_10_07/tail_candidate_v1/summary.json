@@ -1,0 +1,76 @@
+{
+  "status": "completed",
+  "endpoint": "ln_tail_length_over_wing_length",
+  "gpu_used": false,
+  "SAE_retrained": false,
+  "stable_feature_count": 732,
+  "eligible_training_features": 188,
+  "cohort_counts": {
+    "train": 6538,
+    "validation": 875,
+    "test": 774
+  },
+  "selected_feature": 814,
+  "candidate_confirmed": false,
+  "test_endpoint_used": false,
+  "image_branch_eligible": false,
+  "execution_lock_sha256": "48ffd0f08544fec09179cb8ee6d795b34fb717b0cfc84ec4cc98f6a4ef54aa76",
+  "training_selection": {
+    "feature": 814,
+    "active_training_species": 225,
+    "active_training_genera": 98,
+    "active_training_families": 41,
+    "within_family_r": -0.1467136208268798,
+    "ordinary_r": 0.009138960045642101,
+    "eligible": true
+  },
+  "selection_sha256": "39acd60f26f307cd52647cd235719ff8b92e44c9bd15867b762a76d8d13445f3",
+  "validation": {
+    "split": "validation",
+    "species": 875,
+    "genera": 214,
+    "active_support": {
+      "species": 29,
+      "genera": 12,
+      "families": 10
+    },
+    "endpoint_values_used": true,
+    "passed": false,
+    "support_passed": true,
+    "family_centered_r": 0.08032411241748069,
+    "ordinary_r": 0.051444582785157816,
+    "correlation_95ci": [
+      -0.047444049741697,
+      0.17381901893271332
+    ],
+    "defined_correlation_resamples": 2000,
+    "undefined_correlation_resamples": 0,
+    "taxonomy_baseline": {
+      "rmse": 0.226795123716197,
+      "mae": 0.16881520244646064,
+      "r2": 0.5438867170162734
+    },
+    "taxonomy_plus_activation": {
+      "rmse": 0.2282073877268424,
+      "mae": 0.16926563308852097,
+      "r2": 0.5381885525454758
+    },
+    "rmse_improvement": -0.0014122640106453976,
+    "improvement_95ci": [
+      -0.005816207631527513,
+      0.0022038086510128827
+    ],
+    "association_passed": false,
+    "prediction_passed": false,
+    "reason": "association_or_predictive_improvement_did_not_confirm"
+  },
+  "reason": "candidate_stopped_at_prespecified_confirmation_gate; no replacement",
+  "elapsed_seconds": 3.7959999999729916,
+  "all_input_hashes_unchanged": true,
+  "limitations": [
+    "Sequential new-endpoint follow-up after a negative beak experiment",
+    "Reused cohort and SAE validation embeddings, not a pristine project-level holdout",
+    "Species-mean morphology is not a guaranteed individual generated-image phenotype",
+    "Association does not establish image control or biological causation"
+  ]
+}

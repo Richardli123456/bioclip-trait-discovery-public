@@ -1,0 +1,48 @@
+{
+  "seed": 1,
+  "best_epoch": 15,
+  "epochs_run": 55,
+  "metrics": {
+    "train": {
+      "mse": 0.07911773288641255,
+      "normalized_mse": 0.2673951339425461,
+      "variance_explained_vs_training_mean": 0.7326048660574539,
+      "cosine_mean": 0.927052915096283,
+      "cosine_p05": 0.8924896717071533,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2033,
+      "dead_dictionary_features": 15
+    },
+    "validation": {
+      "mse": 0.09839646692339465,
+      "normalized_mse": 0.3353516081852031,
+      "variance_explained_vs_training_mean": 0.664648391814797,
+      "cosine_mean": 0.9086782336235046,
+      "cosine_p05": 0.8738179206848145,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2026,
+      "dead_dictionary_features": 22
+    },
+    "test": {
+      "mse": 0.09994463232615651,
+      "normalized_mse": 0.33739513041252167,
+      "variance_explained_vs_training_mean": 0.6626048695874783,
+      "cosine_mean": 0.9077318906784058,
+      "cosine_p05": 0.8725202083587646,
+      "mean_active_features": 32.0,
+      "active_dictionary_features": 2028,
+      "dead_dictionary_features": 20
+    }
+  },
+  "checkpoint_sha256": "0fafc069bc5ee9c3e1f71f18332b453d81770b50a8044231ec1a6f0db35f6879",
+  "indices_sha256": "312a426b261707099f51dac9526196fb07071b1ffea4ce9543f79823ce030233",
+  "values_sha256": "0a846fd38e95d12b4260457c5a1b1813c7cac03503fd05b9cff9ac5992271cb6",
+  "elapsed_seconds": 119.2766733999888,
+  "peak_allocated_gpu_bytes": 2258947584,
+  "peak_reserved_gpu_bytes": 4857004032,
+  "unique_matched_features": 1621,
+  "anchor_features_in_collisions": 748,
+  "maximum_anchor_features_sharing_match": 36,
+  "median_activation_match": 0.6852857921675659,
+  "median_same_match_decoder_cosine": 0.7672631740570068
+}

@@ -1,0 +1,23 @@
+{
+  "usageKey": 5231103,
+  "scientificName": "Zonotrichia capensis (P.L.S.Müller, 1776)",
+  "canonicalName": "Zonotrichia capensis",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Zonotrichia",
+  "species": "Zonotrichia capensis",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 6173226,
+  "speciesKey": 5231103,
+  "class": "Aves"
+}

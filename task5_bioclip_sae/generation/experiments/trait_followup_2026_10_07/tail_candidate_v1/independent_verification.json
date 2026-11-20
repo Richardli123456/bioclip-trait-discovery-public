@@ -1,0 +1,82 @@
+{
+  "status": "passed",
+  "scope": "Independent source XML parsing, sparse code reconstruction, all stable-feature training ranking, fixed training predictor verification, and weighted-genus validation bootstrap; no runner helpers imported.",
+  "cohort_counts": {
+    "train": 6538,
+    "test": 774,
+    "validation": 875
+  },
+  "stable_features_checked": 732,
+  "eligible_training_features": 188,
+  "selected_feature": 814,
+  "training_family_centered_r": -0.14671362082687978,
+  "training_active_support": [
+    225,
+    98,
+    41
+  ],
+  "validation_active_support": [
+    29,
+    12,
+    10
+  ],
+  "validation_family_centered_r": 0.08032411241748065,
+  "validation_correlation_95ci": [
+    -0.04744404974169698,
+    0.1738190189327131
+  ],
+  "validation_rmse_improvement": -0.0014122640106453976,
+  "validation_improvement_95ci": [
+    -0.005816207631527541,
+    0.002203808651012828
+  ],
+  "bootstrap_defined_correlations": 2000,
+  "both_confirmation_gates_failed": true,
+  "test_endpoint_computed": false,
+  "training_correlation_max_error": 6.938893903907228e-17,
+  "numerical_errors": {
+    "slope_absolute_error": 5.551115123125783e-17,
+    "endpoint_global_mean_error": 0.0,
+    "endpoint_orders_max_error": 2.220446049250313e-16,
+    "endpoint_families_max_error": 4.440892098500626e-16,
+    "activation_global_mean_error": 0.0,
+    "activation_orders_max_error": 0.0,
+    "activation_families_max_error": 0.0,
+    "train_label_max_error": 9.43689570931383e-16,
+    "train_activation_max_error": 0.0,
+    "validation_label_max_error": 9.43689570931383e-16,
+    "validation_activation_max_error": 0.0,
+    "baseline_prediction_max_error": 3.3306690738754696e-16,
+    "augmented_prediction_max_error": 4.163336342344337e-16,
+    "bootstrap_correlation_max_error": 3.3306690738754696e-16,
+    "bootstrap_improvement_max_error": 1.1102230246251565e-16
+  },
+  "locked_inputs_hashes_verified": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_followup_2026_10_07\\run_tail_candidate.py": "9724e7d542704263fc37494eae85c1909dba3463098b56531dac06171167d210",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_followup_2026_10_07\\protocol.json": "95e68ac67c67320402b7d4f1375a34f963491d20338e1803a02486fb467721bb",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\summary.json": "7eb0b3f5d3cf0c2a19cbd2e6da97a12bda1bf6321d5e85007bbeb147f3515b60",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\protocol.json": "1ca463cafbfa8ddc2c047539bd70c8e7081398d0bc0dd0ae40cfce13902ecc29",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\feature_stability.csv": "55b60469386be20a2953f7d92c34afc14224025c043eef41921eba9d7da9fc0e",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\independent_cpu_audit.json": "445beba0f12fe42f9ce8ec45b44d93c97e888a8b37e095dc7476168b9882b839",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v2\\data\\species.json": "80d1d4e14ff3ba5a4f97cd4e07997f248bc67d15e456fddd203ecae87a02085f",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\AVONET_Supplementary_dataset_1.xlsx": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\evaluation_expanded_v2\\joined_labels.csv": "49b67766710952f3262ff836d1fa443902a7c546a11eb841633a0f1c84b8695e",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\prepare_labels.py": "0aea7ccd5ba4b55013badb8a25cc427ca28c0cf99ce75f12a2a15101a38024a7",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929\\code_indices.npy": "fd0ec6992a5585cf8550075ed860133bdae48d65b0cc4af4af753fada5d580f9",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929\\code_values.npy": "92be2d8ef0a96602dac8b2bdebd83374896ec3c56c4649887fc0bcff540ef9ec"
+  },
+  "result_artifact_sha256": {
+    "summary.json": "666e0ba7cfd983535aada4ff2812400c0ad3f7a7a4b36f3376770e27e95fa95a",
+    "training_selection.json": "39acd60f26f307cd52647cd235719ff8b92e44c9bd15867b762a76d8d13445f3",
+    "training_predictors.json": "cff4b9138334081f14970b2ae6f4f329aae2e293e333c3e36e6f6936764da56c",
+    "cohort_metadata.csv": "7e962672876f4d1c9125e23ebd8bed0935df8d7d765cb3c2691f60b164424e00",
+    "training_feature_associations.csv": "bb03dcb132e4502db33664dd4c0ab5826431a42156bec3912b874022a2380118",
+    "training_values.csv": "f7ba9e994d1c2fb0a08c3fabe2a3fae893be126dd2109ce2250f78be18c57956",
+    "validation_values.csv": "e6b1eb7688feac916b430f5fe714b0c30ae05fb15034ff26f54c1d800dc6eee3",
+    "validation_result.json": "f2228a4200080f7e604047250c842a02ab5fecf6c306bcc4578da80a3b206e07",
+    "validation_bootstrap.npz": "934daa9f54dbb5ed90520b86ff11dd3246e7c6b9688f6801901c5a74fb39a11e"
+  },
+  "audit_script_sha256": "592d703f40e7586143e43204b2b55dfd2187028ccfbf9b145a0e9c30dea9b1a0",
+  "cpu_only": true,
+  "elapsed_seconds": 2.75
+}

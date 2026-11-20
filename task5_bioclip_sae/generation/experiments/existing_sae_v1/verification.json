@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "training_performed": false,
+  "input_artifacts_unchanged": true,
+  "saved_encoder_decoder_roundtrip": true,
+  "residual_preserving_feature_math": true,
+  "random_control_norm_and_orthogonality": true,
+  "bridge_checks": [
+    {
+      "source": "Asio otus",
+      "target": "Asio flammeus",
+      "single_coordinate_steps": 49,
+      "endpoint_codes_exact": true,
+      "max_active_features": 35
+    }
+  ],
+  "overlap_checks": {
+    "all_neighbor_intersections_checked": 53880,
+    "exhaustive_independent_query_rankings_checked": 128
+  },
+  "vector_sha256": "2b193a12862786956332426df8afcd1c4cdb04a22a1f4b0987cb7915f1ac7a19",
+  "not_established": [
+    "Specific biological trait control",
+    "Robustness across SAE training seeds",
+    "Full TreeOfLife-1M coverage"
+  ],
+  "verified_images": 188,
+  "identical_raw_source_references": [
+    {
+      "species": "Asio otus",
+      "seed": 42,
+      "identical_images": true
+    },
+    {
+      "species": "Asio otus",
+      "seed": 43,
+      "identical_images": true
+    }
+  ],
+  "manifest_sha256": "699c33d81eb7cf5c1ee766d3edeeadfaff73b278208a37dcda596e1e9e491a3f"
+}

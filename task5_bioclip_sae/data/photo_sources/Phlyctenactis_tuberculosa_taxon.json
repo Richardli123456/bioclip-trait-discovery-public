@@ -1,0 +1,60 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 344569,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 1,
+      "ancestor_ids": [
+        48460,
+        1,
+        47534,
+        47533,
+        202756,
+        47797,
+        813978,
+        813994,
+        47796,
+        344571,
+        344569
+      ],
+      "is_active": true,
+      "name": "Phlyctenactis tuberculosa",
+      "parent_id": 344571,
+      "ancestry": "48460/1/47534/47533/202756/47797/813978/813994/47796/344571",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 22571551,
+        "license_code": "cc-by-nc",
+        "attribution": "(c) ihunter, some rights reserved (CC BY-NC)",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22571551/square.jpg",
+        "original_dimensions": {
+          "height": 2048,
+          "width": 1783
+        },
+        "flags": [],
+        "attribution_name": "ihunter",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22571551/square.jpg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/22571551/medium.jpg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 2,
+      "observations_count": 1931,
+      "flag_counts": {
+        "resolved": 1,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "https://en.wikipedia.org/wiki/Phlyctenactis_tuberculosa",
+      "matched_term": "Phlyctenactis tuberculosa",
+      "iconic_taxon_name": "Animalia",
+      "preferred_common_name": "Wandering Sea Anemone"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "source_tables_match_saved_results": true,
+  "source_and_output_hashes_verified": true,
+  "pdf_pages": 1,
+  "key_pdf_text_verified": [
+    "27 countable",
+    "NA",
+    "3/27",
+    "Single human"
+  ],
+  "png_dimensions": [
+    2124,
+    1224
+  ],
+  "pdf_render_dimensions": [
+    1416,
+    816
+  ],
+  "visual_inspection": "Both final PNG and Poppler-rendered PDF were viewed; no clipping, overlaps, missing labels, or misleading axes observed.",
+  "accessibility": "Direct numeric labels, distinct point shapes, separate NA panel, and explicit group labels support interpretation without color; no formal color-vision simulation performed.",
+  "fits_or_model_generation": false,
+  "verification_script_sha256": "099daecc1e6558a816849bada722b46195ee0206d9ffdd0764cb9398a2a57bc1"
+}

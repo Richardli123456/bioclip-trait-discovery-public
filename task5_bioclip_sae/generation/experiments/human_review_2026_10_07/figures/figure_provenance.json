@@ -1,0 +1,16 @@
+{
+  "source_rows": 12,
+  "source_sha256": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\human_review_2026_10_07\\summary.json": "22144f4a0dadb6fcd484c0e696a5fc55517c2f726169f365042759b903e5d9d6",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\human_review_2026_10_07\\human_scores_corrected.csv": "e2a3880d3db8903938b0b8bba10db8cd02a71ef66d62300154c3e14d5e6bab9b"
+  },
+  "plot_script_sha256": "b1ff65b68d029cc1940d3578f9bba9559c2432697ec621f0aaae23f76d9420ce",
+  "plotting_library": "Matplotlib 3.10.5",
+  "outputs_sha256": {
+    "human_spot_count_distribution.png": "232fc02093fabaaa685d82e61c52fc649a63e7032d65665f15e1dc234482e3ce",
+    "human_spot_count_distribution.pdf": "e23a8e0d2a1f449dc01645b7b1f0271fc87baf5ba2c9b30bf48b3f5ab5c94960"
+  },
+  "new_fits": false,
+  "new_image_generation": false,
+  "notes": "Figures use saved results. Missing observations remain separate, interval units are explicit, and negative confirmation outcomes are preserved."
+}

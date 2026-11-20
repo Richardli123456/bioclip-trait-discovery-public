@@ -1,0 +1,9 @@
+{
+  "status":"stopped_for_source_quality_correction",
+  "date":"2026-10-04",
+  "hardware_problem":false,
+  "reason":"A further source audit found367 exact binomials assigned across multiple kingdoms, including128 across experimental splits and confirmed examples of erroneous lineages. Training was deliberately interrupted during seed3 before adoption as a final result.",
+  "preserved":"Original input corpus, protocols, completed anchor and seeds1-2, partial seed3 history and hardware logs remain unchanged.",
+  "replacement":"Conservative filtering into a separate expanded_tol10m_v2 corpus, followed by a new unchanged2048/32six-seed study. No ambiguous scientific-name group selected for removal using test outcomes.",
+  "interpretation":"Preliminary incomplete run; do not combine its features, metrics or gates with the corrected study."
+}

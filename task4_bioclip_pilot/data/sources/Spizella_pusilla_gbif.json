@@ -1,0 +1,23 @@
+{
+  "usageKey": 2492096,
+  "scientificName": "Spizella pusilla (A.Wilson, 1810)",
+  "canonicalName": "Spizella pusilla",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Spizella",
+  "species": "Spizella pusilla",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2492093,
+  "speciesKey": 2492096,
+  "class": "Aves"
+}

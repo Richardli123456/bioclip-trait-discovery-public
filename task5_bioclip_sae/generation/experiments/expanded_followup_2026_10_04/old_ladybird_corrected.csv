@@ -1,0 +1,29 @@
+image_id,condition,seed,accepted_provisional_count,status
+B001,remove_residual,44,NA,Unscorable or disputed; human review pending
+B002,reconstruction,45,7,Retained AI candidate; human review pending
+B003,double_residual,44,NA,Unscorable or disputed; human review pending
+B004,original,42,NA,Withdrawn: low angle; not zero
+B005,random_direction_control,45,NA,Unscorable or disputed; human review pending
+B006,control_remove_residual,44,NA,Unscorable or disputed; human review pending
+B007,control_remove_residual,43,NA,Unscorable or disputed; human review pending
+B008,random_direction_control,43,NA,Unscorable or disputed; human review pending
+B009,control_remove_residual,42,NA,Withdrawn: low angle; not zero
+B010,double_residual,43,NA,Unscorable or disputed; human review pending
+B011,original,44,NA,Unscorable or disputed; human review pending
+B012,half_residual,43,NA,Unscorable or disputed; human review pending
+B013,random_direction_control,44,NA,Unscorable or disputed; human review pending
+B014,half_residual,44,NA,Unscorable or disputed; human review pending
+B015,original,45,NA,Unscorable or disputed; human review pending
+B016,remove_residual,45,NA,Unscorable or disputed; human review pending
+B017,control_remove_residual,45,NA,Unscorable or disputed; human review pending
+B018,double_residual,45,NA,Unscorable or disputed; human review pending
+B019,half_residual,45,NA,Unscorable or disputed; human review pending
+B020,reconstruction,42,NA,Withdrawn: low angle; not zero
+B021,reconstruction,44,NA,Unscorable or disputed; human review pending
+B022,double_residual,42,NA,Withdrawn: low angle; not zero
+B023,remove_residual,42,NA,Withdrawn: low angle; not zero
+B024,half_residual,42,NA,Withdrawn: low angle; not zero
+B025,remove_residual,43,NA,Unscorable or disputed; human review pending
+B026,random_direction_control,42,NA,Unscorable or disputed; human review pending
+B027,original,43,NA,Unscorable or disputed; human review pending
+B028,reconstruction,43,NA,Unscorable or disputed; human review pending

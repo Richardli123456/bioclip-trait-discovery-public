@@ -1,0 +1,16 @@
+{
+  "method": "Apply documented SCORING_CORRECTION to historical annotations; not a new visual scoring pass",
+  "source_sha256": "9371a41901ab35e6c8fef48b7e25e21bc72dd2ca9ccaeb9b9fb6c4f2a4548d34",
+  "withdrawn_ids": [
+    "B004",
+    "B009",
+    "B020",
+    "B022",
+    "B023",
+    "B024"
+  ],
+  "images": 28,
+  "remaining_provisional_candidate_counts": 1,
+  "accepted_original_condition_counts": 0,
+  "human_review_completed": false
+}

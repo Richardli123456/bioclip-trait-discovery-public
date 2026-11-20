@@ -1,0 +1,2 @@
+quantity,estimate,ci95_lower,ci95_upper,units,favorable_direction,interval_method,summary_sha256
+taxonomy RMSE minus taxonomy-plus-activation RMSE,-0.0014122640106453976,-0.005816207631527513,0.0022038086510128827,natural-log tail/wing ratio,positive,2000 paired genus-cluster bootstrap resamples,666e0ba7cfd983535aada4ff2812400c0ad3f7a7a4b36f3376770e27e95fa95a

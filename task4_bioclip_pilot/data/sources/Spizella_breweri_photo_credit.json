@@ -1,0 +1,106 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "File:Brewer's_sparrow_(Spizella_breweri)_foraging_in_front_of_an_American_Tarwort_(Flourensia_cernua)_in_Picacho_Hills,_Las_Cruces,_New_Mexico,_USA.jpg",
+        "to": "File:Brewer's sparrow (Spizella breweri) foraging in front of an American Tarwort (Flourensia cernua) in Picacho Hills, Las Cruces, New Mexico, USA.jpg"
+      }
+    ],
+    "pages": {
+      "164238506": {
+        "pageid": 164238506,
+        "ns": 6,
+        "title": "File:Brewer's sparrow (Spizella breweri) foraging in front of an American Tarwort (Flourensia cernua) in Picacho Hills, Las Cruces, New Mexico, USA.jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Brewer%27s_sparrow_%28Spizella_breweri%29_foraging_in_front_of_an_American_Tarwort_%28Flourensia_cernua%29_in_Picacho_Hills%2C_Las_Cruces%2C_New_Mexico%2C_USA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Brewer%27s_sparrow_(Spizella_breweri)_foraging_in_front_of_an_American_Tarwort_(Flourensia_cernua)_in_Picacho_Hills,_Las_Cruces,_New_Mexico,_USA.jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=164238506",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2025-04-26 21:30:40",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Brewer's sparrow (Spizella breweri) foraging in front of an American Tarwort (Flourensia cernua) in Picacho Hills, Las Cruces, New Mexico, USA",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Spizella breweri|Las Cruces, New Mexico|Self-published work",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "quality",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "A Brewer's Sparrow perches on a rock after foraging in an American Tarwort.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2025-04-16 09:23:19",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span> <a rel=\"nofollow\" class=\"external text\" href=\"https://www.focusonwildlife.me/\">Focus On Wildlife</a>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Needsmoreritalin\" title=\"User:Needsmoreritalin\">Chuck Homler d/b/a Focus On Wildlife</a>",
+                "source": "commons-desc-page"
+              },
+              "Permission": {
+                "value": "Must use attribution as follows:  Chuck Homler / FocusOnWildlife.Me",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

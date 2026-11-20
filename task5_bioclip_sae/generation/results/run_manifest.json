@@ -1,0 +1,115 @@
+{
+  "species": "Asio otus",
+  "taxonomy": "Animalia Chordata Aves Strigiformes Strigidae Asio otus",
+  "feature": 1969,
+  "prompt": "best quality, high quality",
+  "seeds": [
+    42,
+    43
+  ],
+  "steps": 50,
+  "guidance_scale": 6.0,
+  "adapter_scale": 1.0,
+  "resolution": [
+    512,
+    512
+  ],
+  "scheduler": "DDIM, upstream inference settings",
+  "edit": "Hold all other sparse activations fixed; set selected activation to zero or twice its original value",
+  "input_format": "Raw space-separated BioCLIP 2 taxonomy vectors, float32 extraction cast to fp16 at adapter projection",
+  "fp32_input_vs_official_fp16_encoder_cosine": 0.9999991059303284,
+  "precomputed_projection_matches_upstream_exactly": true,
+  "decoder_edit_direction_verified": true,
+  "adapter_checkpoint_sha256": "fca2ed741122930e3b636a55016cf03b22334ce6b079a7c8f4d70c36ee3e367c",
+  "aligned_sae_sha256": "10eaa321217db74d4d990a9aaf5bb879070f67a4a54205fe02ce671051b32c7f",
+  "gpu": "NVIDIA GeForce RTX 5090",
+  "packages": {
+    "torch": "2.11.0+cu130",
+    "torchvision": "0.26.0+cu130",
+    "diffusers": "0.29.2",
+    "transformers": "4.41.2",
+    "open_clip_torch": "3.3.0",
+    "huggingface_hub": "0.36.0"
+  },
+  "images": [
+    {
+      "seed": 42,
+      "condition": "original",
+      "image": "seed_42_original.png",
+      "image_sha256": "de34867782170d6c452339f812e12acde118affc3e94e37de47dac232b87fee3",
+      "raw_embedding_norm": 24.330211639404297,
+      "cosine_to_original": 0.9999998807907104,
+      "relative_input_change": 0.0
+    },
+    {
+      "seed": 42,
+      "condition": "reconstruction",
+      "image": "seed_42_reconstruction.png",
+      "image_sha256": "60fa5030f388a2e8ec70dfd6ee1286f469d59bf3f3146a02a63e023f726c8f7e",
+      "raw_embedding_norm": 22.684661865234375,
+      "cosine_to_original": 0.9647479057312012,
+      "relative_input_change": 0.26516056060791016
+    },
+    {
+      "seed": 42,
+      "condition": "remove",
+      "image": "seed_42_remove.png",
+      "image_sha256": "803d827d13a73410e0276e6926eaece7a4fd7d993de9b988e55838e3e46d2655",
+      "raw_embedding_norm": 21.847675323486328,
+      "cosine_to_original": 0.9492403268814087,
+      "relative_input_change": 0.31870344281196594
+    },
+    {
+      "seed": 42,
+      "condition": "increase",
+      "image": "seed_42_increase.png",
+      "image_sha256": "125bbc59945de985a38af693c6bad751687eac9568d64ab6bc158d313c40eaef",
+      "raw_embedding_norm": 24.14805030822754,
+      "cosine_to_original": 0.9537525773048401,
+      "relative_input_change": 0.3030811548233032
+    },
+    {
+      "seed": 43,
+      "condition": "original",
+      "image": "seed_43_original.png",
+      "image_sha256": "00dcfd395798800a45b9ffda7d9d63c02448737f7104ea13b6102dd5bd7916b8",
+      "raw_embedding_norm": 24.330211639404297,
+      "cosine_to_original": 0.9999998807907104,
+      "relative_input_change": 0.0
+    },
+    {
+      "seed": 43,
+      "condition": "reconstruction",
+      "image": "seed_43_reconstruction.png",
+      "image_sha256": "65bf45c9d01fa4cd47396f38335b453676d5ffe83623fd8a548564d150bcf4be",
+      "raw_embedding_norm": 22.684661865234375,
+      "cosine_to_original": 0.9647479057312012,
+      "relative_input_change": 0.26516056060791016
+    },
+    {
+      "seed": 43,
+      "condition": "remove",
+      "image": "seed_43_remove.png",
+      "image_sha256": "c664e940cbe116d38d01168e973c7a4b1d0508e8ae67d8d2271bbbc7bb4306e5",
+      "raw_embedding_norm": 21.847675323486328,
+      "cosine_to_original": 0.9492403268814087,
+      "relative_input_change": 0.31870344281196594
+    },
+    {
+      "seed": 43,
+      "condition": "increase",
+      "image": "seed_43_increase.png",
+      "image_sha256": "50029c792e70cafb2cfd898abd787ac75802b75e3bcc6f0f29283d3efb73fdd3",
+      "raw_embedding_norm": 24.14805030822754,
+      "cosine_to_original": 0.9537525773048401,
+      "relative_input_change": 0.3030811548233032
+    }
+  ],
+  "elapsed_seconds": 32.65957070000877,
+  "limits": [
+    "One species and two seeds constitute a smoke test, not a trait-specificity or stability benchmark",
+    "Candidate feature selected using taxonomy association, which is confounded with visual appearance",
+    "Edited codes need not lie on the natural embedding distribution",
+    "Unedited SAE reconstruction can itself alter generated images"
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "checked_on": "2026-10-02",
+  "training_performed": false,
+  "image_downloads": false,
+  "adapter_model": {
+    "url": "https://huggingface.co/mridulk/TaxaAdapter",
+    "revision": "b70f29d0d5f834e8d3f3718e00e055646874e430",
+    "files": [
+      ".gitattributes",
+      "README.md",
+      "taxaadapter_inat-mini.bin",
+      "taxaadapter_tol-1m.bin"
+    ]
+  },
+  "adapter_code": {
+    "url": "https://github.com/Imageomics/TaxaAdapter",
+    "revision": "1f8f64a53b2d5ac88aaa1e98ea0ed12e35b4a506",
+    "files_checked": [
+      ".gitignore",
+      "LICENSE",
+      "README.md",
+      "checkpoint_bin_change.py",
+      "data_json/train_mini_subset_1103_one_per_family.json",
+      "inference.py",
+      "requirements.txt",
+      "taxa_adapter/__init__.py",
+      "taxa_adapter/attention_processor.py",
+      "taxa_adapter/resampler.py",
+      "taxa_adapter/sd3_attention_processor.py",
+      "taxa_adapter/taxa_adapter.py",
+      "taxa_adapter/utils.py",
+      "train.py"
+    ],
+    "released_json_lists": [
+      {
+        "file": "data_json/train_mini_subset_1103_one_per_family.json",
+        "records": 1103,
+        "type": "list",
+        "purpose_from_filename": "One-per-family inference/evaluation subset"
+      }
+    ]
+  },
+  "tol10m": {
+    "url": "https://huggingface.co/datasets/imageomics/TreeOfLife-10M",
+    "revision": "91debffb7146c32c89d76feb1eb575b555e2ecc7",
+    "metadata_files": [
+      {
+        "path": "metadata/catalog.csv",
+        "size_bytes": 2043627688
+      },
+      {
+        "path": "metadata/licenses.csv",
+        "size_bytes": 2216478840
+      },
+      {
+        "path": "metadata/mapping.sqlite",
+        "size_bytes": 2456174592
+      },
+      {
+        "path": "metadata/species_level_taxonomy_chains.csv",
+        "size_bytes": 303485200
+      },
+      {
+        "path": "metadata/taxon.tab",
+        "size_bytes": 1605248088
+      },
+      {
+        "path": "metadata/naming/bioscan_name_lookup.json",
+        "size_bytes": 167636040
+      },
+      {
+        "path": "metadata/naming/eol_name_lookup.json",
+        "size_bytes": 75557898
+      },
+      {
+        "path": "metadata/naming/inat21_name_lookup.json",
+        "size_bytes": 1586433
+      }
+    ]
+  },
+  "conclusion": "The exact TreeOfLife-1M training-species list was not identified in these inspected releases. TreeOfLife-10M naming/taxonomy files are a broader source and cannot be substituted while claiming exact adapter training coverage.",
+  "before_full_coverage": [
+    "Obtain or derive a verified TreeOfLife-1M species manifest with source provenance",
+    "Extract raw space-separated BioCLIP 2 taxonomy embeddings using the frozen encoder",
+    "Pause for the user before fitting or retraining any SAE"
+  ],
+  "limits": "This is a bounded audit of the pinned code, current model file listing and current dataset metadata file listing; it does not prove that no other release exists."
+}

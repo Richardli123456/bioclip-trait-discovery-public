@@ -1,0 +1,18 @@
+{
+  "created_utc": "2026-10-08T03:11:01.425540+00:00",
+  "input_sha256": {
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_followup_2026_10_07\\run_tail_candidate.py": "9724e7d542704263fc37494eae85c1909dba3463098b56531dac06171167d210",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_followup_2026_10_07\\protocol.json": "95e68ac67c67320402b7d4f1375a34f963491d20338e1803a02486fb467721bb",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\summary.json": "7eb0b3f5d3cf0c2a19cbd2e6da97a12bda1bf6321d5e85007bbeb147f3515b60",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\protocol.json": "1ca463cafbfa8ddc2c047539bd70c8e7081398d0bc0dd0ae40cfce13902ecc29",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\feature_stability.csv": "55b60469386be20a2953f7d92c34afc14224025c043eef41921eba9d7da9fc0e",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\independent_cpu_audit.json": "445beba0f12fe42f9ce8ec45b44d93c97e888a8b37e095dc7476168b9882b839",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\cache\\expanded_tol10m_v2\\data\\species.json": "80d1d4e14ff3ba5a4f97cd4e07997f248bc67d15e456fddd203ecae87a02085f",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\AVONET_Supplementary_dataset_1.xlsx": "eb645e83dddb40f1654a3e8d721998dbca76eff540231b7b809267c1e96f8d3e",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\evaluation_expanded_v2\\joined_labels.csv": "49b67766710952f3262ff836d1fa443902a7c546a11eb841633a0f1c84b8695e",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\prepare_labels.py": "0aea7ccd5ba4b55013badb8a25cc427ca28c0cf99ce75f12a2a15101a38024a7",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929\\code_indices.npy": "fd0ec6992a5585cf8550075ed860133bdae48d65b0cc4af4af753fada5d580f9",
+    "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\expanded_stability_w2048_k32_v2\\seed_20260929\\code_values.npy": "92be2d8ef0a96602dac8b2bdebd83374896ec3c56c4649887fc0bcff540ef9ec"
+  },
+  "scope": "Source identities, script and protocol locked before any new tail endpoint association"
+}

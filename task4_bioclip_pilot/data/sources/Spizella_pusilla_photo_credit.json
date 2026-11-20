@@ -1,0 +1,114 @@
+{
+  "batchcomplete": "",
+  "query": {
+    "normalized": [
+      {
+        "from": "File:Field_sparrow_in_CP_(41484)_(cropped).jpg",
+        "to": "File:Field sparrow in CP (41484) (cropped).jpg"
+      }
+    ],
+    "pages": {
+      "99688833": {
+        "pageid": 99688833,
+        "ns": 6,
+        "title": "File:Field sparrow in CP (41484) (cropped).jpg",
+        "imagerepository": "local",
+        "imageinfo": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/3/3c/Field_sparrow_in_CP_%2841484%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+            "descriptionurl": "https://commons.wikimedia.org/wiki/File:Field_sparrow_in_CP_(41484)_(cropped).jpg",
+            "descriptionshorturl": "https://commons.wikimedia.org/w/index.php?curid=99688833",
+            "extmetadata": {
+              "DateTime": {
+                "value": "2021-02-09 05:36:17",
+                "source": "mediawiki-metadata",
+                "hidden": ""
+              },
+              "ObjectName": {
+                "value": "Field sparrow in CP (41484) (cropped)",
+                "source": "mediawiki-metadata"
+              },
+              "CommonsMetadataExtension": {
+                "value": 1.2,
+                "source": "extension",
+                "hidden": ""
+              },
+              "Categories": {
+                "value": "Spizella pusilla|New York City photographs taken on 2021-02-04|Self-published work|Featured pictures on Wikipedia, English|Extracted images|Featured pictures on Wikipedia, Persian|Files uploaded by Rhododendrites (all)|Winter in Central Park|Featured pictures by Rhododendrites|Files with coordinates missing SDC location of creation|Featured pictures on English Wikipedia by Rhododendrites|Featured pictures of Passerellidae|Passeriformes of Central Park|Featured pictures of birds in New York City|Photographs taken by Rhododendrites - birds|Photographs taken by Rhododendrites - Central Park|Central Park in February 2021|Files by Rhododendrites - 2021-02",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "Assessments": {
+                "value": "featured|valued",
+                "source": "commons-categories",
+                "hidden": ""
+              },
+              "GPSLatitude": {
+                "value": "40.780811",
+                "source": "commons-desc-page"
+              },
+              "GPSLongitude": {
+                "value": "-73.966921",
+                "source": "commons-desc-page"
+              },
+              "GPSMapDatum": {
+                "value": "WGS-84",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "ImageDescription": {
+                "value": "Field sparrow in Central Park, New York.",
+                "source": "commons-desc-page"
+              },
+              "DateTimeOriginal": {
+                "value": "2021-02-04 17:04:50",
+                "source": "commons-desc-page"
+              },
+              "Credit": {
+                "value": "<span class=\"int-own-work\" lang=\"en\">Own work</span>",
+                "source": "commons-desc-page"
+              },
+              "Artist": {
+                "value": "<a href=\"//commons.wikimedia.org/wiki/User:Rhododendrites\" title=\"User:Rhododendrites\">Rhododendrites</a>",
+                "source": "commons-desc-page"
+              },
+              "LicenseShortName": {
+                "value": "CC BY-SA 4.0",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "UsageTerms": {
+                "value": "Creative Commons Attribution-Share Alike 4.0",
+                "source": "commons-desc-page"
+              },
+              "AttributionRequired": {
+                "value": "true",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "LicenseUrl": {
+                "value": "https://creativecommons.org/licenses/by-sa/4.0",
+                "source": "commons-desc-page"
+              },
+              "Copyrighted": {
+                "value": "True",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "Restrictions": {
+                "value": "",
+                "source": "commons-desc-page",
+                "hidden": ""
+              },
+              "License": {
+                "value": "cc-by-sa-4.0",
+                "source": "commons-templates",
+                "hidden": ""
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

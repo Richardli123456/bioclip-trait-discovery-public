@@ -1,0 +1,1216 @@
+{
+  "global": 0.7513880868597992,
+  "orders": {
+    "Accipitriformes": 0.3673542566021813,
+    "Anseriformes": 0.7210395169512439,
+    "Apterygiformes": 0.6839508943928269,
+    "Bucerotiformes": 0.8310927504389413,
+    "Apodiformes": 1.6392159660587788,
+    "Caprimulgiformes": 0.9718763778831909,
+    "Cariamiformes": 0.7509067776857788,
+    "Casuariiformes": 0.7206683624986909,
+    "Cathartiformes": 0.7364912632770273,
+    "Charadriiformes": 1.1091874024005874,
+    "Ciconiiformes": 0.8937974228018759,
+    "Coliiformes": 0.7053516660831992,
+    "Columbiformes": 0.770455465562839,
+    "Coraciiformes": 1.008941544492932,
+    "Cuculiformes": 0.6850051172689675,
+    "Eurypygiformes": 0.7636782553857064,
+    "Falconiformes": 0.46705832618407483,
+    "Piciformes": 0.8616827813954198,
+    "Galliformes": 0.45122391133111484,
+    "Gaviiformes": 0.775000693852989,
+    "Gruiformes": 0.7793732279613999,
+    "Leptosomiformes": 0.7461814359825303,
+    "Mesitornithiformes": 0.7589425867778359,
+    "Musophagiformes": 0.5815831612413438,
+    "Opisthocomiformes": 0.7419246529007282,
+    "Otidiformes": 0.7795076352238594,
+    "Passeriformes": 0.714653769194906,
+    "Pelecaniformes": 1.2432336097051393,
+    "Phaethontiformes": 0.7592811155132715,
+    "Phoenicopteriformes": 0.7530847009517799,
+    "Podicipediformes": 0.7892371610678386,
+    "Procellariiformes": 0.8226927932300294,
+    "Psittaciformes": 0.11675702889215352,
+    "Pterocliformes": 0.6998972584038908,
+    "Rheiformes": 0.7508368262069237,
+    "Sphenisciformes": 0.7062325210508942,
+    "Strigiformes": 0.29031623168807213,
+    "Struthioniformes": 0.7518744779801377,
+    "Suliformes": 0.9469254948827995,
+    "Tinamiformes": 0.7591239619815974,
+    "Trogoniformes": 0.549231470172415,
+    "Galbuliformes": 0.769058624813776
+  },
+  "families": [
+    {
+      "order": "Accipitriformes",
+      "family": "Accipitridae",
+      "estimate": 0.23936972486452135
+    },
+    {
+      "order": "Accipitriformes",
+      "family": "Pandionidae",
+      "estimate": 0.3459028469568212
+    },
+    {
+      "order": "Accipitriformes",
+      "family": "Sagittariidae",
+      "estimate": 0.5116551551283661
+    },
+    {
+      "order": "Anseriformes",
+      "family": "Anatidae",
+      "estimate": 0.7130340027726807
+    },
+    {
+      "order": "Anseriformes",
+      "family": "Anhimidae",
+      "estimate": 0.37161974481578497
+    },
+    {
+      "order": "Anseriformes",
+      "family": "Anseranatidae",
+      "estimate": 0.7316134613877414
+    },
+    {
+      "order": "Apterygiformes",
+      "family": "Apterygidae",
+      "estimate": -0.3950441850787303
+    },
+    {
+      "order": "Bucerotiformes",
+      "family": "Bucerotidae",
+      "estimate": 0.7895472298661957
+    },
+    {
+      "order": "Bucerotiformes",
+      "family": "Phoeniculidae",
+      "estimate": 1.5246593842939635
+    },
+    {
+      "order": "Bucerotiformes",
+      "family": "Upupidae",
+      "estimate": 1.951251260224803
+    },
+    {
+      "order": "Apodiformes",
+      "family": "Apodidae",
+      "estimate": 0.36808056889076873
+    },
+    {
+      "order": "Caprimulgiformes",
+      "family": "Apodidae",
+      "estimate": 0.2669259482507702
+    },
+    {
+      "order": "Caprimulgiformes",
+      "family": "Caprimulgidae",
+      "estimate": 0.7845116399885257
+    },
+    {
+      "order": "Apodiformes",
+      "family": "Hemiprocnidae",
+      "estimate": 0.48968287862663673
+    },
+    {
+      "order": "Caprimulgiformes",
+      "family": "Nyctibiidae",
+      "estimate": 0.6949035128102897
+    },
+    {
+      "order": "Apodiformes",
+      "family": "Trochilidae",
+      "estimate": 2.1826696499107126
+    },
+    {
+      "order": "Caprimulgiformes",
+      "family": "Trochilidae",
+      "estimate": 2.178073425393844
+    },
+    {
+      "order": "Cariamiformes",
+      "family": "Cariamidae",
+      "estimate": 0.7201029905484736
+    },
+    {
+      "order": "Casuariiformes",
+      "family": "Casuariidae",
+      "estimate": 0.22915277272095894
+    },
+    {
+      "order": "Cathartiformes",
+      "family": "Cathartidae",
+      "estimate": 0.5775918117274613
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Alcidae",
+      "estimate": 0.3393592461189919
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Burhinidae",
+      "estimate": 0.8497263540566775
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Charadriidae",
+      "estimate": 1.125224783161105
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Dromadidae",
+      "estimate": 1.100846926469526
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Glareolidae",
+      "estimate": 0.7469380661330892
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Haematopodidae",
+      "estimate": 1.6703188040512753
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Ibidorhynchidae",
+      "estimate": 2.299455199985118
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Jacanidae",
+      "estimate": 1.072327332688725
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Laridae",
+      "estimate": 0.8352324206329499
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Pluvianellidae",
+      "estimate": 1.1741198411762548
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Pluvianidae",
+      "estimate": 0.7915872533731978
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Recurvirostridae",
+      "estimate": 2.5345953689829464
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Rostratulidae",
+      "estimate": 1.8028648533865201
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Scolopacidae",
+      "estimate": 1.8901108338332595
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Thinocoridae",
+      "estimate": 0.3380428252060347
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Turnicidae",
+      "estimate": 0.5053817299594193
+    },
+    {
+      "order": "Ciconiiformes",
+      "family": "Ciconiidae",
+      "estimate": 1.429926687524988
+    },
+    {
+      "order": "Coliiformes",
+      "family": "Coliidae",
+      "estimate": 0.21429651113279938
+    },
+    {
+      "order": "Columbiformes",
+      "family": "Columbidae",
+      "estimate": 0.7754567452226526
+    },
+    {
+      "order": "Coraciiformes",
+      "family": "Alcedinidae",
+      "estimate": 1.1408180215135735
+    },
+    {
+      "order": "Coraciiformes",
+      "family": "Brachypteraciidae",
+      "estimate": 0.7966469903096174
+    },
+    {
+      "order": "Coraciiformes",
+      "family": "Coraciidae",
+      "estimate": 0.5695083016784669
+    },
+    {
+      "order": "Coraciiformes",
+      "family": "Meropidae",
+      "estimate": 1.4442609724606494
+    },
+    {
+      "order": "Coraciiformes",
+      "family": "Momotidae",
+      "estimate": 0.9363194682101621
+    },
+    {
+      "order": "Cuculiformes",
+      "family": "Cuculidae",
+      "estimate": 0.6493033521108732
+    },
+    {
+      "order": "Eurypygiformes",
+      "family": "Eurypygidae",
+      "estimate": 1.55024904104377
+    },
+    {
+      "order": "Falconiformes",
+      "family": "Falconidae",
+      "estimate": 0.14781087560080539
+    },
+    {
+      "order": "Piciformes",
+      "family": "Bucconidae",
+      "estimate": 0.8218406506148628
+    },
+    {
+      "order": "Piciformes",
+      "family": "Galbulidae",
+      "estimate": 1.7168107799848389
+    },
+    {
+      "order": "Galliformes",
+      "family": "Cracidae",
+      "estimate": 0.31953083305190344
+    },
+    {
+      "order": "Galliformes",
+      "family": "Megapodiidae",
+      "estimate": 0.37866887234653457
+    },
+    {
+      "order": "Galliformes",
+      "family": "Numididae",
+      "estimate": 0.4385091586591969
+    },
+    {
+      "order": "Galliformes",
+      "family": "Odontophoridae",
+      "estimate": 0.04924605341609895
+    },
+    {
+      "order": "Galliformes",
+      "family": "Phasianidae",
+      "estimate": 0.4226422864932699
+    },
+    {
+      "order": "Gaviiformes",
+      "family": "Gaviidae",
+      "estimate": 1.0772420633658188
+    },
+    {
+      "order": "Gruiformes",
+      "family": "Gruidae",
+      "estimate": 1.3383818003924215
+    },
+    {
+      "order": "Gruiformes",
+      "family": "Heliornithidae",
+      "estimate": 0.8612536817317427
+    },
+    {
+      "order": "Gruiformes",
+      "family": "Psophiidae",
+      "estimate": 0.40070043346833595
+    },
+    {
+      "order": "Gruiformes",
+      "family": "Rallidae",
+      "estimate": 0.7840980484224115
+    },
+    {
+      "order": "Leptosomiformes",
+      "family": "Leptosomidae",
+      "estimate": 0.41295577983732196
+    },
+    {
+      "order": "Mesitornithiformes",
+      "family": "Mesitornithidae",
+      "estimate": 1.0006865841550086
+    },
+    {
+      "order": "Musophagiformes",
+      "family": "Musophagidae",
+      "estimate": 0.009608674947599328
+    },
+    {
+      "order": "Opisthocomiformes",
+      "family": "Opisthocomidae",
+      "estimate": 0.13626487952018318
+    },
+    {
+      "order": "Otidiformes",
+      "family": "Otididae",
+      "estimate": 0.8794882516294068
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Acanthisittidae",
+      "estimate": 0.8472978603872037
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Acanthizidae",
+      "estimate": 0.8029876374295152
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Acrocephalidae",
+      "estimate": 1.033877539940528
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Aegithalidae",
+      "estimate": 0.5280078970312895
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Aegithinidae",
+      "estimate": 0.897394835781995
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Alaudidae",
+      "estimate": 0.5827965913483529
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Artamidae",
+      "estimate": 0.6535075337154357
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Bernieridae",
+      "estimate": 0.9391654174435452
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Bombycillidae",
+      "estimate": 0.2584617595989724
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Calcariidae",
+      "estimate": 0.30410668526317547
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Calyptomenidae",
+      "estimate": 0.4278088126352997
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Campephagidae",
+      "estimate": 0.6557085653219029
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Cardinalidae",
+      "estimate": 0.1981759008020149
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Chaetopidae",
+      "estimate": 0.9162907318741551
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Chloropseidae",
+      "estimate": 0.9229908304435841
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Cinclidae",
+      "estimate": 0.8770824464584572
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Cinclosomatidae",
+      "estimate": 0.819583991999684
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Cisticolidae",
+      "estimate": 0.9657171900716506
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Climacteridae",
+      "estimate": 1.076147405169355
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Cnemophilidae",
+      "estimate": 0.620058805775736
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Conopophagidae",
+      "estimate": 0.7621594738986855
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Corcoracidae",
+      "estimate": 0.5960691733394666
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Corvidae",
+      "estimate": 0.618347291415931
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Cotingidae",
+      "estimate": 0.5249384606480957
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Dasyornithidae",
+      "estimate": 0.6174353588242489
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Dicaeidae",
+      "estimate": 0.6836446782996302
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Donacobiidae",
+      "estimate": 1.0336543923933372
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Dulidae",
+      "estimate": 0.4260843953109001
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Estrildidae",
+      "estimate": 0.20888427518577762
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Eulacestomatidae",
+      "estimate": -0.14035735769492258
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Eurylaimidae",
+      "estimate": 0.38802972757716414
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Falcunculidae",
+      "estimate": -0.028987536873252413
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Formicariidae",
+      "estimate": 0.7533997178608868
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Fringillidae",
+      "estimate": 0.21093465233451708
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Furnariidae",
+      "estimate": 1.0572900212777592
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Grallariidae",
+      "estimate": 0.6301040252281869
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Hirundinidae",
+      "estimate": 0.6461756716984901
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Hyliotidae",
+      "estimate": 0.8024212835241139
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Hylocitreidae",
+      "estimate": 0.5443015529623801
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Hypocoliidae",
+      "estimate": 0.39979937057248705
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Icteridae",
+      "estimate": 0.738796598031412
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Icteriidae",
+      "estimate": 0.5108256237659907
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Irenidae",
+      "estimate": 0.6023266539624204
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Laniidae",
+      "estimate": 0.33037257256132985
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Leiothrichidae",
+      "estimate": 0.738372604839397
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Alcippeidae",
+      "estimate": 0.640209037841783
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Timaliidae",
+      "estimate": 0.8550212692823855
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Locustellidae",
+      "estimate": 0.8646379913612291
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Machaerirhynchidae",
+      "estimate": 0.880240865071627
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Macrosphenidae",
+      "estimate": 0.9859043596404901
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Hyliidae",
+      "estimate": 0.858327763073393
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Malaconotidae",
+      "estimate": 0.54339413356629
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Maluridae",
+      "estimate": 0.7607696532803384
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Melanocharitidae",
+      "estimate": 1.0454325761533931
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Meliphagidae",
+      "estimate": 0.9919036032880835
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Menuridae",
+      "estimate": 0.7185651169164631
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Mimidae",
+      "estimate": 1.075847542674661
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Mitrospingidae",
+      "estimate": 0.5109801504316199
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Modulatricidae",
+      "estimate": 0.7963105237882615
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Mohouidae",
+      "estimate": 0.4709594916337336
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Monarchidae",
+      "estimate": 0.7787876296768137
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Motacillidae",
+      "estimate": 0.8611606212623437
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Muscicapidae",
+      "estimate": 0.8556418735114761
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Nectariniidae",
+      "estimate": 1.6296694404365637
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Neosittidae",
+      "estimate": 0.8929835377111802
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Nicatoridae",
+      "estimate": 0.6460452362931007
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Notiomystidae",
+      "estimate": 0.8362480242006187
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Oreoicidae",
+      "estimate": 0.42803943014670337
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Oriolidae",
+      "estimate": 0.7402283189701647
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Orthonychidae",
+      "estimate": 0.5348355271548105
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Tityridae",
+      "estimate": 0.638964498897507
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pachycephalidae",
+      "estimate": 0.5677786391680417
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Paradisaeidae",
+      "estimate": 1.0084469179061393
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Paramythiidae",
+      "estimate": 0.5330807948113498
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Paridae",
+      "estimate": 0.5922949147394284
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Parulidae",
+      "estimate": 0.784253402539139
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Passerellidae",
+      "estimate": 0.31132655478815496
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Passeridae",
+      "estimate": 0.23892685159559887
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pellorneidae",
+      "estimate": 0.8060129138931422
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Petroicidae",
+      "estimate": 0.7532546435664165
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Peucedramidae",
+      "estimate": 1.039423417277779
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Phaenicophilidae",
+      "estimate": 0.7466080286716014
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Philepittidae",
+      "estimate": 1.0315946999504695
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Picathartidae",
+      "estimate": 0.5596157879354225
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pipridae",
+      "estimate": 0.5418553329213182
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pittidae",
+      "estimate": 0.6340030443347829
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pityriasidae",
+      "estimate": 0.35211912740287166
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Platysteiridae",
+      "estimate": 0.7353186209155176
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Ploceidae",
+      "estimate": 0.37936758640196827
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pnoepygidae",
+      "estimate": 0.9216553974194075
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Polioptilidae",
+      "estimate": 1.2289397276467553
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pomatostomidae",
+      "estimate": 1.087333059435522
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Promeropidae",
+      "estimate": 1.7677649950292649
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Prunellidae",
+      "estimate": 0.7025069940916966
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Psophodidae",
+      "estimate": 0.40999576003074206
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Ptiliogonatidae",
+      "estimate": 0.4927139253154352
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Ptilonorhynchidae",
+      "estimate": 0.33872399397184355
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pycnonotidae",
+      "estimate": 0.7661175886546959
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Remizidae",
+      "estimate": 0.6782142331414805
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Rhagologidae",
+      "estimate": 0.5570150062353653
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Rhinocryptidae",
+      "estimate": 0.6687582555953155
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Rhipiduridae",
+      "estimate": 0.676015037617466
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Rhodinocichlidae",
+      "estimate": 0.8595379152817056
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Sapayoidae",
+      "estimate": 0.7227059828014898
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Cettiidae",
+      "estimate": 0.9517648079194045
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Erythrocercidae",
+      "estimate": 0.6855400051085573
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Scotocercidae",
+      "estimate": 0.8994836135577738
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Sittidae",
+      "estimate": 1.1323543777622347
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Spindalidae",
+      "estimate": 0.2969102717104055
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Stenostiridae",
+      "estimate": 0.9133844197097089
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Sturnidae",
+      "estimate": 0.7366825405849746
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Paradoxornithidae",
+      "estimate": 0.061215101184390774
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Sylviidae",
+      "estimate": 0.775457887497348
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Thamnophilidae",
+      "estimate": 0.8150680123340295
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Thraupidae",
+      "estimate": 0.3810135618066842
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Emberizidae",
+      "estimate": 0.36766349894380296
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Tichodromidae",
+      "estimate": 1.9908054689632044
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Troglodytidae",
+      "estimate": 1.0849268871318767
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Turdidae",
+      "estimate": 0.7713359332278298
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Tyrannidae",
+      "estimate": 0.8082769799404853
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Vangidae",
+      "estimate": 0.7181308031374937
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Viduidae",
+      "estimate": 0.053164624365066686
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Vireonidae",
+      "estimate": 0.6021605794767787
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Zeledoniidae",
+      "estimate": 0.7472144018302211
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Zosteropidae",
+      "estimate": 0.8429147202498187
+    },
+    {
+      "order": "Pelecaniformes",
+      "family": "Ardeidae",
+      "estimate": 1.4697772690622455
+    },
+    {
+      "order": "Pelecaniformes",
+      "family": "Balaenicipitidae",
+      "estimate": 0.690850968299595
+    },
+    {
+      "order": "Pelecaniformes",
+      "family": "Scopidae",
+      "estimate": 1.0398627845959192
+    },
+    {
+      "order": "Pelecaniformes",
+      "family": "Threskiornithidae",
+      "estimate": 1.940123075063846
+    },
+    {
+      "order": "Phaethontiformes",
+      "family": "Phaethontidae",
+      "estimate": 0.927665726787346
+    },
+    {
+      "order": "Phoenicopteriformes",
+      "family": "Phoenicopteridae",
+      "estimate": 0.7711819179329081
+    },
+    {
+      "order": "Piciformes",
+      "family": "Capitonidae",
+      "estimate": 0.4983964810394036
+    },
+    {
+      "order": "Piciformes",
+      "family": "Indicatoridae",
+      "estimate": 0.3629159549665216
+    },
+    {
+      "order": "Piciformes",
+      "family": "Lybiidae",
+      "estimate": 0.38455870016267707
+    },
+    {
+      "order": "Piciformes",
+      "family": "Megalaimidae",
+      "estimate": 0.5095448411288066
+    },
+    {
+      "order": "Piciformes",
+      "family": "Picidae",
+      "estimate": 1.0348890061926674
+    },
+    {
+      "order": "Piciformes",
+      "family": "Ramphastidae",
+      "estimate": 1.0066578052468584
+    },
+    {
+      "order": "Piciformes",
+      "family": "Semnornithidae",
+      "estimate": 0.21393720001416616
+    },
+    {
+      "order": "Podicipediformes",
+      "family": "Podicipedidae",
+      "estimate": 0.9755710648612632
+    },
+    {
+      "order": "Procellariiformes",
+      "family": "Diomedeidae",
+      "estimate": 0.8768665622483791
+    },
+    {
+      "order": "Procellariiformes",
+      "family": "Hydrobatidae",
+      "estimate": 0.5555258026838975
+    },
+    {
+      "order": "Procellariiformes",
+      "family": "Oceanitidae",
+      "estimate": 0.6758014777503696
+    },
+    {
+      "order": "Procellariiformes",
+      "family": "Procellariidae",
+      "estimate": 0.9176422524517257
+    },
+    {
+      "order": "Psittaciformes",
+      "family": "Cacatuidae",
+      "estimate": -0.22327841972316897
+    },
+    {
+      "order": "Psittaciformes",
+      "family": "Psittacidae",
+      "estimate": -0.03760739491769336
+    },
+    {
+      "order": "Psittaciformes",
+      "family": "Psittaculidae",
+      "estimate": -0.0400862233985792
+    },
+    {
+      "order": "Psittaciformes",
+      "family": "Strigopidae",
+      "estimate": 0.22036692646069925
+    },
+    {
+      "order": "Pterocliformes",
+      "family": "Pteroclidae",
+      "estimate": 0.4464039490824963
+    },
+    {
+      "order": "Rheiformes",
+      "family": "Rheidae",
+      "estimate": 0.7331964853149084
+    },
+    {
+      "order": "Sphenisciformes",
+      "family": "Spheniscidae",
+      "estimate": 0.5135687735995661
+    },
+    {
+      "order": "Strigiformes",
+      "family": "Strigidae",
+      "estimate": 0.0532096142948216
+    },
+    {
+      "order": "Strigiformes",
+      "family": "Tytonidae",
+      "estimate": 0.24110411859939848
+    },
+    {
+      "order": "Struthioniformes",
+      "family": "Struthionidae",
+      "estimate": 0.7830035096818064
+    },
+    {
+      "order": "Suliformes",
+      "family": "Anhingidae",
+      "estimate": 1.689091240458253
+    },
+    {
+      "order": "Suliformes",
+      "family": "Fregatidae",
+      "estimate": 1.487554648503611
+    },
+    {
+      "order": "Suliformes",
+      "family": "Phalacrocoracidae",
+      "estimate": 1.18148131668599
+    },
+    {
+      "order": "Suliformes",
+      "family": "Sulidae",
+      "estimate": 1.0817305659705305
+    },
+    {
+      "order": "Tinamiformes",
+      "family": "Tinamidae",
+      "estimate": 0.7736856092696878
+    },
+    {
+      "order": "Trogoniformes",
+      "family": "Trogonidae",
+      "estimate": 0.21748727868542575
+    },
+    {
+      "order": "Caprimulgiformes",
+      "family": "Podargidae",
+      "estimate": 0.3436575031988966
+    },
+    {
+      "order": "Charadriiformes",
+      "family": "Chionidae",
+      "estimate": 0.3392528152834987
+    },
+    {
+      "order": "Galbuliformes",
+      "family": "Galbulidae",
+      "estimate": 1.8999730538682877
+    },
+    {
+      "order": "Gruiformes",
+      "family": "Sarothruridae",
+      "estimate": 0.421872551069157
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Calyptophilidae",
+      "estimate": 0.8182216179275591
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Ifritidae",
+      "estimate": 0.7550225842780328
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Melanopareiidae",
+      "estimate": 0.8233862643844816
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Pardalotidae",
+      "estimate": 0.1879226590431389
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Regulidae",
+      "estimate": 1.0520922730332167
+    },
+    {
+      "order": "Passeriformes",
+      "family": "Urocynchramidae",
+      "estimate": 0.4618180446592962
+    }
+  ],
+  "family_pseudocount": 0,
+  "order_pseudocount": 64
+}

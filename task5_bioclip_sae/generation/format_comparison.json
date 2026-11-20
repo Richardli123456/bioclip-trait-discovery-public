@@ -1,0 +1,16 @@
+{
+  "original_format": "taxonomy levels separated by comma and space",
+  "released_generator_format": "taxonomy levels separated by one space",
+  "species_count": 5388,
+  "old_vs_aligned_cosine_mean": 0.825676679611206,
+  "old_vs_aligned_cosine_p05": 0.7342584729194641,
+  "original_embedding_sha256": "7525e1c5bde0acdd30f2f81eb549302a5334b25cd6a283c6dd5c898a954a13c8",
+  "aligned_embedding_sha256": "26811f1054b496f0381ce2c22810fea025b4b71801a5448711caf18343805ef9",
+  "species_source_sha256": "4cc81b16deb11a060263ac26c4356755803ff675237ba71c9eb5a4f59066d337",
+  "bioclip_model_revision": {
+    "repo_id": "imageomics/bioclip-2",
+    "revision": "2957b322090f9cb17ae72c71981c7218a28d81e0"
+  },
+  "representation": "pooled projected raw text vectors, normalize=False, float32",
+  "scope": "Same 5,388 iNat21 Animalia and genus splits as the pilot; not the full TreeOfLife species list"
+}

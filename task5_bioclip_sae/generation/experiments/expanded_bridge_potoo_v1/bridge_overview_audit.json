@@ -1,0 +1,297 @@
+{
+  "status": "passed",
+  "execution": "CPU-only saved-image audit and layout; no model inference or training",
+  "image_count": 96,
+  "unique_filenames": 96,
+  "all_image_hashes_passed": true,
+  "all_images_512_square": true,
+  "steps_per_seed": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43
+  ],
+  "source_original_equals_step0": {
+    "2000": {
+      "png_bytes_identical": true,
+      "source": "images/vector_0049_seed_2000.png",
+      "step0": "images/vector_0053_seed_2000.png"
+    },
+    "2001": {
+      "png_bytes_identical": true,
+      "source": "images/vector_0049_seed_2001.png",
+      "step0": "images/vector_0053_seed_2001.png"
+    }
+  },
+  "original_images_unchanged_after_layout": true,
+  "overview_columns": [
+    [
+      "Source original",
+      "= bridge step 0"
+    ],
+    [
+      "Source",
+      "reconstruction"
+    ],
+    [
+      "Bridge step 11"
+    ],
+    [
+      "Bridge step 22"
+    ],
+    [
+      "Bridge step 32"
+    ],
+    [
+      "Bridge step 43",
+      "Target code +",
+      "source residual"
+    ],
+    [
+      "Target",
+      "reconstruction"
+    ],
+    [
+      "Target original"
+    ]
+  ],
+  "selected_records": [
+    [
+      {
+        "vector_index": 49,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "source_original",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2000,
+        "image": "images/vector_0049_seed_2000.png",
+        "sha256": "d5f645fb4357b0e550c63ad24e74c7ea09163f63ac2f618c47def6e25298ce80"
+      },
+      {
+        "vector_index": 51,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "source_reconstruction",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2000,
+        "image": "images/vector_0051_seed_2000.png",
+        "sha256": "058e3588abfb3d1c0cfd577e3a6dca285026f7458de8f8861addeac6bf066ec6"
+      },
+      {
+        "vector_index": 64,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 11,
+        "edited_feature": 238,
+        "seed": 2000,
+        "image": "images/vector_0064_seed_2000.png",
+        "sha256": "9a22a0ed9e4346abc3a50b72a9fdeadc5f94865a6f0e04bec0659d96e0e9a2f4"
+      },
+      {
+        "vector_index": 75,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 22,
+        "edited_feature": 1056,
+        "seed": 2000,
+        "image": "images/vector_0075_seed_2000.png",
+        "sha256": "cb62caa520fe8a1a74a8685972441f71a0ee9ef1c5f23b5a8be6d89f74cfe02b"
+      },
+      {
+        "vector_index": 85,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 32,
+        "edited_feature": 1834,
+        "seed": 2000,
+        "image": "images/vector_0085_seed_2000.png",
+        "sha256": "4371ee3249ca86eb651db44cf5b9628812525418a2204f65ae9ad29fc261cb93"
+      },
+      {
+        "vector_index": 96,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 43,
+        "edited_feature": 1268,
+        "seed": 2000,
+        "image": "images/vector_0096_seed_2000.png",
+        "sha256": "406fa26021aa48fa36ec4450fa34dc053fa597ca2f7b5831c1bba248eef637ec"
+      },
+      {
+        "vector_index": 52,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "target_reconstruction",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2000,
+        "image": "images/vector_0052_seed_2000.png",
+        "sha256": "8da9dcd7e437ccb851ae22ea640226235523e29b236f1accf273719f04640035"
+      },
+      {
+        "vector_index": 50,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "target_original",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2000,
+        "image": "images/vector_0050_seed_2000.png",
+        "sha256": "4c1b4f92967ad7f86266ae35542bd91f2c03b4266bb386b82b36f5c1e46d2910"
+      }
+    ],
+    [
+      {
+        "vector_index": 49,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "source_original",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2001,
+        "image": "images/vector_0049_seed_2001.png",
+        "sha256": "5cc06ad618849e8fb6bccea0d37caef4366a1b9a8d7765bd648bd5788d64d27f"
+      },
+      {
+        "vector_index": 51,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "source_reconstruction",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2001,
+        "image": "images/vector_0051_seed_2001.png",
+        "sha256": "7d51722f0c6862e398c0835abe3de3c6dab5e97f02fdc92206638ab6fa46ae6a"
+      },
+      {
+        "vector_index": 64,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 11,
+        "edited_feature": 238,
+        "seed": 2001,
+        "image": "images/vector_0064_seed_2001.png",
+        "sha256": "6682a3f45b65aa936dd51647b5af2d8e8aa60e50335430858abcf5d4b6f63838"
+      },
+      {
+        "vector_index": 75,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 22,
+        "edited_feature": 1056,
+        "seed": 2001,
+        "image": "images/vector_0075_seed_2001.png",
+        "sha256": "9cc6e0c5ac698cf2496eafd6085c0ea0a68a68ac7cf077178c999092d229594e"
+      },
+      {
+        "vector_index": 85,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 32,
+        "edited_feature": 1834,
+        "seed": 2001,
+        "image": "images/vector_0085_seed_2001.png",
+        "sha256": "a4c5bc4eb159a32f994fe32287fc898e4a92b9419f6548bdc2a3a4dc2028bcc9"
+      },
+      {
+        "vector_index": 96,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "residual_preserving_bridge",
+        "step": 43,
+        "edited_feature": 1268,
+        "seed": 2001,
+        "image": "images/vector_0096_seed_2001.png",
+        "sha256": "5cd493240999a2074ec010a53d9a291b3999d212cf720affb4cfcc1433a24a98"
+      },
+      {
+        "vector_index": 52,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "target_reconstruction",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2001,
+        "image": "images/vector_0052_seed_2001.png",
+        "sha256": "d81ee0eab9bd0eea6d7f2bdcd16fa54233a1653b7ebcc7142d38af7515e3f480"
+      },
+      {
+        "vector_index": 50,
+        "source": "Nyctibius griseus",
+        "target": "Nyctibius grandis",
+        "condition": "target_original",
+        "step": null,
+        "edited_feature": null,
+        "seed": 2001,
+        "image": "images/vector_0050_seed_2001.png",
+        "sha256": "97b7d319d0aab5cf2fa2687f399b733fc3424d839dd1a5d99f0e6d97428da7b8"
+      }
+    ]
+  ],
+  "png_display_resolution_per_cell": [
+    256,
+    256
+  ],
+  "original_resolution_per_image": [
+    512,
+    512
+  ],
+  "pdf_written": false,
+  "pdf_preserves_original_embedded_pixels": null,
+  "visual_layout_review": "pending",
+  "spot_scoring_performed": false,
+  "source_manifest_sha256": "cc05df02e188cd6b83351de08d33b549bf71464d69d4a950104bfbf5f5198ad3",
+  "builder_sha256": "adef5b92abf99d417880c738264d8218428606c155d639ae14d58a08a245da62",
+  "overview_sha256": {
+    "bridge_overview.png": "3b45b3fa85ce0f042833a29146fd9ffef472fb540f0aac9eb73b9a418efb005e"
+  }
+}

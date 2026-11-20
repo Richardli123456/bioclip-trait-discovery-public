@@ -1,0 +1,8 @@
+{
+  "status": "stopped",
+  "error": "FileNotFoundError(\"Directory specified via 'local-dir:' schema not found: C:\\\\Users\\\\Owner\\\\Documents\\\\ug research\\\\bioclip-trait-discovery\\\\task4_bioclip_pilot\\\\cache\\\\model\")",
+  "traceback": "Traceback (most recent call last):\n  File \"C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\run_unedited_baseline.py\", line 145, in main\n    adapter, _, tokenizer, modules = load_generator(ROOT.parent.parent / \"task4_bioclip_pilot/cache/model\")\n                                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\run_frozen_experiments.py\", line 125, in load_generator\n    bio, _, preprocess = open_clip.create_model_and_transforms(\n                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\Owner\\Documents\\ug research\\task4_bioclip_pilot\\.venv\\Lib\\site-packages\\open_clip\\factory.py\", line 930, in create_model_and_transforms\n    model = create_model(\n            ^^^^^^^^^^^^^\n  File \"C:\\Users\\Owner\\Documents\\ug research\\task4_bioclip_pilot\\.venv\\Lib\\site-packages\\open_clip\\factory.py\", line 336, in create_model\n    raise FileNotFoundError(f\"Directory specified via 'local-dir:' schema not found: {local_path}\")\nFileNotFoundError: Directory specified via 'local-dir:' schema not found: C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task4_bioclip_pilot\\cache\\model\n",
+  "completed_images": 0,
+  "elapsed_seconds": 7.74279160000151,
+  "automatic_retry": false
+}

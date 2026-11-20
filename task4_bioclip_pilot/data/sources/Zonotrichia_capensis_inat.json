@@ -1,0 +1,59 @@
+{
+  "total_results": 1,
+  "page": 1,
+  "per_page": 10,
+  "results": [
+    {
+      "id": 9183,
+      "rank": "species",
+      "rank_level": 10,
+      "iconic_taxon_id": 3,
+      "ancestor_ids": [
+        48460,
+        1,
+        2,
+        355675,
+        3,
+        7251,
+        559248,
+        9175,
+        9183
+      ],
+      "is_active": true,
+      "name": "Zonotrichia capensis",
+      "parent_id": 9175,
+      "ancestry": "48460/1/2/355675/3/7251/559248/9175",
+      "extinct": false,
+      "provisional": false,
+      "default_photo": {
+        "id": 112061150,
+        "license_code": "cc-by",
+        "attribution": "(c) Esteban Poveda, some rights reserved (CC BY), uploaded by Esteban Poveda",
+        "url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112061150/square.jpeg",
+        "original_dimensions": {
+          "height": 1091,
+          "width": 1454
+        },
+        "flags": [],
+        "attribution_name": "Esteban Poveda",
+        "square_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112061150/square.jpeg",
+        "medium_url": "https://inaturalist-open-data.s3.amazonaws.com/photos/112061150/medium.jpeg"
+      },
+      "taxon_changes_count": 0,
+      "taxon_schemes_count": 8,
+      "observations_count": 46547,
+      "flag_counts": {
+        "resolved": 2,
+        "unresolved": 0
+      },
+      "current_synonymous_taxon_ids": null,
+      "atlas_id": null,
+      "complete_species_count": null,
+      "wikipedia_url": "http://en.wikipedia.org/wiki/Rufous-collared_sparrow",
+      "complete_rank": "subspecies",
+      "matched_term": "Zonotrichia capensis",
+      "iconic_taxon_name": "Aves",
+      "preferred_common_name": "Rufous-collared Sparrow"
+    }
+  ]
+}

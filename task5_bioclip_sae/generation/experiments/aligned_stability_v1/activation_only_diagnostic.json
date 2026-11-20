@@ -1,0 +1,498 @@
+{
+  "purpose": "Post-result descriptive diagnostic only; does not relax or replace the prespecified gate",
+  "features_with_best_decoder_cosine_ge_0_7_in_all_seeds": 0,
+  "highest_minimum_best_decoder_cosine": 0.6909092664718628,
+  "activation_only_feature_descriptions": [
+    {
+      "original_feature": 326,
+      "min_training_correlation": 0.7193043231964111,
+      "min_same_match_decoder_cosine": 0.5311643481254578,
+      "passes_combined_gate": false,
+      "top8_family_counts": {
+        "Phalacrocoracidae": 2,
+        "Accipitridae": 1,
+        "Hystricidae": 1,
+        "Pyxicephalidae": 2,
+        "Testudinidae": 1,
+        "Formicidae": 1
+      },
+      "top8_training_species": [
+        {
+          "species": "Microcarbo africanus",
+          "family": "Phalacrocoracidae",
+          "activation": 7.031246185302734
+        },
+        {
+          "species": "Gyps africanus",
+          "family": "Accipitridae",
+          "activation": 6.947922706604004
+        },
+        {
+          "species": "Hystrix africaeaustralis",
+          "family": "Hystricidae",
+          "activation": 6.515356540679932
+        },
+        {
+          "species": "Amietia fuscigula",
+          "family": "Pyxicephalidae",
+          "activation": 5.879624366760254
+        },
+        {
+          "species": "Phalacrocorax capensis",
+          "family": "Phalacrocoracidae",
+          "activation": 5.796262741088867
+        },
+        {
+          "species": "Stigmochelys pardalis",
+          "family": "Testudinidae",
+          "activation": 5.652797698974609
+        },
+        {
+          "species": "Camponotus niveosetosus",
+          "family": "Formicidae",
+          "activation": 5.640567302703857
+        },
+        {
+          "species": "Strongylopus grayii",
+          "family": "Pyxicephalidae",
+          "activation": 5.443765640258789
+        }
+      ],
+      "lead_species_activations": [
+        {
+          "species": "Coccinella septempunctata",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius griseus",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius jamaicensis",
+          "activation": 0.0,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "original_feature": 828,
+      "min_training_correlation": 0.7532231211662292,
+      "min_same_match_decoder_cosine": 0.2498377561569214,
+      "passes_combined_gate": false,
+      "top8_family_counts": {
+        "Apidae": 8
+      },
+      "top8_training_species": [
+        {
+          "species": "Bombus rufocinctus",
+          "family": "Apidae",
+          "activation": 8.222260475158691
+        },
+        {
+          "species": "Bombus bimaculatus",
+          "family": "Apidae",
+          "activation": 7.382818698883057
+        },
+        {
+          "species": "Bombus mixtus",
+          "family": "Apidae",
+          "activation": 6.844507217407227
+        },
+        {
+          "species": "Bombus terricola",
+          "family": "Apidae",
+          "activation": 6.7354512214660645
+        },
+        {
+          "species": "Bombus fervidus",
+          "family": "Apidae",
+          "activation": 6.580725193023682
+        },
+        {
+          "species": "Bombus borealis",
+          "family": "Apidae",
+          "activation": 6.467399597167969
+        },
+        {
+          "species": "Bombus vancouverensis",
+          "family": "Apidae",
+          "activation": 6.116718769073486
+        },
+        {
+          "species": "Bombus auricomus",
+          "family": "Apidae",
+          "activation": 6.094915866851807
+        }
+      ],
+      "lead_species_activations": [
+        {
+          "species": "Coccinella septempunctata",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius griseus",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius jamaicensis",
+          "activation": 0.0,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "original_feature": 1330,
+      "min_training_correlation": 0.7255059480667114,
+      "min_same_match_decoder_cosine": 0.2900579273700714,
+      "passes_combined_gate": false,
+      "top8_family_counts": {
+        "Laridae": 8
+      },
+      "top8_training_species": [
+        {
+          "species": "Larus fuscus",
+          "family": "Laridae",
+          "activation": 9.174700736999512
+        },
+        {
+          "species": "Larus michahellis",
+          "family": "Laridae",
+          "activation": 8.141281127929688
+        },
+        {
+          "species": "Larus argentatus",
+          "family": "Laridae",
+          "activation": 8.073484420776367
+        },
+        {
+          "species": "Larus marinus",
+          "family": "Laridae",
+          "activation": 7.855091094970703
+        },
+        {
+          "species": "Larus occidentalis",
+          "family": "Laridae",
+          "activation": 7.583784103393555
+        },
+        {
+          "species": "Larus californicus",
+          "family": "Laridae",
+          "activation": 7.027839183807373
+        },
+        {
+          "species": "Larus delawarensis",
+          "family": "Laridae",
+          "activation": 6.963849067687988
+        },
+        {
+          "species": "Larus livens",
+          "family": "Laridae",
+          "activation": 6.537816524505615
+        }
+      ],
+      "lead_species_activations": [
+        {
+          "species": "Coccinella septempunctata",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius griseus",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius jamaicensis",
+          "activation": 0.0,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "original_feature": 1446,
+      "min_training_correlation": 0.7345057725906372,
+      "min_same_match_decoder_cosine": 0.34247809648513794,
+      "passes_combined_gate": false,
+      "top8_family_counts": {
+        "Teiidae": 6,
+        "Colubridae": 2
+      },
+      "top8_training_species": [
+        {
+          "species": "Aspidoscelis tigris",
+          "family": "Teiidae",
+          "activation": 7.34634256362915
+        },
+        {
+          "species": "Aspidoscelis gularis",
+          "family": "Teiidae",
+          "activation": 6.951501846313477
+        },
+        {
+          "species": "Aspidoscelis exsanguis",
+          "family": "Teiidae",
+          "activation": 6.794868469238281
+        },
+        {
+          "species": "Aspidoscelis velox",
+          "family": "Teiidae",
+          "activation": 6.643611907958984
+        },
+        {
+          "species": "Thamnophis radix",
+          "family": "Colubridae",
+          "activation": 6.246057033538818
+        },
+        {
+          "species": "Tantilla gracilis",
+          "family": "Colubridae",
+          "activation": 6.16647481918335
+        },
+        {
+          "species": "Aspidoscelis tesselatus",
+          "family": "Teiidae",
+          "activation": 5.921731472015381
+        },
+        {
+          "species": "Aspidoscelis sonorae",
+          "family": "Teiidae",
+          "activation": 5.674417018890381
+        }
+      ],
+      "lead_species_activations": [
+        {
+          "species": "Coccinella septempunctata",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius griseus",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius jamaicensis",
+          "activation": 0.0,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "original_feature": 1449,
+      "min_training_correlation": 0.8460618257522583,
+      "min_same_match_decoder_cosine": 0.3933486044406891,
+      "passes_combined_gate": false,
+      "top8_family_counts": {
+        "Anguidae": 1,
+        "Colubridae": 4,
+        "Scincidae": 2,
+        "Viperidae": 1
+      },
+      "top8_training_species": [
+        {
+          "species": "Elgaria coerulea",
+          "family": "Anguidae",
+          "activation": 8.881609916687012
+        },
+        {
+          "species": "Pituophis catenifer",
+          "family": "Colubridae",
+          "activation": 8.802239418029785
+        },
+        {
+          "species": "Tiliqua scincoides",
+          "family": "Scincidae",
+          "activation": 8.68484115600586
+        },
+        {
+          "species": "Lampropeltis holbrooki",
+          "family": "Colubridae",
+          "activation": 8.386518478393555
+        },
+        {
+          "species": "Lampropeltis triangulum",
+          "family": "Colubridae",
+          "activation": 7.936669826507568
+        },
+        {
+          "species": "Crotalus oreganus",
+          "family": "Viperidae",
+          "activation": 7.83227014541626
+        },
+        {
+          "species": "Pituophis deppei",
+          "family": "Colubridae",
+          "activation": 7.693952560424805
+        },
+        {
+          "species": "Tiliqua rugosa",
+          "family": "Scincidae",
+          "activation": 7.682738780975342
+        }
+      ],
+      "lead_species_activations": [
+        {
+          "species": "Coccinella septempunctata",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius griseus",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius jamaicensis",
+          "activation": 0.0,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "original_feature": 1515,
+      "min_training_correlation": 0.7959007620811462,
+      "min_same_match_decoder_cosine": 0.38656896352767944,
+      "passes_combined_gate": false,
+      "top8_family_counts": {
+        "Leiocephalidae": 1,
+        "Viperidae": 1,
+        "Agamidae": 2,
+        "Dactyloidae": 1,
+        "Colubridae": 3
+      },
+      "top8_training_species": [
+        {
+          "species": "Leiocephalus carinatus",
+          "family": "Leiocephalidae",
+          "activation": 7.441771030426025
+        },
+        {
+          "species": "Agkistrodon conanti",
+          "family": "Viperidae",
+          "activation": 7.378272533416748
+        },
+        {
+          "species": "Calotes versicolor",
+          "family": "Agamidae",
+          "activation": 6.879948139190674
+        },
+        {
+          "species": "Anolis equestris",
+          "family": "Dactyloidae",
+          "activation": 6.739201545715332
+        },
+        {
+          "species": "Nerodia taxispilota",
+          "family": "Colubridae",
+          "activation": 6.708254814147949
+        },
+        {
+          "species": "Nerodia fasciata",
+          "family": "Colubridae",
+          "activation": 6.682856559753418
+        },
+        {
+          "species": "Calotes calotes",
+          "family": "Agamidae",
+          "activation": 6.596245765686035
+        },
+        {
+          "species": "Leptophis ahaetulla",
+          "family": "Colubridae",
+          "activation": 6.383291721343994
+        }
+      ],
+      "lead_species_activations": [
+        {
+          "species": "Coccinella septempunctata",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius griseus",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius jamaicensis",
+          "activation": 0.0,
+          "split": "train"
+        }
+      ]
+    },
+    {
+      "original_feature": 1866,
+      "min_training_correlation": 0.7016907334327698,
+      "min_same_match_decoder_cosine": 0.4047958552837372,
+      "passes_combined_gate": false,
+      "top8_family_counts": {
+        "Tetragnathidae": 3,
+        "Araneidae": 3,
+        "Theridiidae": 2
+      },
+      "top8_training_species": [
+        {
+          "species": "Leucauge argyra",
+          "family": "Tetragnathidae",
+          "activation": 8.51295280456543
+        },
+        {
+          "species": "Leucauge argyrobapta",
+          "family": "Tetragnathidae",
+          "activation": 7.928684711456299
+        },
+        {
+          "species": "Nephila pilipes",
+          "family": "Araneidae",
+          "activation": 7.887190818786621
+        },
+        {
+          "species": "Leucauge venusta",
+          "family": "Tetragnathidae",
+          "activation": 7.5384650230407715
+        },
+        {
+          "species": "Steatoda triangulosa",
+          "family": "Theridiidae",
+          "activation": 7.393847465515137
+        },
+        {
+          "species": "Neoscona domiciliorum",
+          "family": "Araneidae",
+          "activation": 7.2281880378723145
+        },
+        {
+          "species": "Trichonephila plumipes",
+          "family": "Araneidae",
+          "activation": 6.848912239074707
+        },
+        {
+          "species": "Parasteatoda tepidariorum",
+          "family": "Theridiidae",
+          "activation": 6.601106643676758
+        }
+      ],
+      "lead_species_activations": [
+        {
+          "species": "Coccinella septempunctata",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius griseus",
+          "activation": 0.0,
+          "split": "train"
+        },
+        {
+          "species": "Nyctibius jamaicensis",
+          "activation": 0.0,
+          "split": "train"
+        }
+      ]
+    }
+  ]
+}

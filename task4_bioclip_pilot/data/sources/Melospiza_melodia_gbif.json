@@ -1,0 +1,23 @@
+{
+  "usageKey": 2492196,
+  "scientificName": "Melospiza melodia (A.Wilson, 1810)",
+  "canonicalName": "Melospiza melodia",
+  "rank": "SPECIES",
+  "status": "ACCEPTED",
+  "confidence": 99,
+  "matchType": "EXACT",
+  "kingdom": "Animalia",
+  "phylum": "Chordata",
+  "order": "Passeriformes",
+  "family": "Passerellidae",
+  "genus": "Melospiza",
+  "species": "Melospiza melodia",
+  "kingdomKey": 1,
+  "phylumKey": 44,
+  "classKey": 212,
+  "orderKey": 729,
+  "familyKey": 9410667,
+  "genusKey": 2492191,
+  "speciesKey": 2492196,
+  "class": "Aves"
+}

@@ -1,0 +1,5 @@
+species,split,active_features,stable_active_features,stable_active_ids,interpretation
+Coccinella septempunctata,train,32,17,92;163;208;222;260;317;323;337;543;560;698;709;938;1008;1255;1445;1513,New model coordinates; no old729/1969 identity or biological label transferred
+Nyctibius griseus,train,32,13,69;159;323;405;1021;1165;1185;1203;1240;1372;1376;1594;1834,New model coordinates; no old729/1969 identity or biological label transferred
+Nyctibius jamaicensis,train,32,15,52;323;339;405;706;1021;1165;1185;1203;1240;1376;1446;1471;1834;1938,New model coordinates; no old729/1969 identity or biological label transferred
+Asio otus,train,32,17,77;92;163;180;222;298;323;385;405;516;543;1185;1235;1240;1471;1834;1905,New model coordinates; no old729/1969 identity or biological label transferred

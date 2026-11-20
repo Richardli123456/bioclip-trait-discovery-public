@@ -1,0 +1,326 @@
+{
+  "source": {
+    "scientific_name": "Nyctibius griseus",
+    "common_name": "Common Potoo",
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class_name": "Aves",
+    "order": "Caprimulgiformes",
+    "family": "Nyctibiidae",
+    "genus": "Nyctibius",
+    "epithet": "griseus",
+    "taxonomy": "Animalia Chordata Aves Caprimulgiformes Nyctibiidae Nyctibius griseus",
+    "source_id": "3295",
+    "split": "train",
+    "original_pilot_index": 3479,
+    "source": "original_inat21_pilot+tol10m",
+    "source_index": 178145,
+    "row_index": 3479,
+    "genus_key": "Animalia|Chordata|Aves|Caprimulgiformes|Nyctibiidae|Nyctibius",
+    "split_group": "Animalia|Nyctibius"
+  },
+  "target": {
+    "kingdom": "Animalia",
+    "phylum": "Chordata",
+    "class_name": "Aves",
+    "order": "Caprimulgiformes",
+    "family": "Nyctibiidae",
+    "genus": "Nyctibius",
+    "epithet": "grandis",
+    "scientific_name": "Nyctibius grandis",
+    "common_name": "Great Potoo",
+    "taxonomy": "Animalia Chordata Aves Caprimulgiformes Nyctibiidae Nyctibius grandis",
+    "split": "train",
+    "original_pilot_index": null,
+    "source": "tol10m_txt_emb_species",
+    "source_index": 178150,
+    "source_id": "tol10m_species_index:178150",
+    "row_index": 183096,
+    "genus_key": "Animalia|Chordata|Aves|Caprimulgiformes|Nyctibiidae|Nyctibius",
+    "split_group": "Animalia|Nyctibius"
+  },
+  "steps": [
+    {
+      "step": 0,
+      "changed_feature": null,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 75.08614349365234
+    },
+    {
+      "step": 1,
+      "changed_feature": 543,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 70.26766967773438
+    },
+    {
+      "step": 2,
+      "changed_feature": 757,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 66.9051513671875
+    },
+    {
+      "step": 3,
+      "changed_feature": 323,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 63.54314422607422
+    },
+    {
+      "step": 4,
+      "changed_feature": 688,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 60.418575286865234
+    },
+    {
+      "step": 5,
+      "changed_feature": 1762,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 57.517215728759766
+    },
+    {
+      "step": 6,
+      "changed_feature": 8,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 54.710445404052734
+    },
+    {
+      "step": 7,
+      "changed_feature": 1788,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 52.14822769165039
+    },
+    {
+      "step": 8,
+      "changed_feature": 1372,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 49.651893615722656
+    },
+    {
+      "step": 9,
+      "changed_feature": 401,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 47.215946197509766
+    },
+    {
+      "step": 10,
+      "changed_feature": 1130,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 44.81214141845703
+    },
+    {
+      "step": 11,
+      "changed_feature": 238,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 42.488494873046875
+    },
+    {
+      "step": 12,
+      "changed_feature": 1099,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 40.19140625
+    },
+    {
+      "step": 13,
+      "changed_feature": 1182,
+      "active_count_above_1e-7": 36,
+      "remaining_code_l1": 38.00277328491211
+    },
+    {
+      "step": 14,
+      "changed_feature": 1723,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 35.876773834228516
+    },
+    {
+      "step": 15,
+      "changed_feature": 339,
+      "active_count_above_1e-7": 36,
+      "remaining_code_l1": 33.78822326660156
+    },
+    {
+      "step": 16,
+      "changed_feature": 1929,
+      "active_count_above_1e-7": 35,
+      "remaining_code_l1": 31.756145477294922
+    },
+    {
+      "step": 17,
+      "changed_feature": 453,
+      "active_count_above_1e-7": 34,
+      "remaining_code_l1": 29.815349578857422
+    },
+    {
+      "step": 18,
+      "changed_feature": 1594,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 27.913776397705078
+    },
+    {
+      "step": 19,
+      "changed_feature": 1554,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 26.024089813232422
+    },
+    {
+      "step": 20,
+      "changed_feature": 1411,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 24.149999618530273
+    },
+    {
+      "step": 21,
+      "changed_feature": 1529,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 22.2957763671875
+    },
+    {
+      "step": 22,
+      "changed_feature": 1056,
+      "active_count_above_1e-7": 33,
+      "remaining_code_l1": 20.45172119140625
+    },
+    {
+      "step": 23,
+      "changed_feature": 1823,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 18.61394500732422
+    },
+    {
+      "step": 24,
+      "changed_feature": 597,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 16.795841217041016
+    },
+    {
+      "step": 25,
+      "changed_feature": 1866,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 14.98257064819336
+    },
+    {
+      "step": 26,
+      "changed_feature": 398,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 13.243776321411133
+    },
+    {
+      "step": 27,
+      "changed_feature": 69,
+      "active_count_above_1e-7": 31,
+      "remaining_code_l1": 11.526453018188477
+    },
+    {
+      "step": 28,
+      "changed_feature": 1665,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 9.838540077209473
+    },
+    {
+      "step": 29,
+      "changed_feature": 405,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 8.354735374450684
+    },
+    {
+      "step": 30,
+      "changed_feature": 105,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 7.092935562133789
+    },
+    {
+      "step": 31,
+      "changed_feature": 1083,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 5.981874465942383
+    },
+    {
+      "step": 32,
+      "changed_feature": 1834,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 4.872462272644043
+    },
+    {
+      "step": 33,
+      "changed_feature": 656,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 3.856471300125122
+    },
+    {
+      "step": 34,
+      "changed_feature": 1165,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 2.8607678413391113
+    },
+    {
+      "step": 35,
+      "changed_feature": 1240,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 2.3202333450317383
+    },
+    {
+      "step": 36,
+      "changed_feature": 1185,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 1.8350253105163574
+    },
+    {
+      "step": 37,
+      "changed_feature": 1871,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 1.4069089889526367
+    },
+    {
+      "step": 38,
+      "changed_feature": 1376,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.9996347427368164
+    },
+    {
+      "step": 39,
+      "changed_feature": 159,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.6739766597747803
+    },
+    {
+      "step": 40,
+      "changed_feature": 1203,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.38799428939819336
+    },
+    {
+      "step": 41,
+      "changed_feature": 1922,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.10441732406616211
+    },
+    {
+      "step": 42,
+      "changed_feature": 1021,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.025775432586669922
+    },
+    {
+      "step": 43,
+      "changed_feature": 1268,
+      "active_count_above_1e-7": 32,
+      "remaining_code_l1": 0.0
+    }
+  ],
+  "coordinates_changed": 43,
+  "one_coordinate_per_step_verified": true,
+  "exact_target_code_reached": true,
+  "raw_source_start_verified": true,
+  "source_residual_preserved": true,
+  "endpoint_controls_order": [
+    "source_original",
+    "target_original",
+    "source_reconstruction",
+    "target_reconstruction"
+  ],
+  "target_embedding_distance_from_bridge_endpoint": 9.06226634979248,
+  "limitation": "Exact target SAE code with the source residual is generally not the raw target embedding. No biological or generated-image result is established by this plan.",
+  "sha256": {
+    "code_states.npy": "e7b0d8f6a17b13e20f51e2ab754d4834bcfdc05282bfcfe153f34280d32103a2",
+    "endpoint_controls.npy": "7994baffe81d082f6f880f39b3144fb000bda069c63d7300aae81b23ff4ef3bd",
+    "vectors.npy": "81aa60b32ebfc07f3fb986cfffefd6124727f25c119f8521796b9da32b5e5ff9"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "basis": "AVONET measured bird species; full taxonomy sheet plus source workbook retained",
+  "source_file": "C:\\Users\\Owner\\Documents\\ug research\\bioclip-trait-discovery\\task5_bioclip_sae\\generation\\experiments\\trait_benchmark_v1\\AVONET_Supplementary_dataset_1.xlsx",
+  "source_sheet": "AVONET2_eBird",
+  "rows": [
+    {
+      "scientific_name": "Himantopus mexicanus",
+      "genus": "Himantopus",
+      "avonet_family": "Recurvirostridae",
+      "avonet_order": "Charadriiformes",
+      "beak_length_nares_mm": "50.1",
+      "beak_depth_mm": "4.7",
+      "trait_value": "2.366458499374806",
+      "trait_id": "ln_beak_nares_length_over_depth",
+      "complete_specimens": "8",
+      "total_individuals": "11",
+      "inference": "NO",
+      "source_sheet": "AVONET2_eBird",
+      "source_row": "1355",
+      "source_url": "https://figshare.com/articles/dataset/16586228/7",
+      "expanded_initial_row_index": 362454
+    },
+    {
+      "scientific_name": "Celebesia abbotti",
+      "genus": "Celebesia",
+      "avonet_family": "Campephagidae",
+      "avonet_order": "Passeriformes",
+      "beak_length_nares_mm": "14.6",
+      "beak_depth_mm": "7.2",
+      "trait_value": "0.706940502692281",
+      "trait_id": "ln_beak_nares_length_over_depth",
+      "complete_specimens": "4",
+      "total_individuals": "9",
+      "inference": "NO",
+      "source_sheet": "AVONET2_eBird",
+      "source_row": "3110",
+      "source_url": "https://figshare.com/articles/dataset/16586228/7",
+      "expanded_initial_row_index": 149690
+    },
+    {
+      "scientific_name": "Lessonia rufa",
+      "genus": "Lessonia",
+      "avonet_family": "Tyrannidae",
+      "avonet_order": "Passeriformes",
+      "beak_length_nares_mm": "6.8",
+      "beak_depth_mm": "2.4",
+      "trait_value": "1.0414538748281612",
+      "trait_id": "ln_beak_nares_length_over_depth",
+      "complete_specimens": "4",
+      "total_individuals": "10",
+      "inference": "NO",
+      "source_sheet": "AVONET2_eBird",
+      "source_row": "8683",
+      "source_url": "https://figshare.com/articles/dataset/16586228/7",
+      "expanded_initial_row_index": 243951
+    }
+  ]
+}

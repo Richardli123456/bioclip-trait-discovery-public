@@ -1,0 +1,24 @@
+{
+  "review_type": "Single provisional AI visual review; not human or biological expert validation",
+  "image_count": 32,
+  "view_eligible": 12,
+  "view_ineligible": 13,
+  "view_uncertain": 7,
+  "eligible_with_visible_spots": 12,
+  "exact_count_scorable": 1,
+  "exact_count_distribution": {
+    "8": 1
+  },
+  "exactly_seven_scorable_images": 0,
+  "human_scoring_blank": true,
+  "seed_key_inspected_before_annotations_saved": false,
+  "reviewer": "Codex assistant; one AI review only",
+  "annotation_sha256": "8ebe1e5a389ef16771c7e43552673de23101a14b238f877927efe60f5d186c32",
+  "limitations": [
+    "Strict dorsal eligibility includes AI judgment uncertainty.",
+    "NA counts are unscorable, never zero.",
+    "A zero count of confidently scored seven-spot images is not evidence of a zero seven-spot generation rate.",
+    "Fresh overhead prompt plus fresh seeds differ jointly from the earlier pilot; no causal attribution to prompt alone.",
+    "No independent second AI or human agreement is claimed."
+  ]
+}
